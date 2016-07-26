@@ -1,0 +1,3 @@
+# place ${HOME}/.gradle/gradle.properties to set following private properties
+#
+githubToken='XXXXXXXXXXXXXXXXXXXXXXXXXX'
