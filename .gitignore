@@ -1,8 +1,10 @@
 .gradle/
 .idea/
 build/
+src
 target/
 tmp/
+omegat/last_entry.properties
 omegat/project_stats.txt
 omegat/*.bak
 /IDEA*tmx

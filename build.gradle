@@ -6,7 +6,10 @@ plugins {
 apply from: "$rootDir/gradle/github.gradle"
 
 // Translation
-apply from: "$rootDir/gradle/omegat.gradle"
+apply plugin: "org.omegat.gradle"
+dependencies {
+    omegat fileTree('buildSrc/lib')
+}
 
 // Define projects directories.
 // -----------
@@ -30,6 +33,10 @@ task cleanRootDirs(type: Delete) {
     delete targetAndDir
     delete targetPyDir
     delete new File(rootDir, "build")
+}
+
+task removeUglyFiles(type: Delete) {
+    delete new File(rootDir, "build/libs")
 }
 
 subprojects {
@@ -64,6 +71,7 @@ subprojects {
     processResources.dependsOn processPropertiesFile
     build.dependsOn copyDistFiles
     copyDistFiles.mustRunAfter jar
+    removeUglyFiles.mustRunAfter jar
 }
 
 Closure processR = { src, dest ->
@@ -88,7 +96,7 @@ project(":resources-pycharm") {
     jar.baseName = 'resources_ja'
     jar.appendix = 'py2016.1'
 
-    task processResourceFiles(dependsOn: [prepareDir, '::translateResources']) << {
+    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
         processR(targetPyDir, sourceSets.main.resources.srcDirs[0])
     }
     processResources.dependsOn processResourceFiles
@@ -102,7 +110,7 @@ project(":resources-and") {
     jar.baseName = 'resources_ja'
     jar.appendix = 'and'
 
-    task processResourceFiles(dependsOn: [prepareDir, '::translateResources']) << {
+    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
         processR(targetAndDir, sourceSets.main.resources.srcDirs[0])
    }
     processResources.dependsOn processResourceFiles
@@ -116,7 +124,7 @@ project(":resources-2016") {
     jar.baseName = 'resources_ja'
     jar.appendix = '2016'
 
-    task processResourceFiles(dependsOn: [prepareDir, '::translateResources']) << {
+    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
         processR(target16Dir, sourceSets.main.resources.srcDirs[0])
     }
     processResources.dependsOn processResourceFiles
@@ -130,7 +138,7 @@ project(":resources-15") {
     jar.baseName = 'resources_ja'
     jar.appendix = '15'
 
-    task processResourceFiles(dependsOn: [prepareDir, '::translateResources']) << {
+    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
         processR(target15Dir, sourceSets.main.resources.srcDirs[0])
     }
     processResources.dependsOn processResourceFiles
