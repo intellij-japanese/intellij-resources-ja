@@ -7,6 +7,8 @@ apply from: "$rootDir/gradle/github.gradle"
 
 // Translation
 apply plugin: "org.omegat.gradle"
+
+// FIXME: here is ugly configuration for omegat plugin
 dependencies {
     omegat fileTree('buildSrc/lib')
 }

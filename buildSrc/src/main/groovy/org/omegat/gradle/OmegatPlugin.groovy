@@ -30,6 +30,15 @@ class OmegatPlugin implements Plugin<Project> {
                     project.repositories.jcenter()
                 }
 
+                //
+                // FIXME: how to add lib/*.jar files as dependency?
+                //  The following expression is not working on Gradle 2.14.1
+                //    addDependency(config, fileTree("lib"))
+                //  We use work-around to add following configuration on root project
+                //    dependencies {
+                //          omegat fileTree("buildSrc/lib")
+                //    }
+
                 addDependency(config, 'org.languagetool:languagetool-core:3.3')
                 // Temporary exclude gosen-ipadic
                 // see https://sourceforge.net/p/omegat/bugs/814/
