@@ -60,22 +60,6 @@ subprojects {
         into new File(rootDir, "build/distribution")
     }
 
-    task processPropertiesFile << {
-        sourceSets.each { s ->
-            s.resources.srcDirs.each { d ->
-                if (d.isDirectory()) {
-                    ant.native2ascii(
-                            src: "${d}",
-                            dest: "${s.output.resourcesDir}",
-                            includes: '**/*.properties',
-                            encoding: 'UTF-8'
-                    )
-                }
-            }
-        }
-    }
-    processResources.excludes = ['**/*.properties']
-    processResources.dependsOn processPropertiesFile
     build.dependsOn copyDistFiles
     copyDistFiles.mustRunAfter jar
     removeUglyFiles.mustRunAfter jar
