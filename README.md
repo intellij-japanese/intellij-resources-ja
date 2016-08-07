@@ -6,6 +6,10 @@ JetBrains decided they don't provide Japanese translation resources for their
 product after it had released Japanese editions in 2006.
 https://www.jetbrains.com/company/press/press-archive/pr_060206.html
 
+## Prerequisite
+
+You need to have Java Runtime Environment version 1.8 or later.
+
 ## How to generate resource file for Intellij community
 
 Please call Gradle build system `gradlew` command from console.
@@ -96,6 +100,17 @@ OmegaT has a team feature. It automatically push translation contribution
 onto github repository.
 
 If you want to join, please leave a issue to express your will.
+
+We use custom version of OmegaT Version 4.0 snapshot for automation of the project.
+Also we bundles custom plugin that support XML fils in IntelliJ platform.
+You should use gradle to launch custom OmegaT;
+
+```
+$ ./gradlew omegat
+```
+
+It automatically start omegat GUI and prepare environment for you.
+You need to install JRE 1.8 or later to run OmegaT.
 
 
 ### Build tools
