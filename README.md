@@ -30,11 +30,45 @@ Japanese resources.
 You will get the resource jar file as `build/distribution/resources_ja-<version>.jar`
 Currently we provide two resource files; for version 2016 and version 15.0.6.
 
+## How to generate resource file for Android Studio
+
+You need to fetch submodule resources using 
+
+``
+$ git submodule update
+```
+
+then call Gradle
+
+```
+$ ./gradlew :android:build
+```
+
+on MS Windows
+
+```
+$ .\gradlew.bat :android:build
+```
 
 ## How to generate resource file for JetBrains products
 
+Please check product installed directory such as /opt/JetBrains/idea-IC2016.2/.
+You may find English resource file in lib/resources-en.jar
 
+Please extract it into product directory.
 
+```
+$ cd product/idea
+$ jar xf /where/your/idea/installed/lib/resources-en.jar
+```
+
+then you can generate translated resource file by
+
+```
+$ ./gradlew :idea:build
+```
+
+It is almost same way for PyCharm. Please replace `idea` as `pycharm` in command line.
 
 ## How to translate
 
@@ -82,14 +116,10 @@ an issue number as a part of a commit message.
 
 ## License
 
-Source properties and contents are licensed under the Apache 2.0 License from JetBrains.
-
-Translation memories and translated resources are distributed on the Apache 2.0 License.
+Translation memories are distributed on the Apache 2.0 License.
 
 
 ## Copyright
-
-Copyright 2000-2016 JetBrains s.r.o.
 
 Copyright 2013      Yuzo Morioka
 
