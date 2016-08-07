@@ -91,7 +91,6 @@ project(":resources-pycharm") {
         processR(targetPyDir, sourceSets.main.resources.srcDirs[0])
     }
     processResources.dependsOn processResourceFiles
-    processPropertiesFile.dependsOn processResourceFiles
     clean.dependsOn removeDir
 }
 
@@ -105,7 +104,6 @@ project(":resources-android") {
         processR(targetAndDir, sourceSets.main.resources.srcDirs[0])
     }
     processResources.dependsOn processResourceFiles
-    processPropertiesFile.dependsOn processResourceFiles
     clean.dependsOn removeDir
 }
 
@@ -119,7 +117,6 @@ project(":resources-idea") {
         processR(targetIdeaDir, sourceSets.main.resources.srcDirs[0])
     }
     processResources.dependsOn processResourceFiles
-    processPropertiesFile.dependsOn processResourceFiles
     clean.dependsOn removeDir
 }
 
@@ -133,7 +130,6 @@ project(":resources-intellij-community") {
         processR(targetIjDir, sourceSets.main.resources.srcDirs[0])
     }
     processResources.dependsOn processResourceFiles
-    processPropertiesFile.dependsOn processResourceFiles
     clean.dependsOn removeDir
 }
 
