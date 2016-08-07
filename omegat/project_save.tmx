@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.0_0_fb7be6d" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.0_0_2a17703" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -10161,6 +10161,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each antivirus check in your project consumes resources.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T120412Z" creationid="miurahr" creationdate="20160807T120412Z">
+        <seg>多くのウイルス対策ソフトは、プロジェクトの資源を消費します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each resource pattern may contain the following wildcards:
 ?</seg>
       </tuv>
@@ -11203,6 +11211,22 @@ to {1}:
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T151121Z" creationid="miurahr" creationdate="20160729T151015Z">
         <seg>例：January, Feburaryなど</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example: Mon, Tue, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T115528Z" creationid="miurahr" creationdate="20160807T115528Z">
+        <seg>例：Mon,Tue, など</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example: Monday, Tuesday, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T115600Z" creationid="miurahr" creationdate="20160807T115600Z">
+        <seg>例：Monday, Tuesday,など。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13019,6 +13043,14 @@ Do you want overwrite it or to append?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example:&lt;br5&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T115507Z" creationid="miurahr" creationdate="20160807T115507Z">
+        <seg>例：&lt;br5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:&lt;br7&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T151222Z" creationid="miurahr" creationdate="20160729T151222Z">
@@ -14387,6 +14419,14 @@ Code Style</seg>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T213835Z" creationid="miurahr" creationdate="20160727T213835Z">
         <seg>ダイアログを閉じた場合、&lt;s0&gt;[ヘルプ] - [ヒント]&lt;/s0&gt;
 を選択すると、ダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you notice that IntelliJ IDEA works slowly, consider the possibility to reduce the number of folders under antivirus protection.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T120346Z" creationid="miurahr" creationdate="20160807T120346Z">
+        <seg>IntelliJ IDEAが大変遅くなる時は、ウイルス対策ソフトの対象フォルダーの数を減らすことを検討してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28871,10 +28911,26 @@ already exists.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a built-in template used each time you create a new Java annotation, by selecting &lt;i0&gt;New | Java Class | Annotation&lt;/i0&gt; from the popup menu in one of the project views.&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T120108Z" creationid="miurahr" creationdate="20160807T120108Z">
+        <seg>これは、プロジェクト ビューのポップアップ メニューから &lt;i0&gt;[新規] - [Javaクラス] - [注釈]&lt;/i0&gt; を選択して、新しい Java注釈を作成するときに使用されるビルトイン テンプレートです。&lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a built-in template used each time you create a new Java class, by selecting &lt;i0&gt;New | Java Class | Class&lt;/i0&gt; from the popup menu in one of the project views.&lt;br1&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T153301Z" creationid="miurahr" creationdate="20160723T153301Z">
         <seg>これは、プロジェクト ビューのポップアップ メニューから &lt;i0&gt;[新規] - [クラス]&lt;/i0&gt;&gt; を選択して、新規 Java クラスを作成するときに使用されるビルトイン テンプレートです。&lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a built-in template used each time you create a new Java enum, by selecting &lt;i0&gt;New | Java Class | Enum&lt;/i0&gt; from the popup menu in one of the project views.&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T120204Z" creationid="miurahr" creationdate="20160807T120204Z">
+        <seg>これは、プロジェクト ビューのポップアップ メニューから &lt;i0&gt;[新規] - [Javaクラス] - [列挙型]&lt;/i0&gt; を選択して、新しい Java列挙型(enum)を作成するときに使用されるビルトイン テンプレートです。&lt;br1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -30760,6 +30816,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using the &lt;b5&gt;#parse&lt;/b5&gt; directive, you can include templates from the &lt;i6&gt;Includes&lt;/i6&gt; tab, by specifying the full name of the desired template as a parameter in quotation marks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T115850Z" creationid="miurahr" creationdate="20160807T115850Z">
+        <seg>&lt;b5&gt;#parse&lt;/b5&gt;ディレクティブを用いて、&lt;i6&gt;Includes&lt;/i6&gt;タブで、意図するテンプレートの名前をパラメータとして引用符で囲んで指定することで、テンプレートをインクルードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using wildcards in go to class, file or symbol</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T152901Z" creationid="miurahr" creationdate="20160724T152901Z">
@@ -31751,6 +31815,14 @@ as a source directory?</seg>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T003151Z" creationid="miurahr" creationdate="20160727T003151Z">
         <seg>&lt;s0&gt;クイック定義ルックアップ&lt;/s0&gt;(&lt;s1&gt;&amp;shortcut:QuickImplementations;&lt;/s1&gt;   ) を使用し
 て、キャレット位置で参照されているイメージをすばやく表示できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can significantly improve the performance, if you exclude certain folders from the antivirus protection.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T120458Z" creationid="miurahr" creationdate="20160807T120458Z">
+        <seg>ウイルス対策ソフトでプロジェクトフォルダを対象外に設定することで、大きく性能向上する可能性が有ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33145,6 +33217,14 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>full name of the current day.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T115546Z" creationid="miurahr" creationdate="20160807T115546Z">
+        <seg>現在の曜日をフルスペルで表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>full name of the current month.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T151111Z" creationid="miurahr" creationdate="20160729T151031Z">
@@ -33533,6 +33613,14 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T151310Z" creationid="miurahr" creationdate="20160729T151310Z">
         <seg>&lt;i0&gt;新規クラス作成&lt;/i0&gt;ダイアログで指定する新規インタフェース名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name of the package in which the new annotation is created</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160807T115947Z" creationid="miurahr" creationdate="20160807T115947Z">
+        <seg>新規に注釈を作成するパッケージ名</seg>
       </tuv>
     </tu>
     <tu>
