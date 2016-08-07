@@ -28,9 +28,9 @@ allprojects {
         productPyCharm = "pycharm"
 
         targetIjDir = new File(rootDir, 'target/' + intellij)
-        targetIdeaDir = new File(rootDir, 'target/' + productIdea)
-        targetAndDir = new File(rootDir, 'target/' + productAnd)
-        targetPyDir = new File(rootDir, 'target/' + productPyCharm)
+        targetIdeaDir = new File(rootDir, 'target/product' + productIdea)
+        targetAndDir = new File(rootDir, 'target/product' + productAnd)
+        targetPyDir = new File(rootDir, 'target/product' + productPyCharm)
     }
 }
 
