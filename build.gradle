@@ -8,6 +8,8 @@ apply from: "$rootDir/gradle/github.gradle"
 // Translation
 apply plugin: "org.omegat.gradle"
 
+apply plugin: 'java'
+
 // FIXME: here is ugly configuration for omegat plugin
 dependencies {
     omegat fileTree('buildSrc/lib')
@@ -15,14 +17,18 @@ dependencies {
 
 // Define projects directories.
 allprojects {
-     ext {
+    ext {
         intellij = "intellij-community"
         android = "android"
-        product= "product"
+        product = "product"
+        plugin = "plugins"
 
         targetIjDir = new File(rootDir, 'target/' + intellij)
         targetAndDir = new File(rootDir, 'target/' + android)
         targetProductDir = new File(rootDir, 'target/' + product)
+        targetPluginsDir = new File(rootDir, 'target/' + plugin)
+
+        tmpDir = new File(rootDir, 'tmp')
     }
 }
 
@@ -30,6 +36,7 @@ task cleanRootDirs(type: Delete) {
     delete targetIjDir
     delete targetProductDir
     delete targetAndDir
+    delete targetPluginsDir
     delete new File(rootDir, "build")
 }
 
@@ -70,6 +77,32 @@ Closure processR = { src, dest ->
             into new File(dest, type + "_ja")
         }
     }
+}
+
+task jar(type: Jar, overwrite: true, dependsOn: 'translate') {
+    files { targetPluginsDir.listFiles() }.collect {relativePath(it)}.each { pluginDir ->
+        File srcPath = new File(rootDir, pluginDir)
+        String pluginName = srcPath.getName()
+
+        File tmpPath = new File(tmpDir, pluginName)
+        File buildPath = new File(buildDir, 'libs')
+
+        tmpPath.mkdir()
+        buildPath.mkdir()
+
+        processR(srcPath, tmpPath)
+        archiveName = 'resources_ja-' + pluginName + '.jar'
+        destinationDir = buildPath
+        from tmpPath
+    }
+}
+
+artifacts {
+    archives jar
+}
+
+dependencies {
+    testRuntime jar.outputs.files
 }
 
 project(":android") {
