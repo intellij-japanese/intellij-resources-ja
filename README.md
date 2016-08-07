@@ -1,4 +1,4 @@
-= OmegaT project to translate IntelliJ platform resources in Japanese.
+# OmegaT project to translate IntelliJ platform resources in Japanese.
 
 This project is a community translation project to build a Japanese Resources for IntelliJ platforms.
 
@@ -6,7 +6,7 @@ JetBrains decided they don't provide Japanese translation resources for their
 product after it had released Japanese editions in 2006.
 https://www.jetbrains.com/company/press/press-archive/pr_060206.html
 
-== How to generate resource file for Intellij community
+## How to generate resource file for Intellij community
 
 Please call Gradle build system `gradlew` command from console.
 
@@ -31,12 +31,12 @@ You will get the resource jar file as `build/distribution/resources_ja-<version>
 Currently we provide two resource files; for version 2016 and version 15.0.6.
 
 
-== How to generate resource file for JetBrains products
+## How to generate resource file for JetBrains products
 
 
 
 
-== How to translate
+## How to translate
 
 The project use OmegaT, Computer Aided Translation tool.
 OmegaT is an Open Source Software and freely available for translators.
@@ -49,11 +49,11 @@ If you want to use other tools you can generate TMX file by OmegaT and export
 it at project root as `IDEA_resources_ja-level1.tmx`.
 
 
-== Contributions
+## Contributions
 
 There are two way to contirbute to the project.
 
-=== Translation
+### Translation
 
 Translation updates are not supporeted to merge with PR. Instead of push a request,
 please ask us to join as a member who can write a repository.
@@ -64,14 +64,14 @@ onto github repository.
 If you want to join, please leave a issue to express your will.
 
 
-=== Build tools
+### Build tools
 
 You are welcome to fork the project and to send a pull request.
 Please submit an issue before making a patch, and pleaes include
 an issue number as a part of a commit message.
 
 
-== FAQ
+## FAQ
 
 - Q) Are there any official Japanese version of IntelliJ IDEs?
 - A) No. There is no supported Japanese version. If you want to use IDEs with localized resources, it may not be supporeted by JetBrains, and you should do it with your own risk. Please also see a discussion on jetbrains support forum.
@@ -80,14 +80,14 @@ an issue number as a part of a commit message.
 - Q) Where is a detailed explanation how to localize IntelliJ Platform.
 - A) see. http://www.jetbrains.org/intellij/sdk/docs/reference_guide/localization_guide.html
 
-== License
+## License
 
 Source properties and contents are licensed under the Apache 2.0 License from JetBrains.
 
 Translation memories and translated resources are distributed on the Apache 2.0 License.
 
 
-== Copyright
+## Copyright
 
 Copyright 2000-2016 JetBrains s.r.o.
 
