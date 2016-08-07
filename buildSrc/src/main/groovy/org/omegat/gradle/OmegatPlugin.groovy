@@ -9,6 +9,7 @@ import org.gradle.api.artifacts.ModuleDependency
 class OmegatPlugin implements Plugin<Project> {
     static final String OMEGAT_CONFIGURATION_NAME = "omegat"
     static final String TASK_BUILD_NAME = "translate"
+    static final String TASK_RUN_NAME = "omegat"
     private Project project
 
     @Override
@@ -22,7 +23,12 @@ class OmegatPlugin implements Plugin<Project> {
         project.with {
             tasks.create(name: TASK_BUILD_NAME, type: OmegatTask) {
                 description = "Generate translations into OmegaT target directory."
-                options = [project.getRootDir().toString(), "--mode=console-translate"]
+                options = [project.getRootDir().toString(), "--mode=console-translate",
+                           "--disable-project-locking", "--quiet"]
+            }
+            tasks.create(name: TASK_RUN_NAME, type:OmegatTask) {
+                description = "Run OmegaT application with GUI."
+                options = []
             }
 
             afterEvaluate {
