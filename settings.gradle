@@ -1,2 +1,1 @@
-rootProject.name = 'IDEA_trans_ja'
-include 'resources-15', 'resources-2016', 'resources-and', 'resources-pycharm'
+include 'resources-intellij-community', 'resources-idea', 'resources-and', 'resources-pycharm'
