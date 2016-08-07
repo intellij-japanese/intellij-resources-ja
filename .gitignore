@@ -1,6 +1,7 @@
 .gradle/
 .idea/
 build/
+/*.tmx
 src
 target/
 tmp/
