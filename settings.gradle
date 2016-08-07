@@ -1,1 +1,1 @@
-include 'resources-intellij-community', 'resources-idea', 'resources-android', 'resources-pycharm'
+include 'intellij-community', 'product', 'android'

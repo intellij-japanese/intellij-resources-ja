@@ -14,31 +14,22 @@ dependencies {
 }
 
 // Define projects directories.
-// -----------
-// 15 - IntelliJ IDEA Version 15.x
-// 2016 - IntelliJ IDEA Version 2016.x
-// and-143.2915847 - Android Studio
-// pycharm-2016 - PyCharm
-// -----------
 allprojects {
      ext {
         intellij = "intellij-community"
         android = "android"
-        productIdea = "idea"
-        productPyCharm = "pycharm"
+        product= "product"
 
         targetIjDir = new File(rootDir, 'target/' + intellij)
         targetAndDir = new File(rootDir, 'target/' + android)
-        targetIdeaDir = new File(rootDir, 'target/product' + productIdea)
-        targetPyDir = new File(rootDir, 'target/product' + productPyCharm)
+        targetProductDir = new File(rootDir, 'target/' + product)
     }
 }
 
 task cleanRootDirs(type: Delete) {
     delete targetIjDir
-    delete targetIdeaDir
+    delete targetProductDir
     delete targetAndDir
-    delete targetPyDir
     delete new File(rootDir, "build")
 }
 
@@ -81,20 +72,7 @@ Closure processR = { src, dest ->
     }
 }
 
-project(":resources-pycharm") {
-    apply plugin: 'java'
-    defaultTasks 'jar'
-    jar.baseName = 'resources_ja'
-    jar.appendix = 'pycharm'
-
-    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
-        processR(targetPyDir, sourceSets.main.resources.srcDirs[0])
-    }
-    processResources.dependsOn processResourceFiles
-    clean.dependsOn removeDir
-}
-
-project(":resources-android") {
+project(":android") {
     apply plugin: 'java'
     defaultTasks 'jar'
     jar.baseName = 'resources_ja'
@@ -107,11 +85,11 @@ project(":resources-android") {
     clean.dependsOn removeDir
 }
 
-project(":resources-idea") {
+project(":product") {
     apply plugin: 'java'
     defaultTasks 'jar'
     jar.baseName = 'resources_ja'
-    jar.appendix = 'idea'
+    jar.appendix = ''
 
     task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
         processR(targetIdeaDir, sourceSets.main.resources.srcDirs[0])
@@ -120,7 +98,7 @@ project(":resources-idea") {
     clean.dependsOn removeDir
 }
 
-project(":resources-intellij-community") {
+project(":intellij-community") {
     apply plugin: 'java'
     defaultTasks 'jar'
     jar.baseName = 'resources_ja'
