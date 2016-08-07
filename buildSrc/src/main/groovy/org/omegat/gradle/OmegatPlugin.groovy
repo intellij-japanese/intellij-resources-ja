@@ -28,7 +28,7 @@ class OmegatPlugin implements Plugin<Project> {
             }
             tasks.create(name: TASK_RUN_NAME, type:OmegatTask) {
                 description = "Run OmegaT application with GUI."
-                options = []
+                options = [project.getRootDir().toString()]
             }
 
             afterEvaluate {
