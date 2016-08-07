@@ -153,12 +153,6 @@
         <files sourceFilenameMask="*.tex" targetFilenamePattern="${filename}"/>
         <files sourceFilenameMask="*.latex" targetFilenamePattern="${filename}"/>
     </filter>
-    <filter className="org.omegat.filters3.xml.sambadoc.SambaDocFilter" enabled="true">
-        <files sourceFilenameMask="*.xml" targetFilenamePattern="${filename}"/>
-    </filter>
-    <filter className="org.samba.doc.lib.omegat.SambaDocFilter" enabled="false">
-        <files sourceFilenameMask="*.xml" targetFilenamePattern="${filename}"/>
-    </filter>
     <filter className="tokyo.northside.omegat.IdeaSearchFilter" enabled="true">
         <files sourceFilenameMask="searchableOptions.xml" targetFilenamePattern="${filename}"/>
         <files sourceFilenameMask="synonyms.xml" targetFilenamePattern="${filename}"/>
