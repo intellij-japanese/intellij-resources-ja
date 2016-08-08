@@ -34,14 +34,14 @@ task cleanTargetDirs(type: Delete) {
 
 // Custom jar tasks
 Closure processR = { src, dest ->
-    ["search", "messages"].each { type ->
+    ["messages"].each { type ->
         copy {
             from new File(src, type)
             into new File(dest, type)
         }
     }
     ["fileTemplates", "inspectionDescriptions", "intentionDescriptions",
-     "postfixTemplates", "tips"].each { type ->
+     "postfixTemplates", search', "tips"].each { type ->
         copy {
             from new File(src, type)
             into new File(dest, type + "_ja")
@@ -81,7 +81,6 @@ dependencies {
     testRuntime customJar.outputs.files
     testRuntime pluginJar.outputs.files
 }
-
 
 clean.dependsOn cleanTargetDirs
 
