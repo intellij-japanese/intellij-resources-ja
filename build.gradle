@@ -1,68 +1,38 @@
-// Release management
-plugins {
-    id "co.riiid.gradle" version "0.4.2"
-
-}
-apply from: "$rootDir/gradle/github.gradle"
+apply plugin: 'java'
 
 // Translation
 apply plugin: "org.omegat.gradle"
-
-apply plugin: 'java'
 
 // FIXME: here is ugly configuration for omegat plugin
 dependencies {
     omegat fileTree('buildSrc/lib')
 }
 
-// Define projects directories.
-allprojects {
-    ext {
-        intellij = "intellij-community"
-        android = "android"
-        product = "product"
-        plugin = "plugins"
+ext {
+    intellij = "intellij-community"
+    android = "android"
+    product = "product"
+    plugin = "plugins"
 
-        targetIjDir = new File(rootDir, 'target/' + intellij)
-        targetAndDir = new File(rootDir, 'target/' + android)
-        targetProductDir = new File(rootDir, 'target/' + product)
-        targetPluginsDir = new File(rootDir, 'target/' + plugin)
+    targetDir = new File(rootDir, 'target')
 
-        tmpDir = new File(rootDir, 'tmp')
-    }
+    targetIjDir = new File(targetDir, intellij)
+    targetAndDir = new File(targetDir, android)
+    targetProductDir = new File(targetDir, product)
+    targetPluginsDir = new File(targetDir, plugin)
+
+    tmpDir = new File(buildDir, 'tmp')
+    buildPath = new File(buildDir, 'libs')
 }
 
-task cleanRootDirs(type: Delete) {
+task cleanTargetDirs(type: Delete) {
     delete targetIjDir
-    delete targetProductDir
     delete targetAndDir
+    delete targetProductDir
     delete targetPluginsDir
-    delete new File(rootDir, "build")
 }
 
-task removeUglyFiles(type: Delete) {
-    delete new File(rootDir, "build/libs")
-}
-
-subprojects {
-    apply plugin: 'java'
-    task prepareDir << {
-        new File(projectDir, "src/main/resources").mkdir()
-    }
-    task removeDir(type: Delete) {
-        delete new File(projectDir, "src")
-    }
-
-    task copyDistFiles(type: Copy) {
-        from new File(project.buildDir, "libs")
-        into new File(rootDir, "build/distribution")
-    }
-
-    build.dependsOn copyDistFiles
-    copyDistFiles.mustRunAfter jar
-    removeUglyFiles.mustRunAfter jar
-}
-
+// Custom jar tasks
 Closure processR = { src, dest ->
     ["search", "messages"].each { type ->
         copy {
@@ -79,17 +49,11 @@ Closure processR = { src, dest ->
     }
 }
 
-task jar(type: Jar, overwrite: true, dependsOn: 'translate') {
+task pluginJar(type: Jar, overwrite: true, dependsOn: 'translate') {
     files { targetPluginsDir.listFiles() }.collect {relativePath(it)}.each { pluginDir ->
         File srcPath = new File(rootDir, pluginDir)
         String pluginName = srcPath.getName()
-
         File tmpPath = new File(tmpDir, pluginName)
-        File buildPath = new File(buildDir, 'libs')
-
-        tmpPath.mkdir()
-        buildPath.mkdir()
-
         processR(srcPath, tmpPath)
         archiveName = 'resources_ja-' + pluginName + '.jar'
         destinationDir = buildPath
@@ -97,52 +61,29 @@ task jar(type: Jar, overwrite: true, dependsOn: 'translate') {
     }
 }
 
+task customJar(type: Jar, overwrite: true, dependsOn: 'translate') {
+   [ android, product, intellij ].each { translationSet ->
+        File srcPath = new File(targetDir, translationSet)
+        File tmpPath = new File(tmpDir, translationSet)
+        processR(srcPath, tmpPath)
+        archiveName = 'resources_ja-' + translationSet + '.jar'
+        destinationDir = buildPath
+        from tmpPath
+    }
+}
+
 artifacts {
-    archives jar
+    archives customJar
+    archives pluginJar
 }
 
 dependencies {
-    testRuntime jar.outputs.files
+    testRuntime customJar.outputs.files
+    testRuntime pluginJar.outputs.files
 }
 
-project(":android") {
-    apply plugin: 'java'
-    defaultTasks 'jar'
-    jar.baseName = 'resources_ja'
-    jar.appendix = 'android'
 
-    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
-        processR(targetAndDir, sourceSets.main.resources.srcDirs[0])
-    }
-    processResources.dependsOn processResourceFiles
-    clean.dependsOn removeDir
-}
-
-project(":product") {
-    apply plugin: 'java'
-    defaultTasks 'jar'
-    jar.baseName = 'resources_ja'
-    jar.appendix = ''
-
-    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
-        processR(targetProductDir, sourceSets.main.resources.srcDirs[0])
-    }
-    processResources.dependsOn processResourceFiles
-    clean.dependsOn removeDir
-}
-
-project(":intellij-community") {
-    apply plugin: 'java'
-    defaultTasks 'jar'
-    jar.baseName = 'resources_ja'
-    jar.appendix = 'intellij-community'
-
-    task processResourceFiles(dependsOn: [prepareDir, '::translate']) << {
-        processR(targetIjDir, sourceSets.main.resources.srcDirs[0])
-    }
-    processResources.dependsOn processResourceFiles
-    clean.dependsOn removeDir
-}
+clean.dependsOn cleanTargetDirs
 
 task wrapper(type: Wrapper) {
   gradleVersion = '2.14.1'
