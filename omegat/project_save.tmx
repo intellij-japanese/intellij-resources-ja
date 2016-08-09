@@ -2637,6 +2637,14 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add maven artifact dependency</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T082513Z" creationid="miurahr" creationdate="20160809T082419Z">
+        <seg>Mavenアーティファクト依存関係を追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add method body</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053434Z" creationid="miurahr" creationdate="20160726T053434Z">
@@ -2689,6 +2697,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160809T071422Z" creationid="miurahr" creationdate="20160809T071422Z">
         <seg>選択したgradleプラグインをプロジェクトに追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add selected maven artifact dependency to the project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T082516Z" creationid="miurahr" creationdate="20160809T082508Z">
+        <seg>選択したMavenアーティファクト依存関係をプロジェクトに追加する</seg>
       </tuv>
     </tu>
     <tu>
@@ -19658,6 +19674,22 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open Gradle reports produced by the Test task</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T082653Z" creationid="miurahr" creationdate="20160809T082653Z">
+        <seg>テストタスクにより生成されたGradleレポートを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open Gradle test report</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T082617Z" creationid="miurahr" creationdate="20160809T082617Z">
+        <seg>Gradleテストレポートを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open PDF file with the default keymap reference card.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143541Z" creationid="miurahr" creationdate="20160726T143541Z">
@@ -29708,6 +29740,14 @@ TypeHierarchy;&lt;/s0&gt;      (&lt;s1&gt;[表示] - [タイプ階層]&lt;/s1&gt
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T141419Z" creationid="miurahr" creationdate="20160726T141419Z">
         <seg>現在のファイルの読み取り専用属性を切り替えます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Toggle tasks executions/text mode</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T082545Z" creationid="miurahr" creationdate="20160809T082545Z">
+        <seg>タスク実行モード/テキストモードの切り替え</seg>
       </tuv>
     </tu>
     <tu>
