@@ -30624,6 +30624,22 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use default gradle wrapper (not configured for the current project)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T050557Z" creationid="miurahr" creationdate="20160809T050557Z">
+        <seg>既定のgradle wrapperを使用する (このプロジェクトに対しては推奨されないt)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use default gradle wrapper (recommended)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T050515Z" creationid="miurahr" creationdate="20160809T050515Z">
+        <seg>既定のgradle wrapperを使用する (推奨)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use default renderer</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T132810Z" creationid="miurahr" creationdate="20160724T132810Z">
