@@ -14182,6 +14182,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hide the tip</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T071312Z" creationid="miurahr" creationdate="20160809T071312Z">
+        <seg>ヒントを隠す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hide warnings</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T160948Z" creationid="miurahr" creationdate="20160724T160948Z">
