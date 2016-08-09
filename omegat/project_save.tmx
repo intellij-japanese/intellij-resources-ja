@@ -8596,6 +8596,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create separate module per source set</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051146Z" creationid="miurahr" creationdate="20160809T051146Z">
+        <seg>ソースセットごとにモジュールを分割して作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create setter for ''{0}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T054258Z" creationid="miurahr" creationdate="20160726T054258Z">
@@ -13738,6 +13746,22 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143526Z" creationid="miurahr" creationdate="20160726T143526Z">
         <seg>前の分割ウィンドウへ移動します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle home:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051157Z" creationid="miurahr" creationdate="20160809T051157Z">
+        <seg>Gradleホーム::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle wrapper customization in script, works with Gradle 1.7 or later</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051050Z" creationid="miurahr" creationdate="20160809T051050Z">
+        <seg>スクリプトでのカスタムGradle wrapper設定は、Gradle 1.7以降でのみ有効です</seg>
       </tuv>
     </tu>
     <tu>
@@ -30592,6 +30616,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use bundled gradle distribution: ({0})</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051121Z" creationid="miurahr" creationdate="20160809T051121Z">
+        <seg>ローカルにインストールされているgradleを使用する({0})</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use c&amp;ustom Ant:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T003544Z" creationid="miurahr" creationdate="20160724T003544Z">
@@ -30704,10 +30736,26 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use gradle wrapper task configuration</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051005Z" creationid="miurahr" creationdate="20160809T051005Z">
+        <seg>gradle wrapperタスク設定を使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use list of expressions:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T132824Z" creationid="miurahr" creationdate="20160724T132824Z">
         <seg>式のリストを使用する:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use local gradle distribution</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051107Z" creationid="miurahr" creationdate="20160809T051107Z">
+        <seg>ローカルにインストールされているgradleを使用する</seg>
       </tuv>
     </tu>
     <tu>
