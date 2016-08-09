@@ -13750,10 +13750,42 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle JARs location is unknown</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051259Z" creationid="miurahr" creationdate="20160809T051259Z">
+        <seg>Gradle JARファイルの場所がわかりません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle VM options:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051224Z" creationid="miurahr" creationdate="20160809T051224Z">
+        <seg>Gradle VMオプション:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle home:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160809T051157Z" creationid="miurahr" creationdate="20160809T051157Z">
         <seg>Gradleホーム::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle location is incorrect.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051314Z" creationid="miurahr" creationdate="20160809T051314Z">
+        <seg>Gradleの場所を間違えています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle location is not specified</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051337Z" creationid="miurahr" creationdate="20160809T051337Z">
+        <seg>Gradleの場所が指定されていません</seg>
       </tuv>
     </tu>
     <tu>
@@ -16661,6 +16693,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Location:{0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051321Z" creationid="miurahr" creationdate="20160809T051321Z">
+        <seg>場所:{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Log &amp;message to console</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T134332Z" creationid="miurahr" creationdate="20160724T134332Z">
@@ -19526,6 +19566,14 @@ for this anonymous class.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T155745Z" creationid="miurahr" creationdate="20160724T155745Z">
         <seg>合計サイズ {0} のファイル内の使用箇所が見つかりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Offline work</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051232Z" creationid="miurahr" creationdate="20160809T051232Z">
+        <seg>オフラインモード</seg>
       </tuv>
     </tu>
     <tu>
