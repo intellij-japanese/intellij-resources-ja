@@ -2629,6 +2629,14 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add gradle plugin</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T071359Z" creationid="miurahr" creationdate="20160809T071359Z">
+        <seg>gradleプラグインを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add method body</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053434Z" creationid="miurahr" creationdate="20160726T053434Z">
@@ -2673,6 +2681,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T092602Z" creationid="miurahr" creationdate="20160728T092602Z">
         <seg>スコープ追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add selected gradle plugin to the project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T071422Z" creationid="miurahr" creationdate="20160809T071422Z">
+        <seg>選択したgradleプラグインをプロジェクトに追加する</seg>
       </tuv>
     </tu>
     <tu>
@@ -30229,6 +30245,14 @@ TypeHierarchy;&lt;/s0&gt;      (&lt;s1&gt;[表示] - [タイプ階層]&lt;/s1&gt
       <tuv lang="JA" changeid="miurahr" changedate="20160727T213343Z" creationid="miurahr" creationdate="20160727T213343Z">
         <seg>      &lt;s0&gt;&amp;shortcut:EditorChooseLookupItem;&lt;/s0&gt; キーを
 使用して選択した場合と異なり、 選択した名前は上書きされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unlinked Gradle project?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T071341Z" creationid="miurahr" creationdate="20160809T071341Z">
+        <seg>Gradleプロジェクトのリンクを解除しますか？</seg>
       </tuv>
     </tu>
     <tu>
