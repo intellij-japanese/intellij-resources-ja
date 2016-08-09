@@ -41,7 +41,7 @@ Closure processR = { src, dest ->
         }
     }
     ["fileTemplates", "inspectionDescriptions", "intentionDescriptions",
-     "postfixTemplates", search', "tips"].each { type ->
+     "postfixTemplates", "search", "tips"].each { type ->
         copy {
             from new File(src, type)
             into new File(dest, type + "_ja")
