@@ -19730,6 +19730,14 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open linked Gradle project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T051706Z" creationid="miurahr" creationdate="20160809T051706Z">
+        <seg>リンクされたGradleプロジェクトを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open migration dialog</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143152Z" creationid="miurahr" creationdate="20160726T143152Z">
