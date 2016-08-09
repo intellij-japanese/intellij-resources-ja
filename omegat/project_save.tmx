@@ -19018,6 +19018,14 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No errors detected</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T031606Z" creationid="miurahr" creationdate="20160809T031606Z">
+        <seg>エラーはありませんでした</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No executable code found at line {0} in class {1}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T134645Z" creationid="miurahr" creationdate="20160724T134645Z">
@@ -19798,6 +19806,14 @@ for this anonymous class.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160809T051706Z" creationid="miurahr" creationdate="20160809T051706Z">
         <seg>リンクされたGradleプロジェクトを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open message view</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T031613Z" creationid="miurahr" creationdate="20160809T031613Z">
+        <seg>メッセージビューを開く</seg>
       </tuv>
     </tu>
     <tu>
@@ -31072,10 +31088,34 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Validate</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T031558Z" creationid="miurahr" creationdate="20160809T031558Z">
+        <seg>検証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Validate the current XML file</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143339Z" creationid="miurahr" creationdate="20160726T143339Z">
         <seg>現在の XML ファイルを検証します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Validation Is Running</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T031621Z" creationid="miurahr" creationdate="20160809T031621Z">
+        <seg>検証中です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Validation is running.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T031616Z" creationid="miurahr" creationdate="20160809T031616Z">
+        <seg>検証中です。</seg>
       </tuv>
     </tu>
     <tu>
