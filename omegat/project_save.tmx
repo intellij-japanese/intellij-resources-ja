@@ -6314,6 +6314,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choose plugin</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160809T082238Z" creationid="miurahr" creationdate="20160809T082238Z">
+        <seg>プラグインの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Choose symbol from the drop-down list that appears.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T001510Z" creationid="miurahr" creationdate="20160727T001510Z">
