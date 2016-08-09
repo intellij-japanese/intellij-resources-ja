@@ -39,7 +39,7 @@ Which name will become intellij-community, android and so on.
 
 You need to fetch submodule resources using 
 
-``
+```
 $ git submodule update
 ```
 
