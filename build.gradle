@@ -5,7 +5,8 @@ apply plugin: "org.omegat.gradle"
 
 // FIXME: here is ugly configuration for omegat plugin
 dependencies {
-    omegat fileTree('buildSrc/lib')
+    omegat files('buildSrc/OmegaT.jar'),
+           fileTree('buildSrc/lib')
 }
 
 ext {
@@ -49,19 +50,27 @@ Closure processR = { src, dest ->
     }
 }
 
-task pluginJar(type: Jar, overwrite: true, dependsOn: 'translate') {
+Closure myJar = {baseDir, translationSet ->
+        File srcPath = new File(baseDir, translationSet)
+        File tmpPath = new File(tmpDir, translationSet)
+        processR(srcPath, tmpPath)
+        jar {
+            archiveName = 'resources_ja-' + translationSet + '.jar'
+            destinationDir = buildPath
+            from tmpPath
+        }
+    
+}
+
+task pluginJar(type: Jar, dependsOn: 'translate')  {
     files { targetPluginsDir.listFiles() }.collect {relativePath(it)}.each { pluginDir ->
         File srcPath = new File(rootDir, pluginDir)
         String pluginName = srcPath.getName()
-        File tmpPath = new File(tmpDir, pluginName)
-        processR(srcPath, tmpPath)
-        archiveName = 'resources_ja-' + pluginName + '.jar'
-        destinationDir = buildPath
-        from tmpPath
+        myJar(targetPluginsDir, pluginName)
     }
 }
 
-task customJar(type: Jar, overwrite: true, dependsOn: 'translate') {
+task customJar(type: Jar, dependsOn: 'translate') {
    [ android, product, intellij ].each { translationSet ->
         File srcPath = new File(targetDir, translationSet)
         File tmpPath = new File(tmpDir, translationSet)
