@@ -14,17 +14,6 @@ Here is a child repository for intelli_resources_ja project and refered as git s
 * product: place holder for contents from lib/resources-en.jar in JetBrains products.
 
 
-## Submodule
-
-A android` directory are configured as git submodule.
-It refers a repository: https://github.com/intellij-japanese/src-android-studio-resources
-
-To retrive android studio resource date:
-
-``
-$ git submodule update
-``
-
 ## Product place holder
 
 A product folder is just an empty directory.
