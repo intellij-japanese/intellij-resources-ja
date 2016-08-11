@@ -10,85 +10,48 @@ dependencies {
 }
 
 ext {
-    intellij = "intellij-community"
-    android = "android"
-    product = "product"
-    plugin = "plugins"
-
     targetDir = new File(rootDir, 'target')
-
-    targetIjDir = new File(targetDir, intellij)
-    targetAndDir = new File(targetDir, android)
-    targetProductDir = new File(targetDir, product)
-    targetPluginsDir = new File(targetDir, plugin)
-
-    tmpDir = new File(buildDir, 'tmp')
-    buildPath = new File(buildDir, 'libs')
+    sourceDir = new File(rootDir, 'source')
+    sourcePluginsDir = new File(sourceDir, 'plugin')
 }
 
 task cleanTargetDirs(type: Delete) {
-    delete targetIjDir
-    delete targetAndDir
-    delete targetProductDir
-    delete targetPluginsDir
+    targetDir.listFiles().findAll { it.isDirectory() }.each { delete it }
 }
 
-// Custom jar tasks
-Closure processR = { src, dest ->
-    ["messages"].each { type ->
-        copy {
-            from new File(src, type)
-            into new File(dest, type)
-        }
+task intellijJar(type: Jar, dependsOn: [jar, 'translate']) {
+    inputs.dir new File(targetDir, 'intellij-community')
+    destinationDir new File("$buildDir")
+    archiveName "resources_ja-intellij-community.jar"
+    into('messages') {
+        from "$projectDir/target/intellij-community/messages"
     }
-    ["fileTemplates", "inspectionDescriptions", "intentionDescriptions",
-     "postfixTemplates", "search", "tips"].each { type ->
-        copy {
-            from new File(src, type)
-            into new File(dest, type + "_ja")
-        }
+    into('fileTemplates_ja') {
+        from "$projectDir/target/intellij-commuity/fileTemplates"
     }
-}
-
-Closure myJar = {baseDir, translationSet ->
-        File srcPath = new File(baseDir, translationSet)
-        File tmpPath = new File(tmpDir, translationSet)
-        processR(srcPath, tmpPath)
-        jar {
-            archiveName = 'resources_ja-' + translationSet + '.jar'
-            destinationDir = buildPath
-            from tmpPath
-        }
-    
-}
-
-task pluginJar(type: Jar, dependsOn: 'translate')  {
-    files { targetPluginsDir.listFiles() }.collect {relativePath(it)}.each { pluginDir ->
-        File srcPath = new File(rootDir, pluginDir)
-        String pluginName = srcPath.getName()
-        myJar(targetPluginsDir, pluginName)
+    into('inspectionDescriptions_ja') {
+        from "$projectDir/target/intellij-community/inspectionDescriptions"
     }
-}
-
-task customJar(type: Jar, dependsOn: 'translate') {
-   [ android, product, intellij ].each { translationSet ->
-        File srcPath = new File(targetDir, translationSet)
-        File tmpPath = new File(tmpDir, translationSet)
-        processR(srcPath, tmpPath)
-        archiveName = 'resources_ja-' + translationSet + '.jar'
-        destinationDir = buildPath
-        from tmpPath
+    into('intentionDescriptions_ja') {
+        from "$projectDir/target/intellij-community/intentionDescriptions"
+    }
+    into('postfixTemplates_ja') {
+        from "$projectDir/target/intellij-community/postfixTemplates"
+    }
+    into('search_ja') {
+        from "$projectDir/target/intellij-community/search"
+    }
+    into('tips_ja') {
+        from "$projectDir/target/intellij-community/tips"
     }
 }
 
 artifacts {
-    archives customJar
-    archives pluginJar
+    archives intellijJar
 }
 
 dependencies {
-    testRuntime customJar.outputs.files
-    testRuntime pluginJar.outputs.files
+    testRuntime intellijJar.outputs.files
 }
 
 clean.dependsOn cleanTargetDirs
