@@ -24,7 +24,7 @@ tasks.addRule("Pattern: plugin<ID>") { String taskName ->
         def pluginName = taskName[6].toLowerCase() + taskName[7..taskName.length() - 1]
         task(taskName, type: Jar, dependsOn: [jar, translate]) {
             inputs.dir new File(targetDir, pluginName)
-            destinationDir new File("$buildDir")
+            destinationDir new File("$buildDir/plugins")
             baseName pluginName
 
             into('messages') {
@@ -58,7 +58,7 @@ tasks.addRule("Pattern: plugin<ID>") { String taskName ->
 
 tasks.addRule("Pattern: ide<ID>") { String taskName ->
     if (taskName.startsWith("ide")) {
-        def toolName = taskName[6].toLowerCase() + taskName[7..taskName.length() - 1]
+        def toolName = taskName[3].toLowerCase() + taskName[4..taskName.length() - 1]
         task(taskName, type: Jar, dependsOn: [jar, translate]) {
             inputs.dir new File(targetDir, toolName)
             destinationDir new File("$buildDir")
@@ -87,14 +87,14 @@ tasks.addRule("Pattern: ide<ID>") { String taskName ->
             }
             from("$projectDir/target/$toolName/") {
                 exclude(['messages', 'fileTemplates', 'inspectionDescriptions',
-                         'intentionDescriptions', 'postfixTemplates', 'search', 'tips'])
+                         'intentionDescriptions', 'postfixTemplates', 'search', 'tips', '.ignoreme'])
             }
         }
     }
 }
 
 artifacts {
-    archives ideIntellijCommunity, ideAndroid
+    archives ideIntellijCommunity, ideAndroid, ideProduct
     archives pluginAndroid, pluginAnt, pluginGit4idea, pluginGradle
     archives pluginJavaI18n, pluginJavaFX, pluginJunit, pluginMaven, pluginTerminal
     archives pluginTestng, pluginUiDesigner, pluginYaml
@@ -102,6 +102,8 @@ artifacts {
 
 dependencies {
     testRuntime ideIntellijCommunity.outputs.files
+    testRuntime ideAndroid.outputs.files
+    testRuntime ideProduct.outputs.files
     testRuntime pluginAndroid.outputs.files
     testRuntime pluginAnt.outputs.files
     testRuntime pluginGit4idea.outputs.files
