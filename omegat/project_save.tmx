@@ -10009,6 +10009,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don't want to see the message for the project again: &lt;a href="do.not.show"&gt;press here&lt;/a&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130639Z" creationid="miurahr" creationdate="20160812T130639Z">
+        <seg>これ以上、このプロジェクトでこのメッセージを表示しない: &lt;a href="do.not.show"&gt;表示無効化&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Double Click</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T051440Z" creationid="miurahr" creationdate="20160726T051440Z">
@@ -15946,6 +15954,14 @@ in class ''{1}''</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It will provide IDE with Gradle API/DSL documentation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130505Z" creationid="miurahr" creationdate="20160812T130505Z">
+        <seg>GradleのAPI/DSLのドキュメントつきのIDEになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Italic</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124313Z" creationid="miurahr" creationdate="20160724T124313Z">
@@ -19758,6 +19774,14 @@ for this anonymous class.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160809T051232Z" creationid="miurahr" creationdate="20160809T051232Z">
         <seg>オフラインモード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ok, apply suggestion!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130540Z" creationid="miurahr" creationdate="20160812T130540Z">
+        <seg>わかった。提案を適用して！</seg>
       </tuv>
     </tu>
     <tu>
@@ -23984,6 +24008,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runner</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130524Z" creationid="miurahr" creationdate="20160812T130524Z">
+        <seg>ランナー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T142818Z" creationid="miurahr" creationdate="20160724T142813Z">
@@ -25201,6 +25233,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T035144Z" creationid="miurahr" creationdate="20160726T035144Z">
         <seg>シリアライゼーション問題</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Service directory path:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130513Z" creationid="miurahr" creationdate="20160812T130513Z">
+        <seg>サービスのディレクトリ・パス:</seg>
       </tuv>
     </tu>
     <tu>
