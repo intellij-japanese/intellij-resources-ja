@@ -12,14 +12,52 @@ dependencies {
 ext {
     targetDir = new File(rootDir, 'target')
     sourceDir = new File(rootDir, 'source')
-    sourcePluginsDir = new File(sourceDir, 'plugin')
 }
 
 task cleanTargetDirs(type: Delete) {
     targetDir.listFiles().findAll { it.isDirectory() }.each { delete it }
 }
 
-task intellijJar(type: Jar, dependsOn: [jar, 'translate']) {
+
+tasks.addRule("Pattern: plugin<ID>") { String taskName ->
+    if (taskName.startsWith("plugin")) {
+        def pluginName = taskName[6].toLowerCase() + taskName[7..taskName.length() - 1]
+        def pluginDir = new File(targetDir, 'plugins' + pluginName)
+        task(taskName, type: Jar, dependsOn: [jar, translate]) {
+            inputs.dir new File(targetDir, pluginName)
+            destinationDir new File("$buildDir")
+            baseName pluginName
+
+            into('messages') {
+                from "$projectDir/target/plugins/$pluginName/messages"
+            }
+            into('fileTemplates_ja') {
+                from "$projectDir/target/plugins/$pluginName/fileTemplates"
+            }
+            into('inspectionDescriptions_ja') {
+                from "$projectDir/target/plugins/$pluginName/inspectionDescriptions"
+            }
+            into('intentionDescriptions_ja') {
+                from "$projectDir/target/plugins/$pluginName/intentionDescriptions"
+            }
+            into('postfixTemplates_ja') {
+                from "$projectDir/target/plugins/$pluginName/postfixTemplates"
+            }
+            into('search_ja') {
+                from "$projectDir/target/plugins/$pluginName/search"
+            }
+            into('tips_ja') {
+                from "$projectDir/target/plugins/$pluginName/tips"
+            }
+            from("$projectDir/target/plugins/$pluginName/") {
+                exclude(['messages', 'fileTemplates', 'inspectionDescriptions',
+                         'intentionDescriptions', 'postfixTemplates', 'search', 'tips'])
+            }
+        }
+    }
+}
+
+task intellijJar(type: Jar, dependsOn: [jar, translate]) {
     inputs.dir new File(targetDir, 'intellij-community')
     destinationDir new File("$buildDir")
     archiveName "resources_ja-intellij-community.jar"
@@ -48,10 +86,25 @@ task intellijJar(type: Jar, dependsOn: [jar, 'translate']) {
 
 artifacts {
     archives intellijJar
+    archives pluginAndroid, pluginAnt, pluginGit4idea, pluginGradle
+    archives pluginJavaI18n, pluginJavaFX, pluginJunit, pluginMaven, pluginTerminal
+    archives pluginTestng, pluginUiDesigner, pluginYaml
 }
 
 dependencies {
     testRuntime intellijJar.outputs.files
+    testRuntime pluginAndroid.outputs.files
+    testRuntime pluginAnt.outputs.files
+    testRuntime pluginGit4idea.outputs.files
+    testRuntime pluginGradle.outputs.files
+    testRuntime pluginJavaI18n.outputs.files
+    testRuntime pluginJavaFX.outputs.files
+    testRuntime pluginJunit.outputs.files
+    testRuntime pluginMaven.outputs.files
+    testRuntime pluginTerminal.outputs.files
+    testRuntime pluginTestng.outputs.files
+    testRuntime pluginUiDesigner.outputs.files
+    testRuntime pluginYaml.outputs.files
 }
 
 clean.dependsOn cleanTargetDirs
