@@ -31,29 +31,10 @@ It will download some jar files from https://jcenter.bintray.com repository.
 Then it convert source English resource files with translation result into
 Japanese resources.
 
-You will get the resource jar file as `build/distribution/resources_ja-<name>.jar`
+You can get the IDE's resource jar file as `build/<name>.jar`
+Also you can get plugins resources as `build/plugins/<name>.jar`
 
-Which name will become intellij-community, android and so on.
-
-## How to generate resource file for Android Studio
-
-You need to fetch submodule resources using 
-
-```
-$ git submodule update
-```
-
-then call Gradle
-
-```
-$ ./gradlew :android:build
-```
-
-on MS Windows
-
-```
-$ .\gradlew.bat :android:build
-```
+Which name will become intellijCommunity, android and so on.
 
 ## How to generate resource file for JetBrains products
 
@@ -67,11 +48,7 @@ $ cd source/product/
 $ jar xf /where/your/idea/installed/lib/resources-en.jar
 ```
 
-then you can generate translated resource file by
-
-```
-$ ./gradlew :product:build
-```
+then you can generate translated resource.
 
 ## How to translate
 
