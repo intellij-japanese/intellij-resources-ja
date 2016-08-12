@@ -9,13 +9,8 @@ dependencies {
            fileTree('buildSrc/lib')
 }
 
-ext {
-    targetDir = new File(rootDir, 'target')
-    sourceDir = new File(rootDir, 'source')
-}
-
 task cleanTargetDirs(type: Delete) {
-    targetDir.listFiles().findAll { it.isDirectory() }.each { delete it }
+   file("$projectDir/target").listFiles().findAll { it.isDirectory() }.each { delete it }
 }
 
 
@@ -23,7 +18,7 @@ tasks.addRule("Pattern: plugin<ID>") { String taskName ->
     if (taskName.startsWith("plugin")) {
         def pluginName = taskName[6].toLowerCase() + taskName[7..taskName.length() - 1]
         task(taskName, type: Jar, dependsOn: [jar, translate]) {
-            inputs.dir new File(targetDir, pluginName)
+            inputs.dir new File("$projectDir/target/plugins/$pluginName")
             destinationDir new File("$buildDir/plugins")
             baseName pluginName
 
@@ -60,7 +55,7 @@ tasks.addRule("Pattern: ide<ID>") { String taskName ->
     if (taskName.startsWith("ide")) {
         def toolName = taskName[3].toLowerCase() + taskName[4..taskName.length() - 1]
         task(taskName, type: Jar, dependsOn: [jar, translate]) {
-            inputs.dir new File(targetDir, toolName)
+            inputs.dir new File("$projectDir/target/$toolName")
             destinationDir new File("$buildDir")
             baseName toolName
 
