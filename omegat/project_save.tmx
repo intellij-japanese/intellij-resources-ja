@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Environment settings...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132442Z" creationid="miurahr" creationdate="20160812T132442Z">
+        <seg>環境設定(&amp;E)...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Escalate</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T223236Z" creationid="miurahr" creationdate="20160727T223236Z">
@@ -970,6 +978,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T100907Z" creationid="miurahr" creationdate="20160804T100907Z">
         <seg>再試行(&amp;R)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&amp;Root directory</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132422Z" creationid="miurahr" creationdate="20160812T132422Z">
+        <seg>ルート・プロジェクトのディレクトリ(&amp;R)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1634,6 +1650,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T092229Z" creationid="miurahr" creationdate="20160728T092229Z">
         <seg>&lt;b&gt;新しいバージョンの {0}が&lt;a href="#"&gt;利用&lt;/a&gt;できます。&lt;/b&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b&gt;Non-managed pom.xml file found:&lt;/b&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132543Z" creationid="miurahr" creationdate="20160812T132543Z">
+        <seg>&lt;b&gt;管理下にないpom.xmlファイルが見つかった:&lt;/b&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7316,6 +7340,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Comma separated list of dependency types that should be imported</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132525Z" creationid="miurahr" creationdate="20160812T132525Z">
+        <seg>インポートが必要な依存型のカンマ区切りリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commander</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T160941Z" creationid="miurahr" creationdate="20160724T160941Z">
@@ -7736,6 +7768,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T160016Z" creationid="miurahr" creationdate="20160725T160016Z">
         <seg>設定...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuring Maven projects</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132355Z" creationid="miurahr" creationdate="20160812T132355Z">
+        <seg>Mavenプロジェクトの設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -9895,6 +9935,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do you want them to be removed from the project too?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132644Z" creationid="miurahr" creationdate="20160812T132644Z">
+        <seg>プロジェクトからも削除したほうがいいですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do you want to add exceptions to method signatures in the whole method hierarchy?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053345Z" creationid="miurahr" creationdate="20160726T053345Z">
@@ -10033,6 +10081,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Double quoted string</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132922Z" creationid="miurahr" creationdate="20160812T132922Z">
+        <seg>ダブルクオート(")囲み文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Down</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T141524Z" creationid="miurahr" creationdate="20160726T141524Z">
@@ -10045,6 +10101,22 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T141527Z" creationid="miurahr" creationdate="20160726T141527Z">
         <seg>選択状態で下へ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download &amp;JavaDocs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132741Z" creationid="miurahr" creationdate="20160812T132741Z">
+        <seg>&amp;JavaDocのダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download &amp;Sources</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132729Z" creationid="miurahr" creationdate="20160812T132729Z">
+        <seg>ソースのダウンロード(&amp;S)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10065,10 +10137,58 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Download Sources</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132248Z" creationid="miurahr" creationdate="20160812T132248Z">
+        <seg>ソースのダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Download and Install</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T131453Z" creationid="miurahr" creationdate="20160725T131453Z">
         <seg>プラグインのダウンロードとインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132716Z" creationid="miurahr" creationdate="20160812T132652Z">
+        <seg>ダウンロード中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading Maven documentation...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132226Z" creationid="miurahr" creationdate="20160812T132226Z">
+        <seg>Mavenドキュメントのダウンロード中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading Maven plugins...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132148Z" creationid="miurahr" creationdate="20160812T132148Z">
+        <seg>Mavenプラグインをダウンロード中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading Maven sources and documentation...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132209Z" creationid="miurahr" creationdate="20160812T132209Z">
+        <seg>Mavenソースとドキュメントをダウンロード中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading Maven sources...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132217Z" creationid="miurahr" creationdate="20160812T132217Z">
+        <seg>Mavenソースのダウンロード中...</seg>
       </tuv>
     </tu>
     <tu>
@@ -10093,6 +10213,22 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T132102Z" creationid="miurahr" creationdate="20160725T132102Z">
         <seg>プラグイン ''{0}'' をダウンロードしています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading plugins for {0}...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132158Z" creationid="miurahr" creationdate="20160812T132158Z">
+        <seg>{0}のプラグインをダウンロード中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading sources...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132254Z" creationid="miurahr" creationdate="20160812T132254Z">
+        <seg>ソースのダウンロード中...</seg>
       </tuv>
     </tu>
     <tu>
@@ -10735,6 +10871,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T132717Z" creationid="miurahr" creationdate="20160724T132717Z">
         <seg>'toString()' オブジェクト ビューを有効にする(&amp;O):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable Auto-Import</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132318Z" creationid="miurahr" creationdate="20160812T132318Z">
+        <seg>自動インポートを有効化</seg>
       </tuv>
     </tu>
     <tu>
@@ -12921,6 +13065,38 @@ Do you want overwrite it or to append?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finished Generating sources</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132130Z" creationid="miurahr" creationdate="20160812T132130Z">
+        <seg>ソース生成の完了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finished downloading</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132232Z" creationid="miurahr" creationdate="20160812T132232Z">
+        <seg>ダウンロード完了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finished importing Maven projects</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132338Z" creationid="miurahr" creationdate="20160812T132338Z">
+        <seg>Mavenプロジェクトのインポートを完了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finished resolving dependencies</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132108Z" creationid="miurahr" creationdate="20160812T132108Z">
+        <seg>依存関係の解決が完了しました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Firefox Settings</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T160323Z" creationid="miurahr" creationdate="20160724T160323Z">
@@ -13564,10 +13740,26 @@ Do you want overwrite it or to append?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generating Maven sources...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132124Z" creationid="miurahr" creationdate="20160812T132124Z">
+        <seg>Mavenソースの生成中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generating file: {0}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124806Z" creationid="miurahr" creationdate="20160724T124806Z">
         <seg>ファイルを生成しています: {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generating sources for {0}...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132139Z" creationid="miurahr" creationdate="20160812T132139Z">
+        <seg>{0}のソースを生成中...</seg>
       </tuv>
     </tu>
     <tu>
@@ -14671,6 +14863,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ignore These Projects</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132606Z" creationid="miurahr" creationdate="20160812T132606Z">
+        <seg>これらのプロジェクトを無視</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ignore elements marked as @deprecated</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T010447Z" creationid="miurahr" creationdate="20160726T010447Z">
@@ -14783,6 +14983,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Import Changes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132310Z" creationid="miurahr" creationdate="20160812T132310Z">
+        <seg>変更のインポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Import File Location</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T233040Z" creationid="miurahr" creationdate="20160724T233040Z">
@@ -14803,6 +15011,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T120925Z" creationid="miurahr" creationdate="20160724T120925Z">
         <seg>レイアウトのインポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Import Maven Projects</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132331Z" creationid="miurahr" creationdate="20160812T132331Z">
+        <seg>Mavenプロジェクトのインポート</seg>
       </tuv>
     </tu>
     <tu>
@@ -14883,6 +15099,22 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124009Z" creationid="miurahr" creationdate="20160724T124009Z">
         <seg>インポート...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Importing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132659Z" creationid="miurahr" creationdate="20160812T132648Z">
+        <seg>インポート中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Importing Maven projects</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132327Z" creationid="miurahr" creationdate="20160812T132327Z">
+        <seg>Mavenプロジェクトのインポート</seg>
       </tuv>
     </tu>
     <tu>
@@ -16397,6 +16629,22 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Key</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T133022Z" creationid="miurahr" creationdate="20160812T133022Z">
+        <seg>キー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Key conflicts with existing one: ''{0}''</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132939Z" creationid="miurahr" creationdate="20160812T132939Z">
+        <seg>既存の"{0}"とキーの衝突</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Keymap</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143731Z" creationid="miurahr" creationdate="20160726T050140Z">
@@ -16521,6 +16769,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T151714Z" creationid="miurahr" creationdate="20160724T151714Z">
         <seg>最後の使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Latest</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132721Z" creationid="miurahr" creationdate="20160812T132721Z">
+        <seg>最新</seg>
       </tuv>
     </tu>
     <tu>
@@ -16881,6 +17137,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143346Z" creationid="miurahr" creationdate="20160726T143346Z">
         <seg>プラグインのローカライズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Locating Maven project files...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132025Z" creationid="miurahr" creationdate="20160812T132025Z">
+        <seg>Mavenプロジェクトファイルの配置...</seg>
       </tuv>
     </tu>
     <tu>
@@ -17354,6 +17618,22 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T154148Z" creationid="miurahr" creationdate="20160726T154148Z">
         <seg>マスク: {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven environment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132446Z" creationid="miurahr" creationdate="20160812T132446Z">
+        <seg>Maven環境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven projects need to be imported</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132305Z" creationid="miurahr" creationdate="20160812T132305Z">
+        <seg>Mavenプロジェクトはインポートが必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19206,6 +19486,14 @@ for this anonymous class.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T150523Z" creationid="miurahr" creationdate="20160725T150523Z">
         <seg>ファイルが見つかりません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No files were downloaded for {0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132243Z" creationid="miurahr" creationdate="20160812T132243Z">
+        <seg>{0}にはダウンロードするファイルがありません</seg>
       </tuv>
     </tu>
     <tu>
@@ -22224,6 +22512,22 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reading Maven projects..</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132043Z" creationid="miurahr" creationdate="20160812T132043Z">
+        <seg>Mavenプロジェクトを読み込んでいます...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reading {0}...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132049Z" creationid="miurahr" creationdate="20160812T132049Z">
+        <seg>{0}読み込み中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reason: {1}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053735Z" creationid="miurahr" creationdate="20160726T053735Z">
@@ -22300,6 +22604,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143159Z" creationid="miurahr" creationdate="20160726T143159Z">
         <seg>プロジェクト内のすべてのファイルを再コンパイルします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recreate</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132600Z" creationid="miurahr" creationdate="20160812T132600Z">
+        <seg>再作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -22548,6 +22860,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T155600Z" creationid="miurahr" creationdate="20160725T155600Z">
         <seg>ソースへの相対パスがありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Release</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132719Z" creationid="miurahr" creationdate="20160812T132719Z">
+        <seg>リリース</seg>
       </tuv>
     </tu>
     <tu>
@@ -23632,6 +23952,22 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resolving Maven dependencies...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132058Z" creationid="miurahr" creationdate="20160812T132058Z">
+        <seg>Maven依存関係の解決中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resolving dependencies of {0}...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132117Z" creationid="miurahr" creationdate="20160812T132117Z">
+        <seg>{0}の依存関係の解決中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Resource management issues</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T035222Z" creationid="miurahr" creationdate="20160726T035222Z">
@@ -24144,6 +24480,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Same name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T133002Z" creationid="miurahr" creationdate="20160812T132942Z">
+        <seg>同一の名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Save</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T133324Z" creationid="miurahr" creationdate="20160724T133324Z">
@@ -24260,6 +24604,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T165049Z" creationid="miurahr" creationdate="20160729T165049Z">
         <seg>現在のエディタで開いているファイルのみ保存する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scanning Maven projects...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132016Z" creationid="miurahr" creationdate="20160812T132016Z">
+        <seg>Mavenプロジェクトを走査...</seg>
       </tuv>
     </tu>
     <tu>
@@ -25029,6 +25381,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select directory for IDEA module files (*.iml)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132459Z" creationid="miurahr" creationdate="20160812T132459Z">
+        <seg>IDEAモジュールファイル(*.iml)のディレクトリを選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select directory with JRE to run with</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T145241Z" creationid="miurahr" creationdate="20160724T145241Z">
@@ -25049,6 +25409,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124721Z" creationid="miurahr" creationdate="20160724T124721Z">
         <seg>出力ディレクトリの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select root directory</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132436Z" creationid="miurahr" creationdate="20160812T132431Z">
+        <seg>ルート・ディレクトリを選択</seg>
       </tuv>
     </tu>
     <tu>
@@ -25081,6 +25449,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T151135Z" creationid="miurahr" creationdate="20160725T151135Z">
         <seg>インポートする {0} モジュール ファイル (.iml) を選択してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132724Z" creationid="miurahr" creationdate="20160812T132724Z">
+        <seg>選択する...</seg>
       </tuv>
     </tu>
     <tu>
@@ -26257,6 +26633,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T082915Z" creationid="miurahr" creationdate="20160726T082915Z">
         <seg>見つかった副作用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sign: brace, comma, etc</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T133015Z" creationid="miurahr" creationdate="20160812T133015Z">
+        <seg>記号：カッコ、カンマなど</seg>
       </tuv>
     </tu>
     <tu>
@@ -27725,6 +28109,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Terminal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T133103Z" creationid="miurahr" creationdate="20160812T133103Z">
+        <seg>ターミナル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Terminate Ant process?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T170824Z" creationid="miurahr" creationdate="20160723T170824Z">
@@ -27913,6 +28305,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T142718Z" creationid="miurahr" creationdate="20160724T142718Z">
         <seg>テストは開始しませんでした</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Text</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T133029Z" creationid="miurahr" creationdate="20160812T133029Z">
+        <seg>テキスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -28779,6 +29179,15 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T131317Z" creationid="miurahr" creationdate="20160725T131317Z">
         <seg>ID のないプラグインがありました。それらすべてのプラグインはスキップされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These modules have been removed from Maven structure:
+{0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132633Z" creationid="miurahr" creationdate="20160812T132619Z">
+        <seg>これらのモジュール({0})は、Maven構造から削除されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31610,6 +32019,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Waiting for an active process</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132348Z" creationid="miurahr" creationdate="20160812T132348Z">
+        <seg>アクティブな処理を待ちます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Waiting for tests...</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160812T125020Z" creationid="miurahr" creationdate="20160812T125020Z">
@@ -31997,6 +32414,14 @@ as a source directory?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Wrong name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132951Z" creationid="miurahr" creationdate="20160812T132951Z">
+        <seg>誤った名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Wrong name format: {0}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T003049Z" creationid="miurahr" creationdate="20160724T003049Z">
@@ -32105,6 +32530,14 @@ as a source directory?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T122324Z" creationid="miurahr" creationdate="20160724T122324Z">
         <seg>XMLタグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>YAML files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T133018Z" creationid="miurahr" creationdate="20160812T133018Z">
+        <seg>YAMLファイル</seg>
       </tuv>
     </tu>
     <tu>
@@ -34599,6 +35032,14 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T231637Z" creationid="miurahr" creationdate="20160724T231637Z">
         <seg>{0} 評価版</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0} and modules</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T132401Z" creationid="miurahr" creationdate="20160812T132401Z">
+        <seg>{0}とモジュール</seg>
       </tuv>
     </tu>
     <tu>
