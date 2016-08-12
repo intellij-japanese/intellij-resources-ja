@@ -1638,6 +1638,14 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b&gt;Unindexed remote maven repositories found.&lt;/b&gt; &lt;a href="#disable"&gt;Disable...&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125233Z" creationid="miurahr" creationdate="20160812T125125Z">
+        <seg>&lt;b&gt;索引が作られていないリモートmavenリポジトリがありました。&lt;/b&gt;&lt;a href="#disable"&gt;無効化...&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;blank line&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T120958Z" creationid="miurahr" creationdate="20160724T120958Z">
@@ -1918,6 +1926,46 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T153643Z" creationid="miurahr" creationdate="20160726T153643Z">
         <seg>&lt;なし&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;Adds Java compilation, testing and bundling capabilities to a project.It serves as the basis for many of the other Gradle plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125617Z" creationid="miurahr" creationdate="20160812T125617Z">
+        <seg>&lt;p&gt;Javaコンパイル、テスト、バンドルの機能をプロジェクトに追加します。他のGradleプラグインと同様の基本的な機能を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;Adds support for assembling web application WAR files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130051Z" creationid="miurahr" creationdate="20160812T130051Z">
+        <seg>&lt;p&gt;WebアプリケーションのWARファイルの生成をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;Adds support for building Groovy projects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125731Z" creationid="miurahr" creationdate="20160812T125652Z">
+        <seg>&lt;p&gt;Groovyプロジェクトのビルドをサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;Adds support for building J2EE applications.&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125915Z" creationid="miurahr" creationdate="20160812T125915Z">
+        <seg>&lt;p&gt;J2EEアプリのビルドをサポートします。&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;Adds support for building Scala projects.&lt;/p&gt;&lt;p&gt;Automatically applies: java, scala-base&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125950Z" creationid="miurahr" creationdate="20160812T125950Z">
+        <seg>&lt;p&gt;Scalaプロジェクトのビルドをサポートします。&lt;/p&gt;&lt;p&gt;自動的に次が適用されます: java, scala-base&lt;/p&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2805,6 +2853,62 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds Java compilation, testing and bundling capabilities to a project.It serves as the basis for many of the other Gradle plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125623Z" creationid="miurahr" creationdate="20160812T125559Z">
+        <seg>Javaコンパイル、テスト、バンドルの機能をプロジェクトに追加します。他のGradleプラグインと同様の基本的な機能を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for assembling web application WAR files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130041Z" creationid="miurahr" creationdate="20160812T130041Z">
+        <seg>WebアプリケーションのWARファイルの生成をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for building Groovy projects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125721Z" creationid="miurahr" creationdate="20160812T125643Z">
+        <seg>Groovyプロジェクトのビルドをサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for building J2EE applications.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125843Z" creationid="miurahr" creationdate="20160812T125843Z">
+        <seg>J2EEアプリのビルドをサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for building Scala projects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125708Z" creationid="miurahr" creationdate="20160812T125653Z">
+        <seg>Scalaプロジェクトのビルドをサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for generating parsers using Antlr</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130013Z" creationid="miurahr" creationdate="20160812T130013Z">
+        <seg>Antlrを使ったパーサー生成をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for publishing artifacts to Maven repositories.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130147Z" creationid="miurahr" creationdate="20160812T130147Z">
+        <seg>Mavenリポジトリへのアーティファクトのパブリッシュをサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adjust Package Name</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053612Z" creationid="miurahr" creationdate="20160726T053612Z">
@@ -3185,6 +3289,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T122718Z" creationid="miurahr" creationdate="20160724T122718Z">
         <seg>タブ文字内へのキャレット移動を許可する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allows to open project file of the linked Gradle project at the editor</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130301Z" creationid="miurahr" creationdate="20160812T130301Z">
+        <seg>エディタでGradleプロジェクトにリンクされたプロジェクトファイルを開けるようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13798,6 +13910,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle Test Runner</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T124957Z" creationid="miurahr" creationdate="20160812T124957Z">
+        <seg>Gradleのテストランナー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle VM options:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160809T051224Z" creationid="miurahr" creationdate="20160809T051224Z">
@@ -16433,6 +16553,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T141527Z" creationid="miurahr" creationdate="20160726T141527Z">
         <seg>選択状態で左へ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let me choose per test</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125013Z" creationid="miurahr" creationdate="20160812T125013Z">
+        <seg>テストごとに選択する</seg>
       </tuv>
     </tu>
     <tu>
@@ -20740,6 +20868,14 @@ Do you want to create it?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Platform Test Runner</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125008Z" creationid="miurahr" creationdate="20160812T125008Z">
+        <seg>プラットフォームのテストランナー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Platform and Plugin Updates</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T162740Z" creationid="miurahr" creationdate="20160725T162740Z">
@@ -24473,6 +24609,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See also &lt;a class="xref" href="http://www.gradle.org/docs/current/userguide/tutorial_groovy_projects.html"&gt;Chapter 9, &lt;i&gt;Groovy Quickstart&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Automatically applies: java, groovy-base&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125831Z" creationid="miurahr" creationdate="20160812T125831Z">
+        <seg>&lt;a class="xref" href="http://www.gradle.org/docs/current/userguide/tutorial_groovy_projects.html"&gt;Chapter 9, &lt;i&gt;Groovy Quickstart&lt;/i&gt;&lt;/a&gt;も参照してください。&lt;/p&gt;&lt;p&gt;自動的に次が適用されます: java, groovy-base&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select &amp;None</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T161803Z" creationid="miurahr" creationdate="20160725T161803Z">
@@ -27637,6 +27781,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Test events were not received</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125042Z" creationid="miurahr" creationdate="20160812T125042Z">
+        <seg>テストイベントを受け取っていません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Test if a node can be expanded (optional):</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T132850Z" creationid="miurahr" creationdate="20160724T132850Z">
@@ -28126,6 +28278,14 @@ already exists.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following repositories used in your gradle projects were not indexed yet: &lt;br&gt;{0}&lt;br&gt;&lt;br&gt; If you want to use dependency completion for these repositories artifacts,&lt;br&gt; &lt;b&gt;&lt;a href="#open"&gt;Open Repositories List&lt;/a&gt;&lt;/b&gt;, select required repositories and press "Update" button</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125440Z" creationid="miurahr" creationdate="20160812T125210Z">
+        <seg>Gradleプロジェクトの次のリポジトリは、索引を作られていません。&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;もし、これらのリポジトリの成果物の完了に依存させたいならば、&lt;br&gt;&lt;b&gt;&lt;a href="#open"&gt;リポジトリリストを開き&lt;/a&gt;&lt;/b&gt;、必要なリポジトリを選択して"Update"ボタンを押してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following resource patterns are malformed:{0}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T004550Z" creationid="miurahr" creationdate="20160724T004550Z">
@@ -28536,6 +28696,16 @@ already exists.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T135055Z" creationid="miurahr" creationdate="20160724T135055Z">
         <seg>実行コードは {0} にありません :{1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is no linked Gradle project
+You can {@action Gradle.LinkToProject} one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T130340Z" creationid="miurahr" creationdate="20160812T130340Z">
+        <seg>リンクされたGradleプロジェクトはありません。
+{@action Gradle.LinkToProject}できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31396,6 +31566,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T003749Z" creationid="miurahr" creationdate="20160724T003749Z">
         <seg>警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Waiting for tests...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160812T125020Z" creationid="miurahr" creationdate="20160812T125020Z">
+        <seg>テストを待っています...</seg>
       </tuv>
     </tu>
     <tu>
