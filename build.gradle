@@ -87,7 +87,7 @@ task intellijJar(type: Jar, dependsOn: [jar, translate]) {
 artifacts {
     archives intellijJar
     archives pluginAndroid, pluginAnt, pluginGit4idea, pluginGradle
-    archives pluginJava-i18n, pluginJavaFX, pluginJunit, pluginMaven, pluginTerminal
+    archives pluginJavaI18n, pluginJavaFX, pluginJunit, pluginMaven, pluginTerminal
     archives pluginTestng, pluginUiDesigner, pluginYaml
 }
 
@@ -97,7 +97,7 @@ dependencies {
     testRuntime pluginAnt.outputs.files
     testRuntime pluginGit4idea.outputs.files
     testRuntime pluginGradle.outputs.files
-    testRuntime pluginJava-i18n.outputs.files
+    testRuntime pluginJavaI18n.outputs.files
     testRuntime pluginJavaFX.outputs.files
     testRuntime pluginJunit.outputs.files
     testRuntime pluginMaven.outputs.files
