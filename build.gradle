@@ -22,10 +22,9 @@ task cleanTargetDirs(type: Delete) {
 tasks.addRule("Pattern: plugin<ID>") { String taskName ->
     if (taskName.startsWith("plugin")) {
         def pluginName = taskName[6].toLowerCase() + taskName[7..taskName.length() - 1]
-        def pluginDir = new File(targetDir, 'plugins' + pluginName)
         task(taskName, type: Jar, dependsOn: [jar, translate]) {
             inputs.dir new File(targetDir, pluginName)
-            destinationDir new File("$buildDir")
+            destinationDir new File("$buildDir/plugins")
             baseName pluginName
 
             into('messages') {
@@ -57,42 +56,54 @@ tasks.addRule("Pattern: plugin<ID>") { String taskName ->
     }
 }
 
-task intellijJar(type: Jar, dependsOn: [jar, translate]) {
-    inputs.dir new File(targetDir, 'intellij-community')
-    destinationDir new File("$buildDir")
-    archiveName "resources_ja-intellij-community.jar"
-    into('messages') {
-        from "$projectDir/target/intellij-community/messages"
-    }
-    into('fileTemplates_ja') {
-        from "$projectDir/target/intellij-commuity/fileTemplates"
-    }
-    into('inspectionDescriptions_ja') {
-        from "$projectDir/target/intellij-community/inspectionDescriptions"
-    }
-    into('intentionDescriptions_ja') {
-        from "$projectDir/target/intellij-community/intentionDescriptions"
-    }
-    into('postfixTemplates_ja') {
-        from "$projectDir/target/intellij-community/postfixTemplates"
-    }
-    into('search_ja') {
-        from "$projectDir/target/intellij-community/search"
-    }
-    into('tips_ja') {
-        from "$projectDir/target/intellij-community/tips"
+tasks.addRule("Pattern: ide<ID>") { String taskName ->
+    if (taskName.startsWith("ide")) {
+        def toolName = taskName[3].toLowerCase() + taskName[4..taskName.length() - 1]
+        task(taskName, type: Jar, dependsOn: [jar, translate]) {
+            inputs.dir new File(targetDir, toolName)
+            destinationDir new File("$buildDir")
+            baseName toolName
+
+            into('messages') {
+                from "$projectDir/target/$toolName/messages"
+            }
+            into('fileTemplates_ja') {
+                from "$projectDir/target/$toolName/fileTemplates"
+            }
+            into('inspectionDescriptions_ja') {
+                from "$projectDir/target/$toolName/inspectionDescriptions"
+            }
+            into('intentionDescriptions_ja') {
+                from "$projectDir/target/$toolName/intentionDescriptions"
+            }
+            into('postfixTemplates_ja') {
+                from "$projectDir/target/$toolName/postfixTemplates"
+            }
+            into('search_ja') {
+                from "$projectDir/target/$toolName/search"
+            }
+            into('tips_ja') {
+                from "$projectDir/target/$toolName/tips"
+            }
+            from("$projectDir/target/$toolName/") {
+                exclude(['messages', 'fileTemplates', 'inspectionDescriptions',
+                         'intentionDescriptions', 'postfixTemplates', 'search', 'tips', '.ignoreme'])
+            }
+        }
     }
 }
 
 artifacts {
-    archives intellijJar
+    archives ideIntellijCommunity, ideAndroid, ideProduct
     archives pluginAndroid, pluginAnt, pluginGit4idea, pluginGradle
     archives pluginJavaI18n, pluginJavaFX, pluginJunit, pluginMaven, pluginTerminal
     archives pluginTestng, pluginUiDesigner, pluginYaml
 }
 
 dependencies {
-    testRuntime intellijJar.outputs.files
+    testRuntime ideIntellijCommunity.outputs.files
+    testRuntime ideAndroid.outputs.files
+    testRuntime ideProduct.outputs.files
     testRuntime pluginAndroid.outputs.files
     testRuntime pluginAnt.outputs.files
     testRuntime pluginGit4idea.outputs.files
