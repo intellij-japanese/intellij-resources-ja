@@ -3646,6 +3646,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Animation disabled</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124039Z" creationid="miurahr" creationdate="20160813T124039Z">
+        <seg>アニメーションは無効にされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Annotation parameters</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T121543Z" creationid="miurahr" creationdate="20160724T121543Z">
@@ -6668,6 +6676,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choose Properties File</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124447Z" creationid="miurahr" creationdate="20160813T124447Z">
+        <seg>プロパティファイルの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Choose Super Class Constructor</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T114003Z" creationid="miurahr" creationdate="20160724T114003Z">
@@ -6813,6 +6829,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Class 'java.util.ResourceBundle' cannot be found.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124427Z" creationid="miurahr" creationdate="20160813T124427Z">
+        <seg>クラス 'java.util.ResourceBundle' が見つかりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Class Exclusion Filters</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T134111Z" creationid="miurahr" creationdate="20160724T134111Z">
@@ -6833,6 +6857,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T225917Z" creationid="miurahr" creationdate="20160724T225917Z">
         <seg>クラス階層</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class Not Found</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124441Z" creationid="miurahr" creationdate="20160813T124441Z">
+        <seg>クラスが見つからない</seg>
       </tuv>
     </tu>
     <tu>
@@ -7090,6 +7122,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T045830Z" creationid="miurahr" creationdate="20160726T045830Z">
         <seg>ここをクリックしてマウス ショートカットを入力します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Click or press {0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124720Z" creationid="miurahr" creationdate="20160813T124720Z">
+        <seg>クリックするか、{0}を押下する</seg>
       </tuv>
     </tu>
     <tu>
@@ -9632,6 +9672,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Default Options</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124107Z" creationid="miurahr" creationdate="20160813T124107Z">
+        <seg>デフォルトのオプション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Default Settings</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T142330Z" creationid="miurahr" creationdate="20160724T142330Z">
@@ -11017,6 +11065,22 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T133447Z" creationid="miurahr" creationdate="20160725T133447Z">
         <seg>フィルタの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit Global Settings...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124245Z" creationid="miurahr" creationdate="20160813T124245Z">
+        <seg>グローバル設定の編集...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit I18n template</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124500Z" creationid="miurahr" creationdate="20160813T124500Z">
+        <seg>I18nテンプレートを編集</seg>
       </tuv>
     </tu>
     <tu>
@@ -14065,6 +14129,14 @@ Do you want overwrite it or to append?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Formatter Control</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124117Z" creationid="miurahr" creationdate="20160813T124117Z">
+        <seg>フォーマット制御</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Forward</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T135928Z" creationid="miurahr" creationdate="20160724T135928Z">
@@ -14173,6 +14245,14 @@ Do you want overwrite it or to append?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T114215Z" creationid="miurahr" creationdate="20160724T114215Z">
         <seg>生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generate "&lt;p/&gt;" on empty lines</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124208Z" creationid="miurahr" creationdate="20160813T124208Z">
+        <seg>空白行に"&lt;p/&gt;"を追加する</seg>
       </tuv>
     </tu>
     <tu>
@@ -14310,6 +14390,14 @@ Do you want overwrite it or to append?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T003934Z" creationid="miurahr" creationdate="20160724T003934Z">
         <seg>シングル ファイルとビルドの生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generate test &amp;methods for:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124642Z" creationid="miurahr" creationdate="20160813T124642Z">
+        <seg>次のためのテストメソッドを生成(&amp;M):</seg>
       </tuv>
     </tu>
     <tu>
@@ -15356,6 +15444,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I18nize Hardcoded String</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124405Z" creationid="miurahr" creationdate="20160813T124405Z">
+        <seg>ハードコードされた文字列を国際化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IDE Fatal Errors</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T135933Z" creationid="miurahr" creationdate="20160724T135933Z">
@@ -16087,8 +16183,8 @@ Code Style</seg>
       <tuv lang="EN-US">
         <seg>Indent with {0} spaces</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160813T123711Z" creationid="miurahr" creationdate="20160813T123711Z">
-        <seg>空白数{0}でインデント</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T123946Z" creationid="miurahr" creationdate="20160813T123711Z">
+        <seg>空白{0}文字でインデント</seg>
       </tuv>
     </tu>
     <tu>
@@ -16097,6 +16193,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T123330Z" creationid="miurahr" creationdate="20160724T123330Z">
         <seg>インデント:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indents Detection</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124114Z" creationid="miurahr" creationdate="20160813T124114Z">
+        <seg>インデント検出</seg>
       </tuv>
     </tu>
     <tu>
@@ -16584,6 +16688,22 @@ in class ''{1}''</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intention List</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124732Z" creationid="miurahr" creationdate="20160813T124732Z">
+        <seg>コード強化リスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intentions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124956Z" creationid="miurahr" creationdate="20160813T124956Z">
+        <seg>コード強化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Interface</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T010659Z" creationid="miurahr" creationdate="20160726T010659Z">
@@ -16764,6 +16884,14 @@ in class ''{1}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T135229Z" creationid="miurahr" creationdate="20160724T135229Z">
         <seg>無効なローカル変数名 ''{0}''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Invalid regular expression</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124138Z" creationid="miurahr" creationdate="20160813T124138Z">
+        <seg>不正な正規表現</seg>
       </tuv>
     </tu>
     <tu>
@@ -17455,6 +17583,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T123343Z" creationid="miurahr" creationdate="20160724T123343Z">
         <seg>ラベル インデント:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lambda arrow</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124052Z" creationid="miurahr" creationdate="20160813T124052Z">
+        <seg>Lambdaの矢印</seg>
       </tuv>
     </tu>
     <tu>
@@ -19004,6 +19140,14 @@ for this anonymous class.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T140135Z" creationid="miurahr" creationdate="20160724T140135Z">
         <seg>記録を中止しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More than {0} matches</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124008Z" creationid="miurahr" creationdate="20160813T124008Z">
+        <seg>適合が{0}こ以上</seg>
       </tuv>
     </tu>
     <tu>
@@ -21336,6 +21480,14 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other File Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124012Z" creationid="miurahr" creationdate="20160813T124012Z">
+        <seg>他のファイルタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other Languages</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T121148Z" creationid="miurahr" creationdate="20160813T121148Z">
@@ -21470,6 +21622,14 @@ Do you want to create it?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T145836Z" creationid="miurahr" creationdate="20160725T145836Z">
         <seg>デフォルトのフォントをオーバーライドする (非推奨):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Override its value?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124628Z" creationid="miurahr" creationdate="20160813T124628Z">
+        <seg>この値を上書きしますか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -21750,6 +21910,14 @@ Do you want to create it?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T004344Z" creationid="miurahr" creationdate="20160726T004344Z">
         <seg>パラメータはローカルにできます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parameter descriptions on new line</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124229Z" creationid="miurahr" creationdate="20160813T124229Z">
+        <seg>パラメータの説明を新しい行におく</seg>
       </tuv>
     </tu>
     <tu>
@@ -22237,6 +22405,14 @@ be marked as source paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Please setup correct JDK.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124436Z" creationid="miurahr" creationdate="20160813T124436Z">
+        <seg>正しいJDKを設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please specify a correct file name.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T133349Z" creationid="miurahr" creationdate="20160724T133349Z">
@@ -22529,6 +22705,14 @@ be marked as source paths.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T095316Z" creationid="miurahr" creationdate="20160728T095316Z">
         <seg>プレゼンテーションモード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preserve line feeds</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124214Z" creationid="miurahr" creationdate="20160813T124214Z">
+        <seg>行送りを維持する</seg>
       </tuv>
     </tu>
     <tu>
@@ -23138,6 +23322,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T035354Z" creationid="miurahr" creationdate="20160726T035354Z">
         <seg>プロパティファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Property ''{0}'' already exists in the file ''{1}''.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124521Z" creationid="miurahr" creationdate="20160813T124521Z">
+        <seg>ファイル"{1}"にプロパティ"{0}"がすでに存在する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23850,6 +24042,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T165838Z" creationid="miurahr" creationdate="20160729T165838Z">
         <seg>レジストリ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Regular expressions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124133Z" creationid="miurahr" creationdate="20160813T124133Z">
+        <seg>正規表現</seg>
       </tuv>
     </tu>
     <tu>
@@ -27195,6 +27395,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show Source</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124359Z" creationid="miurahr" creationdate="20160813T124359Z">
+        <seg>ソースを表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show Tips on Startup</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T160534Z" creationid="miurahr" creationdate="20160725T160534Z">
@@ -27479,6 +27687,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T160316Z" creationid="miurahr" creationdate="20160725T160316Z">
         <seg>選択した現在のスコープにインクル－ドされたファイルのみ表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show only monospaced fonts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124254Z" creationid="miurahr" creationdate="20160813T124254Z">
+        <seg>等幅フォントでのみ表示する</seg>
       </tuv>
     </tu>
     <tu>
@@ -30465,24 +30681,24 @@ You can {@action Gradle.LinkToProject} one.</seg>
       <tuv lang="EN-US">
         <seg>This file is indented with tabs instead of {0} spaces</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160813T123833Z" creationid="miurahr" creationdate="20160813T123833Z">
-        <seg>このファイルは、空白数{0}ではなくタブでインデントされています。</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T123932Z" creationid="miurahr" creationdate="20160813T123833Z">
+        <seg>このファイルは、空白{0}文字ではなくタブでインデントされています。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>This file is indented with {0} spaces instead of the tab character</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160813T123900Z" creationid="miurahr" creationdate="20160813T123900Z">
-        <seg>このファイルは、タブ文字ではなく空白{0}個でインデントされています。</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T123937Z" creationid="miurahr" creationdate="20160813T123900Z">
+        <seg>このファイルは、タブ文字ではなく空白{0}文字でインデントされています。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>This file is indented with {0} spaces instead of {1}</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160813T123812Z" creationid="miurahr" creationdate="20160813T123812Z">
-        <seg>このファイルは、空白数{1}ではなく{0}でインデントされています。</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T123926Z" creationid="miurahr" creationdate="20160813T123812Z">
+        <seg>このファイルは、空白{1}文字ではなく{0}文字でインデントされています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32470,6 +32686,14 @@ TypeHierarchy;&lt;/s0&gt;      (&lt;s1&gt;[表示] - [タイプ階層]&lt;/s1&gt
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T150632Z" creationid="miurahr" creationdate="20160724T150632Z">
         <seg>差分使用箇所</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usage Example</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124734Z" creationid="miurahr" creationdate="20160813T124734Z">
+        <seg>利用例</seg>
       </tuv>
     </tu>
     <tu>
@@ -36652,6 +36876,14 @@ Please enter pattern string in a new format.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T133254Z" creationid="miurahr" creationdate="20160725T133254Z">
         <seg>{0} ライブラリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0} library not found in the module</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T124655Z" creationid="miurahr" creationdate="20160813T124655Z">
+        <seg>モジュールに{0}ライブラリが見つからない</seg>
       </tuv>
     </tu>
     <tu>
