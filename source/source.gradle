@@ -1,0 +1,29 @@
+// Defines artifacts from thiese sources
+// name for IDE resources: 'ide' + <name of resource>
+// name  for Plugin resources : 'plugin'  + <name of plugin>
+// It should not be consist of  hyphen '-' and underscore '_' characters.
+
+artifacts {
+    archives ideIntellijCommunity, ideAndroid, ideProduct
+    archives pluginAndroid, pluginAnt, pluginGit4idea, pluginGradle
+    archives pluginJavaI18n, pluginJavaFX, pluginJunit, pluginMaven, pluginTerminal
+    archives pluginTestng, pluginUiDesigner, pluginYaml
+}
+
+dependencies {
+    testRuntime ideIntellijCommunity.outputs.files
+    testRuntime ideAndroid.outputs.files
+    testRuntime ideProduct.outputs.files
+    testRuntime pluginAndroid.outputs.files
+    testRuntime pluginAnt.outputs.files
+    testRuntime pluginGit4idea.outputs.files
+    testRuntime pluginGradle.outputs.files
+    testRuntime pluginJavaI18n.outputs.files
+    testRuntime pluginJavaFX.outputs.files
+    testRuntime pluginJunit.outputs.files
+    testRuntime pluginMaven.outputs.files
+    testRuntime pluginTerminal.outputs.files
+    testRuntime pluginTestng.outputs.files
+    testRuntime pluginUiDesigner.outputs.files
+    testRuntime pluginYaml.outputs.files
+}
