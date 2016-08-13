@@ -4000,6 +4000,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assign short description for the bookmark to be shown along the file name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033300Z" creationid="miurahr" creationdate="20160813T033300Z">
+        <seg>短い説明をブックマークに追加し、ファイル名と共に表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assigned to {0}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T050133Z" creationid="miurahr" creationdate="20160726T050133Z">
@@ -4540,6 +4548,14 @@ as well as for the standard SDK classes resolution.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124251Z" creationid="miurahr" creationdate="20160724T124251Z">
         <seg>太字下線付き</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bookmark Description</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033312Z" creationid="miurahr" creationdate="20160813T033312Z">
+        <seg>ブックマーク説明</seg>
       </tuv>
     </tu>
     <tu>
@@ -5178,10 +5194,26 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cannot Create Class</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033446Z" creationid="miurahr" creationdate="20160813T033446Z">
+        <seg>クラスを作成できません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cannot Create Enum</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T232513Z" creationid="miurahr" creationdate="20160724T232513Z">
         <seg>新規 Enum を作成できません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cannot Create File</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033455Z" creationid="miurahr" creationdate="20160813T033455Z">
+        <seg>ファイルを作成できません</seg>
       </tuv>
     </tu>
     <tu>
@@ -8332,6 +8364,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create Class From Template</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033412Z" creationid="miurahr" creationdate="20160813T033412Z">
+        <seg>テンプレートからクラスを作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create Class from New</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053820Z" creationid="miurahr" creationdate="20160726T053820Z">
@@ -8376,6 +8416,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053851Z" creationid="miurahr" creationdate="20160726T053851Z">
         <seg>新規からのコンストラクタの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create File From Template</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033418Z" creationid="miurahr" creationdate="20160813T033418Z">
+        <seg>テンプレートからファイルを作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -9354,6 +9402,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T161507Z" creationid="miurahr" creationdate="20160724T161507Z">
         <seg>"{0}"以外のお気に入りリストをすべて削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete Bookmark</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033239Z" creationid="miurahr" creationdate="20160813T033239Z">
+        <seg>ブックマークの削除</seg>
       </tuv>
     </tu>
     <tu>
@@ -10555,6 +10611,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Edit Description</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033244Z" creationid="miurahr" creationdate="20160813T033244Z">
+        <seg>説明の編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Edit File Type</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T154053Z" creationid="miurahr" creationdate="20160724T154053Z">
@@ -11187,6 +11251,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enter short bookmark description</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033308Z" creationid="miurahr" creationdate="20160813T033308Z">
+        <seg>短いブックマークの説明を入力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enter symbol name:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T150520Z" creationid="miurahr" creationdate="20160725T150520Z">
@@ -11359,6 +11431,14 @@ to {1}:
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Error parsing file template: {0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033427Z" creationid="miurahr" creationdate="20160813T033427Z">
+        <seg>ファイルテンプレートのパースエラー: {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Error reading color scheme from {0}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T113420Z" creationid="miurahr" creationdate="20160724T113420Z">
@@ -11427,6 +11507,14 @@ to {1}:
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T010228Z" creationid="miurahr" creationdate="20160726T010228Z">
         <seg>{0} への書き込みエラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033323Z" creationid="miurahr" creationdate="20160813T033323Z">
+        <seg>エラー:</seg>
       </tuv>
     </tu>
     <tu>
@@ -15447,6 +15535,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Information:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033321Z" creationid="miurahr" creationdate="20160813T033321Z">
+        <seg>情報:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inheritance issues</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T035310Z" creationid="miurahr" creationdate="20160726T035310Z">
@@ -15710,6 +15806,22 @@ in class ''{1}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T123030Z" creationid="miurahr" creationdate="20160724T123030Z">
         <seg>組になる引用符を挿入する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insert statement in try-catch block.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T032133Z" creationid="miurahr" creationdate="20160813T032133Z">
+        <seg>try-catch ブロックに式を挿入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insert statement in try-with-resources block (java 7 or higher requires).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T032043Z" creationid="miurahr" creationdate="20160813T032043Z">
+        <seg>try-with-resources ブロックに式を挿入します (java 7以上が必要です)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16198,6 +16310,14 @@ in class ''{1}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124313Z" creationid="miurahr" creationdate="20160724T124313Z">
         <seg>斜体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Iterating while boolean statement is 'true'.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T031908Z" creationid="miurahr" creationdate="20160813T031908Z">
+        <seg>真理値式が'true'の間繰り返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19890,6 +20010,14 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033328Z" creationid="miurahr" creationdate="20160813T033328Z">
+        <seg>備考:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note: the program will recognize only those source files, that are located under source directories.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T155422Z" creationid="miurahr" creationdate="20160725T155422Z">
@@ -21016,6 +21144,14 @@ Do you want to create it?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124454Z" creationid="miurahr" creationdate="20160724T124454Z">
         <seg>パス変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Path to "profiles.ini":</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033118Z" creationid="miurahr" creationdate="20160813T033118Z">
+        <seg>"profiles.ini"ファイルのパス:</seg>
       </tuv>
     </tu>
     <tu>
@@ -23432,6 +23568,22 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rename favorite list ''{0}'' to:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033406Z" creationid="miurahr" creationdate="20160813T033406Z">
+        <seg>お気に入りリスト"{0}"の名前変更:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rename favorites list</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033350Z" creationid="miurahr" creationdate="20160813T033350Z">
+        <seg>お気に入りリストの名前の変更</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rename implementation class to:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T224213Z" creationid="miurahr" creationdate="20160727T224213Z">
@@ -25001,6 +25153,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select "profiles.ini" File</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033109Z" creationid="miurahr" creationdate="20160813T033109Z">
+        <seg>"profiles.ini"ファイルを選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select &amp;None</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T161803Z" creationid="miurahr" creationdate="20160725T161803Z">
@@ -25569,6 +25729,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T140532Z" creationid="miurahr" creationdate="20160724T140532Z">
         <seg>{0} からの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Send To New Favorites List</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033343Z" creationid="miurahr" creationdate="20160813T033343Z">
+        <seg>新規お気に入りリストへ送る</seg>
       </tuv>
     </tu>
     <tu>
@@ -26873,6 +27041,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T160311Z" creationid="miurahr" creationdate="20160724T160311Z">
         <seg>アルファベット順にソート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sort Bookmarks by Mnemonic, File and Line</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033233Z" creationid="miurahr" creationdate="20160813T033233Z">
+        <seg>ブックマークをニーモニック、ファイル、ラインでソート</seg>
       </tuv>
     </tu>
     <tu>
@@ -30203,6 +30379,14 @@ TypeHierarchy;&lt;/s0&gt;      (&lt;s1&gt;[表示] - [タイプ階層]&lt;/s1&gt
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Toggle Bookmark with Mnemonic</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033223Z" creationid="miurahr" creationdate="20160813T033223Z">
+        <seg>ブックマークをニーモニックで切り替え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Toggle Case</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T141937Z" creationid="miurahr" creationdate="20160726T141937Z">
@@ -32055,6 +32239,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T134341Z" creationid="miurahr" creationdate="20160724T134341Z">
         <seg>警告: {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Warning:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T033326Z" creationid="miurahr" creationdate="20160813T033326Z">
+        <seg>警告:</seg>
       </tuv>
     </tu>
     <tu>
