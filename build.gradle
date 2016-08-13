@@ -13,78 +13,58 @@ task cleanTargetDirs(type: Delete) {
    file("$projectDir/target").listFiles().findAll { it.isDirectory() }.each { delete it }
 }
 
+Closure translationTask = { taskName, targetName ->
+    task(taskName, type: Jar, dependsOn: [jar, translate]) {
+        baseName targetName
+        def fromDir = ''
+        if (taskName.startsWith("ide")) {
+           fromDir = "$projectDir/target/$targetName"
+           destinationDir new File("$buildDir")
+        } else {
+           fromDir = "$projectDir/target/plugins/$targetName"
+           destinationDir new File("$buildDir/plugins")
+        }
+        inputs.dir new File("$projectDir/target/$targetName")
+
+        into('messages') {
+            from "$fromDir/messages"
+        }
+        into('fileTemplates_ja') {
+            from "$fromDir/fileTemplates"
+        }
+        into('inspectionDescriptions_ja') {
+            from "$fromDir/inspectionDescriptions"
+        }
+        into('intentionDescriptions_ja') {
+            from "$fromDir/intentionDescriptions"
+        }
+        into('postfixTemplates_ja') {
+            from "$fromDir/postfixTemplates"
+        }
+        into('search_ja') {
+            from "$fromDir/search"
+        }
+        into('tips_ja') {
+            from "$fromDir/tips"
+        }
+        from("$fromDir/") {
+            exclude(['messages', 'fileTemplates', 'inspectionDescriptions',
+                     'intentionDescriptions', 'postfixTemplates', 'search', 'tips', '.ignoreme'])
+        }
+    }
+}
 
 tasks.addRule("Pattern: plugin<ID>") { String taskName ->
     if (taskName.startsWith("plugin")) {
         def pluginName = taskName[6].toLowerCase() + taskName[7..taskName.length() - 1]
-        task(taskName, type: Jar, dependsOn: [jar, translate]) {
-            inputs.dir new File("$projectDir/target/plugins/$pluginName")
-            destinationDir new File("$buildDir/plugins")
-            baseName pluginName
-
-            into('messages') {
-                from "$projectDir/target/plugins/$pluginName/messages"
-            }
-            into('fileTemplates_ja') {
-                from "$projectDir/target/plugins/$pluginName/fileTemplates"
-            }
-            into('inspectionDescriptions_ja') {
-                from "$projectDir/target/plugins/$pluginName/inspectionDescriptions"
-            }
-            into('intentionDescriptions_ja') {
-                from "$projectDir/target/plugins/$pluginName/intentionDescriptions"
-            }
-            into('postfixTemplates_ja') {
-                from "$projectDir/target/plugins/$pluginName/postfixTemplates"
-            }
-            into('search_ja') {
-                from "$projectDir/target/plugins/$pluginName/search"
-            }
-            into('tips_ja') {
-                from "$projectDir/target/plugins/$pluginName/tips"
-            }
-            from("$projectDir/target/plugins/$pluginName/") {
-                exclude(['messages', 'fileTemplates', 'inspectionDescriptions',
-                         'intentionDescriptions', 'postfixTemplates', 'search', 'tips'])
-            }
-        }
+        translationTask(taskName, pluginName)
     }
 }
 
 tasks.addRule("Pattern: ide<ID>") { String taskName ->
     if (taskName.startsWith("ide")) {
         def toolName = taskName[3].toLowerCase() + taskName[4..taskName.length() - 1]
-        task(taskName, type: Jar, dependsOn: [jar, translate]) {
-            inputs.dir new File("$projectDir/target/$toolName")
-            destinationDir new File("$buildDir")
-            baseName toolName
-
-            into('messages') {
-                from "$projectDir/target/$toolName/messages"
-            }
-            into('fileTemplates_ja') {
-                from "$projectDir/target/$toolName/fileTemplates"
-            }
-            into('inspectionDescriptions_ja') {
-                from "$projectDir/target/$toolName/inspectionDescriptions"
-            }
-            into('intentionDescriptions_ja') {
-                from "$projectDir/target/$toolName/intentionDescriptions"
-            }
-            into('postfixTemplates_ja') {
-                from "$projectDir/target/$toolName/postfixTemplates"
-            }
-            into('search_ja') {
-                from "$projectDir/target/$toolName/search"
-            }
-            into('tips_ja') {
-                from "$projectDir/target/$toolName/tips"
-            }
-            from("$projectDir/target/$toolName/") {
-                exclude(['messages', 'fileTemplates', 'inspectionDescriptions',
-                         'intentionDescriptions', 'postfixTemplates', 'search', 'tips', '.ignoreme'])
-            }
-        }
+        translationTask(taskName, toolName)
     }
 }
 
