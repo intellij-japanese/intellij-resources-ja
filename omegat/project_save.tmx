@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Create</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061413Z" creationid="miurahr" creationdate="20160813T061413Z">
+        <seg>作成(&amp;C)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Create new module</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T151115Z" creationid="miurahr" creationdate="20160725T151115Z">
@@ -894,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Reformat according to style</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060730Z" creationid="miurahr" creationdate="20160813T060730Z">
+        <seg>スタイル定義に従って再フォーマット(&amp;R)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Reformat code</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T153727Z" creationid="miurahr" creationdate="20160726T153727Z">
@@ -1210,6 +1226,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T125942Z" creationid="miurahr" creationdate="20160724T125942Z">
         <seg>''boolean'' 値が条件内に必要です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>''package-info.java'' already exists for package ''{0}''</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061256Z" creationid="miurahr" creationdate="20160813T061256Z">
+        <seg>''package-info.java'' はすでにパッケージ ''{0}''に存在します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1630,6 +1654,14 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a href="http://bugs.sun.com/view_bug.do?bug_id=6624717"&gt;More info...&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112024Z" creationid="miurahr" creationdate="20160813T112024Z">
+        <seg>&lt;a href="http://bugs.sun.com/view_bug.do?bug_id=6624717"&gt;詳細を見る...&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a href="{1}"&gt;Show in {2}&lt;/a&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T101210Z" creationid="miurahr" creationdate="20160804T101210Z">
@@ -1642,6 +1674,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T120951Z" creationid="miurahr" creationdate="20160724T120951Z">
         <seg>&lt;その他すべてのインポート&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b&gt; &lt;/b&gt;&lt;a href="details"&gt;Details...&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Old versions of project files will be saved to: ''{0}''</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061031Z" creationid="miurahr" creationdate="20160813T061005Z">
+        <seg>&lt;b&gt; &lt;/b&gt;&lt;a href="details"&gt;詳細...&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;プロジェクトの旧いバージョンのファイルの保存先："{0}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1710,10 +1750,26 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;html&gt;&lt;body&gt;Cannot set {0} theme:&lt;br&gt;{1}&lt;/body&gt;&lt;/html&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061707Z" creationid="miurahr" creationdate="20160813T061707Z">
+        <seg>&lt;html&gt;&lt;body&gt;テーマ {0} に設定できません:&lt;br&gt;{1}&lt;/body&gt;&lt;/html&gt;	</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;html&gt;&lt;body&gt;Check option above on for per-project code style configuration&lt;br&gt;or use global code style.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T123949Z" creationid="miurahr" creationdate="20160724T123936Z">
         <seg>&lt;html&gt;&lt;body&gt;上記のオプションにより、プロジェクト単位のコード スタイル設定&lt;br&gt;または、グローバル コード スタイルを使用するか指定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;html&gt;&lt;body&gt;GTK+ theme is known to be problematic on a JDK prior to 1.6 b12.&lt;br&gt;Please choose another theme, or upgrade your JDK.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112001Z" creationid="miurahr" creationdate="20160813T112001Z">
+        <seg>&lt;html&gt;&lt;body&gt;GTK+ テーマは、JDK 1.6 b12より前では、問題があることがわかっています。&lt;br&gt;他のテーマを選ぶか、JDKをアップグレードしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1747,6 +1803,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T121334Z" creationid="miurahr" creationdate="20160724T121334Z">
         <seg>&lt;html&gt;&lt;body&gt;現在のプロジェクトは、独自のコード スタイルを使用するように設定されています。&lt;br&gt;グローバル コード スタイル設定への変更は、現在のプロジェクトに反映しません。&lt;br&gt;[プロジェクト設定] - [コード スタイル] を参照してください。&lt;br&gt;グローバル設定を編集するには、以下の \\&amp;quot;Edit Global Settings&amp;quot; ボタンを押してください。&lt;/body&gt;&lt;/html&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;html&gt;&lt;body&gt;The following files are read only.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061049Z" creationid="miurahr" creationdate="20160813T061049Z">
+        <seg>&lt;html&gt;&lt;body&gt;次のファイルは読み込み専用です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2337,6 +2401,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143453Z" creationid="miurahr" creationdate="20160726T143453Z">
         <seg>前のタブをアクティブにします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Activate tool window</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T113027Z" creationid="miurahr" creationdate="20160813T113027Z">
+        <seg>ツールウインドウを有効化</seg>
       </tuv>
     </tu>
     <tu>
@@ -3117,6 +3189,14 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All &amp;projects</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112823Z" creationid="miurahr" creationdate="20160813T112823Z">
+        <seg>全てのプロジェクト(&amp;P)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All Actions</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T045935Z" creationid="miurahr" creationdate="20160726T045935Z">
@@ -3724,6 +3804,14 @@ as well as for the standard SDK classes resolution.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T170557Z" creationid="miurahr" creationdate="20160723T170557Z">
         <seg>Ant タスク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Antialiasing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112448Z" creationid="miurahr" creationdate="20160813T112448Z">
+        <seg>アンチエイリアス</seg>
       </tuv>
     </tu>
     <tu>
@@ -5186,6 +5274,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cannot Convert Project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060836Z" creationid="miurahr" creationdate="20160813T060836Z">
+        <seg>プロジェクトの変換ができません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cannot Create @interface</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T232154Z" creationid="miurahr" creationdate="20160724T232154Z">
@@ -5400,6 +5496,14 @@ as well as for the standard SDK classes resolution.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T130949Z" creationid="miurahr" creationdate="20160724T130949Z">
         <seg>トランスポート ''{0}'' を使用して接続できません : 必要な接続がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cannot convert project: {0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061148Z" creationid="miurahr" creationdate="20160813T061148Z">
+        <seg>プロジェクトの変換ができません:{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -5624,6 +5728,16 @@ as well as for the standard SDK classes resolution.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T231016Z" creationid="miurahr" creationdate="20160724T231016Z">
         <seg>{0} を読み込めません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cannot make the following files writable:
+{0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061136Z" creationid="miurahr" creationdate="20160813T061136Z">
+        <seg>次のファイルを書き込み可にできません：
+{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -5966,6 +6080,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T125146Z" creationid="miurahr" creationdate="20160724T125146Z">
         <seg>中央</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change &amp;theme</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061645Z" creationid="miurahr" creationdate="20160813T061645Z">
+        <seg>テーマの変更(&amp;T)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8068,6 +8190,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Convert Project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060839Z" creationid="miurahr" creationdate="20160813T060839Z">
+        <seg>プロジェクトの変換</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Convert To Instance Method</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T224701Z" creationid="miurahr" creationdate="20160727T224701Z">
@@ -8340,6 +8470,22 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Correct the above error and restart IDEA.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061635Z" creationid="miurahr" creationdate="20160813T061635Z">
+        <seg>上記のエラーを修正し、IDEAを再スタートさせてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create ''package-info.java'' anyway?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061348Z" creationid="miurahr" creationdate="20160813T061348Z">
+        <seg>それでも''package-info.java'' を作成しますか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create ''{0}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T141931Z" creationid="miurahr" creationdate="20160724T141931Z">
@@ -8504,6 +8650,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T132817Z" creationid="miurahr" creationdate="20160725T132817Z">
         <seg>新規モジュール グループの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create New Project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112323Z" creationid="miurahr" creationdate="20160813T112323Z">
+        <seg>新規プロジェクトの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -8724,6 +8878,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create new Java class</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061229Z" creationid="miurahr" creationdate="20160813T061229Z">
+        <seg>新規Javaクラスの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create new changelist</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T105807Z" creationid="miurahr" creationdate="20160804T105807Z">
@@ -8768,6 +8930,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T162025Z" creationid="miurahr" creationdate="20160725T162025Z">
         <seg>新規パッケージの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create new package-info.java</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061423Z" creationid="miurahr" creationdate="20160813T061423Z">
+        <seg>新規package-info.javaの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -8928,6 +9098,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T131741Z" creationid="miurahr" creationdate="20160724T131741Z">
         <seg>多次元配列の作成はサポートされていません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cu&amp;stom:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112813Z" creationid="miurahr" creationdate="20160813T112813Z">
+        <seg>カスタム(&amp;S):</seg>
       </tuv>
     </tu>
     <tu>
@@ -9518,6 +9696,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Delete selection</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112533Z" creationid="miurahr" creationdate="20160813T112533Z">
+        <seg>選択を削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Delete the selected class, method or field, checking for usages</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143052Z" creationid="miurahr" creationdate="20160726T143052Z">
@@ -10015,6 +10201,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do you want to continue?&lt;/body&gt;&lt;/html&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061210Z" creationid="miurahr" creationdate="20160813T061210Z">
+        <seg>継続しますか?&lt;/body&gt;&lt;/html&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do you want to create a project with no SDK assigned?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T070028Z" creationid="miurahr" creationdate="20160728T070028Z">
@@ -10101,6 +10295,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T045554Z" creationid="miurahr" creationdate="20160726T045554Z">
         <seg>タグのドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Documentation URLs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112453Z" creationid="miurahr" creationdate="20160813T112453Z">
+        <seg>ドキュメントのURL</seg>
       </tuv>
     </tu>
     <tu>
@@ -10619,6 +10821,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Edit File Template</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060719Z" creationid="miurahr" creationdate="20160813T060719Z">
+        <seg>ファイル テンプレートの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Edit File Type</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T154053Z" creationid="miurahr" creationdate="20160724T154053Z">
@@ -10915,6 +11125,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Empty project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112312Z" creationid="miurahr" creationdate="20160813T112312Z">
+        <seg>空のプロジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Empty tag</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T154635Z" creationid="miurahr" creationdate="20160726T154635Z">
@@ -10927,6 +11145,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T134042Z" creationid="miurahr" creationdate="20160724T134004Z">
         <seg>有効化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable &amp;Live Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060742Z" creationid="miurahr" creationdate="20160813T060742Z">
+        <seg>ライブテンプレートを有効にする(&amp;L)</seg>
       </tuv>
     </tu>
     <tu>
@@ -11195,6 +11421,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enter new &amp;wildcard ('*' and '?' allowed):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112717Z" creationid="miurahr" creationdate="20160813T112717Z">
+        <seg>新規ワイルドカード入力('*'と'?'が指定できます)(&amp;W):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enter new directory name:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T232341Z" creationid="miurahr" creationdate="20160724T232341Z">
@@ -11355,6 +11589,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Error Saving Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112724Z" creationid="miurahr" creationdate="20160813T112724Z">
+        <seg>設定の保存エラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Error Writing File</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T232918Z" creationid="miurahr" creationdate="20160724T232918Z">
@@ -11427,6 +11669,18 @@ to {1}:
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T123153Z" creationid="miurahr" creationdate="20160724T123153Z">
         <seg>エラーの強調表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error loading plugins:
+{0}
+Plugins were not loaded.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061529Z" creationid="miurahr" creationdate="20160813T061529Z">
+        <seg>プラグインのロードエラー：
+{0}
+プラグインは読み込まれませんでした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12137,6 +12391,14 @@ Exception message: {1}</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Extension:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060711Z" creationid="miurahr" creationdate="20160813T060711Z">
+        <seg>拡張子:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>External Tools</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T051523Z" creationid="miurahr" creationdate="20160726T051523Z">
@@ -12301,6 +12563,14 @@ Exception message: {1}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T142247Z" creationid="miurahr" creationdate="20160726T142247Z">
         <seg>ファイル内の使用箇所の検索(_I)...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Failed to Download</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061534Z" creationid="miurahr" creationdate="20160813T061534Z">
+        <seg>ダウンロード失敗</seg>
       </tuv>
     </tu>
     <tu>
@@ -12535,6 +12805,14 @@ already exists in class ''{1}''.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File &amp;pattern:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112741Z" creationid="miurahr" creationdate="20160813T112741Z">
+        <seg>ファイルパターン(&amp;P):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File ''{0}'' is read-only.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T153200Z" creationid="miurahr" creationdate="20160726T153200Z">
@@ -12639,6 +12917,14 @@ already exists in class ''{1}''.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File and Code Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060707Z" creationid="miurahr" creationdate="20160813T060707Z">
+        <seg>ファイルとコードのテンプレート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File copying compiler</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T003842Z" creationid="miurahr" creationdate="20160724T003842Z">
@@ -12739,6 +13025,14 @@ already exists in class ''{1}''.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T154149Z" creationid="miurahr" creationdate="20160724T154149Z">
         <seg>ファイル タイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File was changed on disk.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112429Z" creationid="miurahr" creationdate="20160813T112429Z">
+        <seg>ファイルはディスク上で変更されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13369,6 +13663,14 @@ Do you want overwrite it or to append?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Font size:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112334Z" creationid="miurahr" creationdate="20160813T112334Z">
+        <seg>フォントサイズ:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Font:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T145839Z" creationid="miurahr" creationdate="20160725T145839Z">
@@ -13543,6 +13845,14 @@ Do you want overwrite it or to append?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T135928Z" creationid="miurahr" creationdate="20160724T135928Z">
         <seg>次へ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Found 'package.html'</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061410Z" creationid="miurahr" creationdate="20160813T061410Z">
+        <seg>'package.html'が見つかりました</seg>
       </tuv>
     </tu>
     <tu>
@@ -17197,6 +17507,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Loading files...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112330Z" creationid="miurahr" creationdate="20160813T112330Z">
+        <seg>ファイルの読み込み中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Loading...</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T101618Z" creationid="miurahr" creationdate="20160724T101618Z">
@@ -17842,6 +18160,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T035124Z" creationid="miurahr" creationdate="20160726T035124Z">
         <seg>メモリ問題</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Menus and Toolbars</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112041Z" creationid="miurahr" creationdate="20160813T112041Z">
+        <seg>メニューと ツールバー</seg>
       </tuv>
     </tu>
     <tu>
@@ -19786,6 +20112,14 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No registered file patterns</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112736Z" creationid="miurahr" creationdate="20160813T112736Z">
+        <seg>登録されたファイルパターンはありません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No runner selected</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T142121Z" creationid="miurahr" creationdate="20160724T142121Z">
@@ -20816,6 +21150,14 @@ Do you want to create it?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T120852Z" creationid="miurahr" creationdate="20160724T120852Z">
         <seg>パッケージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package ''{0}'' already has a ''package.html'' file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061324Z" creationid="miurahr" creationdate="20160813T061324Z">
+        <seg>パッケージ"{0}"にはすでに"package.html"ファイルが存在します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22136,6 +22478,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project &amp;location:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112102Z" creationid="miurahr" creationdate="20160813T112102Z">
+        <seg>プロジェクトの場所(&amp;L):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project ''{0}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T113625Z" creationid="miurahr" creationdate="20160724T113625Z">
@@ -22216,6 +22566,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project directory name must not contain the ''$'' character</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112407Z" creationid="miurahr" creationdate="20160813T112407Z">
+        <seg>プロジェクトディレクトリの名前には、文字"$"を含めることができません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project file is corrupted</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T231129Z" creationid="miurahr" creationdate="20160724T231129Z">
@@ -22244,6 +22602,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T070042Z" creationid="miurahr" creationdate="20160728T070042Z">
         <seg>名前(&amp;A) :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project name can't be empty</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112343Z" creationid="miurahr" creationdate="20160813T112343Z">
+        <seg>プロジェクト名は空にできません</seg>
       </tuv>
     </tu>
     <tu>
@@ -24520,6 +24886,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Running...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112906Z" creationid="miurahr" creationdate="20160813T112906Z">
+        <seg>実行中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T152656Z" creationid="miurahr" creationdate="20160726T152653Z">
@@ -25305,6 +25679,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select Location for Project Directory</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112319Z" creationid="miurahr" creationdate="20160813T112319Z">
+        <seg>プロジェクトディレクトリの場所を選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select Methods To Propagate New Exceptions</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T222754Z" creationid="miurahr" creationdate="20160727T222754Z">
@@ -25601,6 +25983,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T233050Z" creationid="miurahr" creationdate="20160724T233050Z">
         <seg>インポートするファイルまたはファイルの存在するディレクトリを選択してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select {0} file directory</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112112Z" creationid="miurahr" creationdate="20160813T112112Z">
+        <seg>{0}ファイルのディレクトリを選択</seg>
       </tuv>
     </tu>
     <tu>
@@ -26649,6 +27039,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143246Z" creationid="miurahr" creationdate="20160726T143246Z">
         <seg>現在のプログラムの実行ポイントを表示します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show this page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112927Z" creationid="miurahr" creationdate="20160813T112927Z">
+        <seg>このページを表示</seg>
       </tuv>
     </tu>
     <tu>
@@ -28493,6 +28891,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Text Color</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112528Z" creationid="miurahr" creationdate="20160813T112528Z">
+        <seg>テキスト色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Text files</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T153945Z" creationid="miurahr" creationdate="20160724T153945Z">
@@ -28778,6 +29184,14 @@ is not an {1} module file (.iml)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory of the module file</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061435Z" creationid="miurahr" creationdate="20160813T061435Z">
+        <seg>モジュールファイルのディレクトリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory of the project file</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T234136Z" creationid="miurahr" creationdate="20160724T234136Z">
@@ -28982,6 +29396,14 @@ already exists.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The module file ''{0}'' already exist.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112140Z" creationid="miurahr" creationdate="20160813T112140Z">
+        <seg>モジュールファイル"{0}"はすでに有ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The module file directory</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T151039Z" creationid="miurahr" creationdate="20160725T151039Z">
@@ -28998,6 +29420,14 @@ already exists.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the module file without extension</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061501Z" creationid="miurahr" creationdate="20160813T061501Z">
+        <seg>拡張子を除くモジュールファイル名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the project file without extension</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T131059Z" creationid="miurahr" creationdate="20160725T131008Z">
@@ -29010,6 +29440,14 @@ already exists.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T155945Z" creationid="miurahr" creationdate="20160724T155945Z">
         <seg>操作はそれらに影響しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path of the module file</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061449Z" creationid="miurahr" creationdate="20160813T061449Z">
+        <seg>モジュール ファイルへのパス</seg>
       </tuv>
     </tu>
     <tu>
@@ -29050,6 +29488,14 @@ already exists.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T113042Z" creationid="miurahr" creationdate="20160724T113042Z">
         <seg>プログラムはコマンドを発行しましたが、コマンドの長さが不正です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project ''{0}'' has an older format and will be converted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060908Z" creationid="miurahr" creationdate="20160813T060908Z">
+        <seg>プロジェクト"{0}"は旧いフォーマットです。変換されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29248,6 +29694,14 @@ Any JAR files created will be named after the name of the main module.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The {0} file directory</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112125Z" creationid="miurahr" creationdate="20160813T112125Z">
+        <seg>{0}ファイルのディレクトリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The {1} file 
 ''{0}''
 already exists.</seg>
@@ -29359,6 +29813,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These dependencies can be safely removed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T114638Z" creationid="miurahr" creationdate="20160813T114638Z">
+        <seg>これらの依存は、安全に削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These modules have been removed from Maven structure:
 {0}</seg>
       </tuv>
@@ -29445,6 +29907,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T163031Z" creationid="miurahr" creationdate="20160723T163031Z">
         <seg>この検査は、ドキュメントに &lt;b0&gt;&lt;f1&gt;@since 1.5&lt;/f1&gt;&lt;/b0&gt;タグが含まれるメソッドの使用箇所をすべて検索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection lists modules which contain redundant dependencies on other modules.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T114620Z" creationid="miurahr" creationdate="20160813T114620Z">
+        <seg>この検査は、他のモジュールに対する冗長な依存のあるモジュールを一覧します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29979,6 +30449,22 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This wildcard is already registered by ''{0}'' filetype</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112612Z" creationid="miurahr" creationdate="20160813T112612Z">
+        <seg>このワイルドカードは、"{0}"ファイルタイプとして登録されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This wildcard is reserved for ''{0}'' filetype and cannot be reassigned</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112644Z" creationid="miurahr" creationdate="20160813T112644Z">
+        <seg>このワイルドカードは、"{0}"ファイルタイプとして予約されており、再割り当てできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will attempt to use your system settings and is useful if your system uses a proxy autoconfiguration file (.pac).</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T101016Z" creationid="miurahr" creationdate="20160804T101016Z">
@@ -30075,6 +30561,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Timed out</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112920Z" creationid="miurahr" creationdate="20160813T112920Z">
+        <seg>タイムアウト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tip of the Day</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T160423Z" creationid="miurahr" creationdate="20160725T160423Z">
@@ -30111,6 +30605,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160805T034445Z" creationid="miurahr" creationdate="20160805T034445Z">
         <seg>タイトル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Title Color</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112526Z" creationid="miurahr" creationdate="20160813T112526Z">
+        <seg>タイトル色</seg>
       </tuv>
     </tu>
     <tu>
@@ -32189,8 +32691,8 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
       <tuv lang="EN-US">
         <seg>W&amp;hole project</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160724T155546Z" creationid="miurahr" creationdate="20160724T155546Z">
-        <seg>プロジェクト全体(&amp;P)</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112835Z" creationid="miurahr" creationdate="20160724T155546Z">
+        <seg>プロジェクト全体(&amp;H)</seg>
       </tuv>
     </tu>
     <tu>
@@ -32971,6 +33473,14 @@ as a source directory?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T123226Z" creationid="miurahr" creationdate="20160727T123226Z">
         <seg>&lt;s0&gt;&amp;shortcut:OverrideMethods;&lt;/s0&gt;(&lt;s1&gt;[コード] - [メソッドのオーバーライド...]&lt;/s1&gt;)を押すことで、ベース クラスのメソッドを簡単にオーバーライドできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may not be able to open the project with earlier versions of {1}.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T060924Z" creationid="miurahr" creationdate="20160813T060924Z">
+        <seg>{1}バージョンのプロジェクトを開くことができないかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35212,6 +35722,16 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{0}
+Would you like to overwrite {1,choice,1#it|2#these files}?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112227Z" creationid="miurahr" creationdate="20160813T112227Z">
+        <seg>{0}
+上書きしますか？ {1,choice,1#it|2#these files}?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{0} (no items found)</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T145624Z" creationid="miurahr" creationdate="20160725T145624Z">
@@ -35300,6 +35820,14 @@ Please enter pattern string in a new format.</seg>
         <seg>{0} は既存の正規表現パターンの変換に失敗しました:
 {1}
 新しいフォーマットのパターン文字列を入力してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0} file &amp;location:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T112056Z" creationid="miurahr" creationdate="20160813T112056Z">
+        <seg>{0}ファイルの場所(&amp;L):</seg>
       </tuv>
     </tu>
     <tu>
@@ -35549,6 +36077,14 @@ Please enter pattern string in a new format.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T140544Z" creationid="miurahr" creationdate="20160724T140544Z">
         <seg>{0} とエディタ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0} will unlock them.&lt;br&gt;{1}&lt;/body&gt;&lt;/html&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T061114Z" creationid="miurahr" creationdate="20160813T061114Z">
+        <seg>{0}はこれらのロックを解除します。&lt;br&gt;{1}/&lt;/body&gt;&lt;/html&gt;</seg>
       </tuv>
     </tu>
     <tu>
