@@ -9,10 +9,6 @@ dependencies {
            fileTree('buildSrc/lib')
 }
 
-task cleanTargetDirs(type: Delete) {
-   file("$projectDir/target").listFiles().findAll { it.isDirectory() }.each { delete it }
-}
-
 Closure translationTask = { taskName, targetName ->
     task(taskName, type: Jar, dependsOn: [jar, translate]) {
         baseName targetName
@@ -92,8 +88,6 @@ dependencies {
     testRuntime pluginUiDesigner.outputs.files
     testRuntime pluginYaml.outputs.files
 }
-
-clean.dependsOn cleanTargetDirs
 
 task wrapper(type: Wrapper) {
   gradleVersion = '2.14.1'

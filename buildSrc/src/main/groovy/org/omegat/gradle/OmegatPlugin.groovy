@@ -4,12 +4,14 @@ import org.gradle.api.Project
 import org.gradle.api.Plugin
 import org.gradle.api.artifacts.Configuration
 import org.gradle.api.artifacts.ModuleDependency
+import org.gradle.api.tasks.Delete
 
 
 class OmegatPlugin implements Plugin<Project> {
     static final String OMEGAT_CONFIGURATION_NAME = "omegat"
     static final String TASK_BUILD_NAME = "translate"
     static final String TASK_RUN_NAME = "omegat"
+    static final String TASK_CLEAN_NAME = 'clean'
     private Project project
 
     @Override
@@ -26,9 +28,15 @@ class OmegatPlugin implements Plugin<Project> {
                 options = [project.getRootDir().toString(), "--mode=console-translate",
                            "--disable-project-locking", "--quiet"]
             }
-            tasks.create(name: TASK_RUN_NAME, type:OmegatTask) {
+            tasks.create(name: TASK_RUN_NAME, type: OmegatTask) {
                 description = "Run OmegaT application with GUI."
                 options = [project.getRootDir().toString()]
+            }
+            tasks.create(name: TASK_CLEAN_NAME, type: Delete) {
+                new File(project.getRootDir(), "target").listFiles()
+                        .findAll { it.isDirectory() || !(it.name.startsWith('.')) }.each {
+                    setDelete(it)
+                }
             }
 
             afterEvaluate {
