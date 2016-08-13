@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Implementing methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215409Z" creationid="miurahr" creationdate="20160813T215409Z">
+        <seg>メソッドの実装(&amp;I)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Import existing module</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T151120Z" creationid="miurahr" creationdate="20160725T151120Z">
@@ -3273,6 +3281,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T045935Z" creationid="miurahr" creationdate="20160726T045935Z">
         <seg>すべてのアクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All Project Classes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215327Z" creationid="miurahr" creationdate="20160813T215327Z">
+        <seg>全てのプロジェクトのクラス</seg>
       </tuv>
     </tu>
     <tu>
@@ -7638,6 +7654,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Comm&amp;ents only</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215247Z" creationid="miurahr" creationdate="20160813T215247Z">
+        <seg>コメントのみ(&amp;E)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Comm_it Changes</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T105817Z" creationid="miurahr" creationdate="20160804T105817Z">
@@ -8218,6 +8242,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T115715Z" creationid="miurahr" creationdate="20160724T115715Z">
         <seg>コンストラクタ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conte&amp;xt:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215123Z" creationid="miurahr" creationdate="20160813T215123Z">
+        <seg>コンテキスト(&amp;X):</seg>
       </tuv>
     </tu>
     <tu>
@@ -20584,6 +20616,14 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No more highlights found</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215258Z" creationid="miurahr" creationdate="20160813T215258Z">
+        <seg>ハイライトはこれ以上ありません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No name</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T152809Z" creationid="miurahr" creationdate="20160726T152809Z">
@@ -21574,6 +21614,14 @@ Do you want to create it?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T112440Z" creationid="miurahr" creationdate="20160804T112440Z">
         <seg>出力変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Over&amp;riding methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215342Z" creationid="miurahr" creationdate="20160813T215342Z">
+        <seg>メソッドのオーバーライド(&amp;R)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24046,6 +24094,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Regular expression matches empty string</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215229Z" creationid="miurahr" creationdate="20160813T215229Z">
+        <seg>正規表現は空文字列にマッチします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Regular expressions</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T124133Z" creationid="miurahr" creationdate="20160813T124133Z">
@@ -25662,6 +25718,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>S&amp;tring literals only</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215237Z" creationid="miurahr" creationdate="20160813T215237Z">
+        <seg>文字列リテラルのみ(&amp;T)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>S&amp;witch View</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T134722Z" creationid="miurahr" creationdate="20160724T134722Z">
@@ -26679,6 +26743,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T145241Z" creationid="miurahr" creationdate="20160724T145241Z">
         <seg>実行する JRE のディレクトリ選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select on Editor</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215253Z" creationid="miurahr" creationdate="20160813T215253Z">
+        <seg>エディタで選択</seg>
       </tuv>
     </tu>
     <tu>
@@ -32738,6 +32810,14 @@ TypeHierarchy;&lt;/s0&gt;      (&lt;s1&gt;[表示] - [タイプ階層]&lt;/s1&gt
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usages of &amp;classes and interfaces</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215359Z" creationid="miurahr" creationdate="20160813T215359Z">
+        <seg>クラスとインターフェイスの使用箇所(&amp;C)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usages of &amp;fields</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T154619Z" creationid="miurahr" creationdate="20160724T154619Z">
@@ -35425,6 +35505,14 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>anywhere</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215130Z" creationid="miurahr" creationdate="20160813T215130Z">
+        <seg>どこでも</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>assert statements, like in &lt;b0&gt;&lt;f1&gt;assert str.equals(&lt;f2&gt;"message"&lt;/f2&gt;)&lt;/f1&gt;&lt;/b0&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T160938Z" creationid="miurahr" creationdate="20160723T160805Z">
@@ -35682,6 +35770,30 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>except comments</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215157Z" creationid="miurahr" creationdate="20160813T215157Z">
+        <seg>コメントを除く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>except comments and string literals</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215206Z" creationid="miurahr" creationdate="20160813T215206Z">
+        <seg>コメントと文字列リテラルを除く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>except string literals</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215154Z" creationid="miurahr" creationdate="20160813T215154Z">
+        <seg>文字列リテラルを除く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>exception</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T051811Z" creationid="miurahr" creationdate="20160726T051811Z">
@@ -35818,10 +35930,26 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>in comments</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215139Z" creationid="miurahr" creationdate="20160813T215139Z">
+        <seg>コメント中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>in group ''{0}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T133431Z" creationid="miurahr" creationdate="20160724T133431Z">
         <seg>グループ ''{0}''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>in string literals</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160813T215147Z" creationid="miurahr" creationdate="20160813T215147Z">
+        <seg>文字列リテラル中</seg>
       </tuv>
     </tu>
     <tu>
