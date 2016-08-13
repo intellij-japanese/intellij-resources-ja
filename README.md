@@ -36,6 +36,12 @@ Also you can get plugins resources as `build/plugins/<name>.jar`
 
 Which name will become intellijCommunity, android and so on.
 
+## Instalation of localizaed resources
+
+Please find a place where IntelliJ platform has been installed.
+Place resource files into ```/where/intellij/platform/insalled/lib/resources_ja.jar```.
+For plugins ```/where/intellij/platform/installed/plugins/<plugin name>/lib/resources_ja.jar```
+
 ## How to generate resource file for JetBrains products
 
 Please check product installed directory such as /opt/JetBrains/idea-IC2016.2/.
