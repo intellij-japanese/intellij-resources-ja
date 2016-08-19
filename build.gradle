@@ -8,16 +8,18 @@ dependencies {
 
 // Generation of IntelliJ localized resources
 apply plugin: 'java'
-Closure customJarTask = { taskName, targetName ->
+
+// Closure to make jar generation task with specified type and name
+Closure customJarTask = { type, taskName, targetName ->
     task(taskName, type: Jar, dependsOn: [jar, translate]) {
-        baseName targetName
+        archiveName = "resources_ja.jar"
         def fromDir = ''
-        if (taskName.startsWith("plugin")) {
-           fromDir = "$projectDir/target/plugins/$targetName"
-           destinationDir new File("$buildDir/plugins")
+        if (type.equals("plugin")) {
+            fromDir = "$projectDir/target/plugins/$targetName"
+            destinationDir new File("$buildDir/tmp/plugins/$targetName/lib")
         } else {
-           fromDir = "$projectDir/target/$targetName"
-           destinationDir new File("$buildDir")
+            fromDir = "$projectDir/target/$targetName"
+            destinationDir new File("$buildDir/tmp/ide/$targetName/lib")
         }
         inputs.dir new File("$fromDir")
         from("$fromDir/") {
@@ -33,20 +35,55 @@ Closure customJarTask = { taskName, targetName ->
         into('search_ja') {                from "$fromDir/search"}
         into('tips_ja') {                  from "$fromDir/tips"}
     }
+    if (type.equals("plugin")) {
+        archivePlugins.mustRunAfter(taskName)
+    }
 }
+
+// Overwrite default clean task
+task clean(type: Delete, overwrite: true) {
+    delete "$buildDir"
+}
+
+// Remove ugly generated default jar file.
+task defaultBuildLibsClean(type: Delete) {
+    delete "$buildDir/libs"
+}
+processTestResources.dependsOn 'defaultBuildLibsClean'
+
 
 tasks.addRule("Pattern: plugin<ID>") { String taskName ->
     if (taskName.startsWith("plugin")) {
         def pluginName = taskName[6].toLowerCase() + taskName[7..taskName.length() - 1]
-        customJarTask(taskName, pluginName)
+        customJarTask('plugin', taskName, pluginName)
+    }
+}
+
+tasks.addRule("Pattern: platformJar<ID>") { String taskName ->
+    if (taskName.startsWith("platformJar")) {
+        def toolName = taskName[11].toLowerCase() + taskName[12..taskName.length() - 1]
+        customJarTask('ide', taskName, toolName)
     }
 }
 
 tasks.addRule("Pattern: ide<ID>") { String taskName ->
     if (taskName.startsWith("ide")) {
         def toolName = taskName[3].toLowerCase() + taskName[4..taskName.length() - 1]
-        customJarTask(taskName, toolName)
+        def dependName = 'platformJar' + taskName[3..taskName.length() - 1]
+        task (taskName, type: Zip, dependsOn: dependName ) {
+            from "build/tmp/ide/$toolName"
+            archiveName "${toolName}.zip"
+        }
     }
+}
+
+task archivePlugins(type: Zip) {
+    from 'build/tmp/plugins'
+    archiveName 'plugins.zip'
+}
+
+artifacts {
+    archives archivePlugins
 }
 
 // Includes specifications for resource artifacts
