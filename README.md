@@ -1,5 +1,4 @@
 # OmegaT project to translate IntelliJ platform resources in Japanese.
-
 This project is a community translation project to build a Japanese Resources for IntelliJ platforms.
 
 JetBrains decided they don't provide Japanese translation resources for their
@@ -31,16 +30,30 @@ It will download some jar files from https://jcenter.bintray.com repository.
 Then it convert source English resource files with translation result into
 Japanese resources.
 
-You can get the IDE's resource jar file as `build/<name>.jar`
-Also you can get plugins resources as `build/plugins/<name>.jar`
+You can get the IDE's resources as `build/distribution/<name>.zip`
+Also you can get plugins resources as `build/distribution/plugins.zip`
 
 Which name will become intellijCommunity, android and so on.
 
 ## Instalation of localizaed resources
 
 Please find a place where IntelliJ platform has been installed.
+
 Place resource files into ```/where/intellij/platform/insalled/lib/resources_ja.jar```.
+You can extract zip file as follows:
+
+```
+$ cd /where/intellij/platform/installed
+$ unzip /where/resource/download/intellijPlatform.zip
+```
+
 For plugins ```/where/intellij/platform/installed/plugins/<plugin name>/lib/resources_ja.jar```
+You also extract plugin resources as follows:
+
+```
+$ cd /where/intellij/platform/installed
+$ unzip /where/resource/download/plugins.zip
+```
 
 ## How to generate resource file for JetBrains products
 
@@ -66,7 +79,7 @@ The repository is designed to work with OmegaT team features. This means
 translators who work on the repository are collaborative team.
 
 If you want to use other tools you can generate TMX file by OmegaT and export
-it at project root as `IDEA_resources_ja-level1.tmx`.
+it at project root as `intellij-resources-ja-level1.tmx`.
 
 ## Contributions
 
