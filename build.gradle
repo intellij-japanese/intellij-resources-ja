@@ -5,10 +5,8 @@ dependencies {
     omegat files('buildSrc/OmegaT.jar'),
            fileTree('buildSrc/lib')
 }
-
 // Generation of IntelliJ localized resources
 apply plugin: 'java'
-
 // Closure to make jar generation task with specified type and name
 Closure customJarTask = { type, taskName, targetName ->
     task(taskName, type: Jar, dependsOn: [jar, translate]) {
@@ -40,17 +38,11 @@ Closure customJarTask = { type, taskName, targetName ->
     }
 }
 
-// Overwrite default clean task
-task clean(type: Delete, overwrite: true) {
-    delete "$buildDir"
-}
-
 // Remove ugly generated default jar file.
 task defaultBuildLibsClean(type: Delete) {
     delete "$buildDir/libs"
 }
 processTestResources.dependsOn 'defaultBuildLibsClean'
-
 
 tasks.addRule("Pattern: plugin<ID>") { String taskName ->
     if (taskName.startsWith("plugin")) {
@@ -90,5 +82,5 @@ artifacts {
 apply from: 'source/source.gradle'
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '2.14.1'
+  gradleVersion = '3.0'
 }

@@ -11,7 +11,7 @@ class OmegatPlugin implements Plugin<Project> {
     static final String OMEGAT_CONFIGURATION_NAME = "omegat"
     static final String TASK_BUILD_NAME = "translate"
     static final String TASK_RUN_NAME = "omegat"
-    static final String TASK_CLEAN_NAME = 'clean'
+    static final String TASK_CLEAN_NAME = 'omegatClean'
     private Project project
 
     @Override
@@ -35,7 +35,7 @@ class OmegatPlugin implements Plugin<Project> {
             tasks.create(name: TASK_CLEAN_NAME, type: Delete) {
                 new File(project.getRootDir(), "target").listFiles()
                         .findAll { it.isDirectory() || !(it.name.startsWith('.')) }.each {
-                    setDelete(it)
+                    delete it
                 }
             }
 
