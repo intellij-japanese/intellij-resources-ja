@@ -26,7 +26,7 @@ $ .\gradlew.bat build
 Generator depends on a couple of libraries and applications, you need to connect
 your platform to internet. If you are behind proxy server or firewall, please
 refer Gradle documentation how to configure Gradle for network connections.
-It will download some jar files from https://jcenter.bintray.com repository.
+It will download some jar files from https://jcenter.bintray.com or https://dl.bintray.com repository.
 Then it convert source English resource files with translation result into
 Japanese resources.
 
