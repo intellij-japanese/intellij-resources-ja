@@ -9,6 +9,7 @@ buildscript {
     }
 }
 apply plugin: "org.omegat.gradle"
+import org.omegat.gradle.OmegatTask
 
 repositories {
     mavenLocal()
@@ -86,6 +87,10 @@ task archivePlugins(type: Zip) {
 
 artifacts {
     archives archivePlugins
+}
+
+task runOmegaT(type: OmegatTask) {
+    options = [projectDir]
 }
 
 // Includes specifications for resource artifacts
