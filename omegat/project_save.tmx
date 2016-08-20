@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.0_0_2a17703" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.0_0_dbea4bf" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -14229,6 +14229,14 @@ Do you want overwrite it or to append?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T230045Z" creationid="miurahr" creationdate="20160724T230045Z">
         <seg>GUI デザイナ フォーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gaurding on a non-final field may result in unexpected race conditions, as locks will be held on the value of the field (which may change), rather than the field itself.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T141729Z" creationid="miurahr" creationdate="20160820T141729Z">
+        <seg>finalではないフィールドを守ることは、予想しない競合条件において、ロックがフィールド自身ではなく（変更するかもしれない）フィールドの値において取得されることにつながります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30783,6 +30791,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection checks for expressions which overflow during computation, i.e.: &lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T141812Z" creationid="miurahr" creationdate="20160820T141812Z">
+        <seg>この検査は、算術計算におけるオーバーフローを導く表現をチェックします。つまり:&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection detects violations of rules specified for dependency validation.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T154839Z" creationid="miurahr" creationdate="20160723T154839Z">
@@ -30795,6 +30811,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T163031Z" creationid="miurahr" creationdate="20160723T163031Z">
         <seg>この検査は、ドキュメントに &lt;b0&gt;&lt;f1&gt;@since 1.5&lt;/f1&gt;&lt;/b0&gt;タグが含まれるメソッドの使用箇所をすべて検索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection lets you control MIME type name validity.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T141318Z" creationid="miurahr" creationdate="20160820T141318Z">
+        <seg>この分析では、MIMEタイプ名が適正かどうか確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30880,10 +30904,26 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection reports any @net.jcip.annotations.GuardedBy annotations where the guarding field is not final.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T141535Z" creationid="miurahr" creationdate="20160820T141535Z">
+        <seg>この検査は、finalではない守られていないフィールドを持つ、@net.jcip.annotations.GuardedBy 注釈を報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection reports any instances of hardcoded String literals.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T160628Z" creationid="miurahr" creationdate="20160723T160628Z">
         <seg>この検査は、ハードコードされている文字列リテラルのインスタンスを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection reports any non-final field in a class with annotation @net.jcip.annotations.Immutable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T141411Z" creationid="miurahr" creationdate="20160820T141411Z">
+        <seg>この検査は、@net.jcip.annotations.Immutable の注釈のついたクラスで、finalではないフィールドを報告します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31365,6 +31405,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T151345Z" creationid="miurahr" creationdate="20160725T151329Z">
         <seg>このパスはデフォルト (ルート、名称未設定、トップレベル) パッケージに対応する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This violates the contract of the @Immutable annotation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T141440Z" creationid="miurahr" creationdate="20160820T141440Z">
+        <seg>こレは、@immutable注釈に対する契約違反になります。</seg>
       </tuv>
     </tu>
     <tu>
