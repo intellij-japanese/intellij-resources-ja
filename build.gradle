@@ -1,5 +1,19 @@
 // OmegaT plugin
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath group: 'org.omegat.gradle', name: 'gradle-omegat-plugin', version: '0.9.0'
+    }
+}
 apply plugin: "org.omegat.gradle"
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
 
 // Generation of IntelliJ localized resources
 apply plugin: 'java'
