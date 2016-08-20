@@ -1,7 +1,9 @@
 // OmegaT plugin
 buildscript {
     repositories {
-        mavenLocal()
+        maven {
+            url "https://dl.bintray.com/miurahr/maven/"
+        }
         jcenter()
     }
     dependencies {
@@ -9,12 +11,14 @@ buildscript {
     }
 }
 apply plugin: "org.omegat.gradle"
-import org.omegat.gradle.OmegatTask
 
 repositories {
-    mavenLocal()
+     maven {
+        url "https://dl.bintray.com/miurahr/maven/"
+    }
     jcenter()
 }
+import org.omegat.gradle.OmegatTask
 
 // Generation of IntelliJ localized resources
 apply plugin: 'java'
