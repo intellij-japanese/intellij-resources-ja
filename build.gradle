@@ -1,10 +1,6 @@
 // OmegaT plugin
 apply plugin: "org.omegat.gradle"
-dependencies {
-    // FIXME: here is ugly configuration for omegat plugin
-    omegat files('buildSrc/OmegaT.jar'),
-           fileTree('buildSrc/lib')
-}
+
 // Generation of IntelliJ localized resources
 apply plugin: 'java'
 // Closure to make jar generation task with specified type and name
