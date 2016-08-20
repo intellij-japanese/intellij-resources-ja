@@ -1734,6 +1734,30 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;/** noinspection */&lt;/c0&gt; JavaDoc comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T143015Z" creationid="miurahr" creationdate="20160820T143015Z">
+        <seg>&lt;c0&gt;/** noinspection */&lt;/c0&gt; JavaDoc コメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;// noinspection&lt;/c0&gt; line comment, or</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T143006Z" creationid="miurahr" creationdate="20160820T143006Z">
+        <seg>&lt;c0&gt;// noinspection&lt;/c0&gt; 行コメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;@SuppressWarning&lt;/c0&gt; annotation, or</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T142956Z" creationid="miurahr" creationdate="20160820T142956Z">
+        <seg>&lt;c0&gt;@SuppressWarning&lt;/c0&gt; 注釈、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;default target&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T170722Z" creationid="miurahr" creationdate="20160723T170722Z">
@@ -15612,6 +15636,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If all local usages of a parameter are preceded by assignments to that parameter, the parameter can be removed and its usages replaced with local variables.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T142048Z" creationid="miurahr" creationdate="20160820T142048Z">
+        <seg>もしパラメータのローカルな利用が、パラメータによる値の設定を上書きする場合、パラメータは削除可能であり、ローカル変数で置き換え可能になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you close the dialog, you can always get back to it from the &lt;s0&gt;Help | Tip of the Day&lt;/s0&gt; main menu item.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T213835Z" creationid="miurahr" creationdate="20160727T213835Z">
@@ -25102,6 +25134,30 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reports spaces used for indentation and tabs used for alignment when the code style is configured to use smart tabs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T142900Z" creationid="miurahr" creationdate="20160820T142900Z">
+        <seg>コーディングスタイル設定で、スマートタブを使うとされている場合に、空白文字をインデントに使っていたり、タブを位置決めに使われている場合に報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reports spaces used for indentation when the code style is configured to use only tabs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T142809Z" creationid="miurahr" creationdate="20160820T142809Z">
+        <seg>コーディングスタイル設定で、タブ文字のみを使うとされている場合に、空白文字をインデントに使っているバアを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reports tabs used for indentation when the code style is configured to use only spaces.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T142741Z" creationid="miurahr" creationdate="20160820T142741Z">
+        <seg>コーディングスタイル設定で、空白文字のみを使うとされている場合に、タブをインデントに使っている場合を報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repository History</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143353Z" creationid="miurahr" creationdate="20160726T143353Z">
@@ -28107,6 +28163,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since this inspection requires global code analysis, it is only available in batch inspection mode.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T143239Z" creationid="miurahr" creationdate="20160820T143239Z">
+        <seg>この検査では、グローバルなコード分析が必要に成るため、バッチ検査モードでのみ利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Single Click</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T051436Z" creationid="miurahr" creationdate="20160726T051436Z">
@@ -30952,6 +31016,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection reports exceptions that are declared in a method's signature but never thrown by the method itself or its implementations/derivatives.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T143211Z" creationid="miurahr" creationdate="20160820T143211Z">
+        <seg>この検査では、メソッドのシグネチャで宣言されているが、メソッド自身や実装、継承されたクラスでスローされない例外があるようなものを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection reports lambda expressions with code block bodies when expression-style bodies can be used</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T152015Z" creationid="miurahr" creationdate="20160729T152015Z">
@@ -31060,6 +31132,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T162436Z" creationid="miurahr" creationdate="20160723T162436Z">
         <seg>この検査は、varargs パラメータに引数として渡される配列式の不必要な作成を報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection reports usages of</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T142943Z" creationid="miurahr" creationdate="20160820T142943Z">
+        <seg>この検査では、次の使用状況を報告します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36734,6 +36814,14 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T133527Z" creationid="miurahr" creationdate="20160724T133527Z">
         <seg>{1}でのロックをリリースするまで{0} を待機</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>which can be safely removed because inspection they affect is no longer applicable in this context.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160820T143100Z" creationid="miurahr" creationdate="20160820T143100Z">
+        <seg>これらで、影響範囲の検査によりコンテキストにおいて無効になっている、安全に削除可能なもの。</seg>
       </tuv>
     </tu>
     <tu>
