@@ -1,5 +1,24 @@
 // OmegaT plugin
+buildscript {
+    repositories {
+        maven {
+            url "https://dl.bintray.com/miurahr/maven/"
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath group: 'org.omegat.gradle', name: 'gradle-omegat-plugin', version: '0.9.0'
+    }
+}
 apply plugin: "org.omegat.gradle"
+
+repositories {
+     maven {
+        url "https://dl.bintray.com/miurahr/maven/"
+    }
+    jcenter()
+}
+import org.omegat.gradle.OmegatTask
 
 // Generation of IntelliJ localized resources
 apply plugin: 'java'
@@ -72,6 +91,10 @@ task archivePlugins(type: Zip) {
 
 artifacts {
     archives archivePlugins
+}
+
+task runOmegaT(type: OmegatTask) {
+    options = [projectDir]
 }
 
 // Includes specifications for resource artifacts
