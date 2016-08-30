@@ -101,5 +101,5 @@ task runOmegaT(type: OmegatTask) {
 apply from: 'source/source.gradle'
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '3.0'
+  gradleVersion = '2.14'
 }
