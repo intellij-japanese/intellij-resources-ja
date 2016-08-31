@@ -14137,6 +14137,14 @@ Do you want overwrite it or to append?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For multiple declarations in one statement, intention splits them into separate declarations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160831T111737Z" creationid="miurahr" creationdate="20160831T111737Z">
+        <seg>一つの式に、複数の宣言がある場合は、それぞれの宣言に分割します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For statement</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T121201Z" creationid="miurahr" creationdate="20160724T121201Z">
@@ -31244,6 +31252,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T164124Z" creationid="miurahr" creationdate="20160729T164124Z">
         <seg>このコード強化では、ライブラリのメソッド契約を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This intention converts a local variable declaration with an initializer into separate variable declaration and variable assignment statements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160831T111658Z" creationid="miurahr" creationdate="20160831T111658Z">
+        <seg>このコード強化は、初期化子つきのローカル変数の宣言を、変数宣言と変数の値代入式に分割します。</seg>
       </tuv>
     </tu>
     <tu>
