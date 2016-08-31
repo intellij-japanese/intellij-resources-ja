@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.0_0_dbea4bf" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.0_0_c855e17" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -31372,6 +31372,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T162026Z" creationid="miurahr" creationdate="20160723T165826Z">
         <seg>このコード強化は、色選択のダイアログを表示し、選択した色の値を持つ &lt;b0&gt;&lt;f1&gt;新しい色&lt;/f1&gt;&lt;/b0&gt;に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This intention simplifies expression with boolean literals.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20160831T111400Z" creationid="miurahr" creationdate="20160831T111400Z">
+        <seg>このコード強化は、論理値リテラルが含まれる表現を簡易は表現にします。</seg>
       </tuv>
     </tu>
     <tu>
