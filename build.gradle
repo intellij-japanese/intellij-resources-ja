@@ -1,6 +1,9 @@
 // OmegaT plugin
 apply plugin: "org.omegat.gradle"
 
+omegat {
+    projectDir = project.rootDir
+}
 // Generation of IntelliJ localized resources
 apply plugin: 'java'
 // Closure to make jar generation task with specified type and name
