@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.0_0_c855e17" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.1_0_9319:9320" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1782,6 +1782,22 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt; This is a built-in template used for replacing text in JSP, e.g.&lt;/f0&gt; &lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161028T040728Z" creationid="miurahr" creationdate="20161028T040728Z">
+        <seg>&lt;f0&gt; これはJSPでテキストを置き換えるときに用いるビルトインテンプレートです。例えば、&lt;/f0&gt; &lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f21&gt;The template is editable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161028T040619Z" creationid="miurahr" creationdate="20161028T040619Z">
+        <seg>&lt;f21&gt;このテンプレートは編集可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;html&gt;&lt;a href="#"&gt;Set up HTTP proxy settings&lt;/a&gt;&lt;/html&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T135616Z" creationid="miurahr" creationdate="20160724T135616Z">
@@ -3545,6 +3561,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T143831Z" creationid="miurahr" creationdate="20160723T143831Z">
         <seg>Java 式とコメント以外に、対応する値に展開されるあらかじめ定義されている変数を使用することもできます。&lt;/f4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Along with expressions allowed in a JSP context, you can also use predefined variables that will be then expanded into the corresponding values.&lt;/f21&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161028T040603Z" creationid="miurahr" creationdate="20161028T040603Z">
+        <seg>JSPコンテキストで許される式以外に、対応する値に展開されるあらかじめ定義されている変数を使用することもできます。&lt;/f21&gt;</seg>
       </tuv>
     </tu>
     <tu>
