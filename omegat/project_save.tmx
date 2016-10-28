@@ -23478,6 +23478,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Property value which is specified in the corresponding properties file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161028T040756Z" creationid="miurahr" creationdate="20161028T040756Z">
+        <seg>対応するプロパティ ファイルで指定されたプロパティの値。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Proxy &amp;authentication</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T101512Z" creationid="miurahr" creationdate="20160724T101512Z">
@@ -31493,6 +31501,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T152935Z" creationid="miurahr" creationdate="20160723T152935Z">
         <seg>これはビルトインテンプレートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is an original JSP text selection value.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161028T040852Z" creationid="miurahr" creationdate="20161028T040852Z">
+        <seg>オリジナルの JSP テキストの選択された値。</seg>
       </tuv>
     </tu>
     <tu>
