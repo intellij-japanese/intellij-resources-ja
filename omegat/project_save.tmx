@@ -4808,6 +4808,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Boo_kmarks</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055313Z" creationid="miurahr" creationdate="20161230T055313Z">
+        <seg>ブックマーク(_K)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Bookmark Description</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T033312Z" creationid="miurahr" creationdate="20160813T033312Z">
@@ -4892,6 +4900,14 @@ as well as for the standard SDK classes resolution.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T134210Z" creationid="miurahr" creationdate="20160724T134210Z">
         <seg>ブレークポイント動作エラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Breakpoint Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055423Z" creationid="miurahr" creationdate="20161230T055423Z">
+        <seg>ブレークポイント処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -7518,6 +7534,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Code Editor View Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055405Z" creationid="miurahr" creationdate="20161230T055405Z">
+        <seg>コード編集ビュー処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Code Folding</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T122321Z" creationid="miurahr" creationdate="20160724T122321Z">
@@ -7530,6 +7554,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T095051Z" creationid="miurahr" creationdate="20160728T095051Z">
         <seg>コードの折りたたみ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Code Formatting Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055432Z" creationid="miurahr" creationdate="20161230T055432Z">
+        <seg>コードフォーマット処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -7570,6 +7602,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143729Z" creationid="miurahr" creationdate="20160726T143729Z">
         <seg>コード スタイル スキームの切り替え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Code View Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055358Z" creationid="miurahr" creationdate="20161230T055358Z">
+        <seg>コードビュー処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -7754,6 +7794,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T052417Z" creationid="miurahr" creationdate="20160726T052417Z">
         <seg>コメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comment Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055427Z" creationid="miurahr" creationdate="20161230T055427Z">
+        <seg>コメント処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -8114,6 +8162,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T003154Z" creationid="miurahr" creationdate="20160724T003154Z">
         <seg>Ant の設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configure Plugins...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055134Z" creationid="miurahr" creationdate="20161230T055134Z">
+        <seg>プラグインを設定...</seg>
       </tuv>
     </tu>
     <tu>
@@ -9494,6 +9550,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cut/Copy/Paste Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055306Z" creationid="miurahr" creationdate="20161230T055306Z">
+        <seg>切り取り/コピー/貼り付け処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cycle</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T004209Z" creationid="miurahr" creationdate="20160724T004209Z">
@@ -9618,8 +9682,8 @@ Method {0} is not static</seg>
       <tuv lang="EN-US">
         <seg>Debugger Actions</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160726T050000Z" creationid="miurahr" creationdate="20160726T050000Z">
-        <seg>デバッガのアクション</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055420Z" creationid="miurahr" creationdate="20160726T050000Z">
+        <seg>デバッガ処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -10036,6 +10100,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T162336Z" creationid="miurahr" creationdate="20160725T162336Z">
         <seg>{0} を削除しますか ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055446Z" creationid="miurahr" creationdate="20161230T055446Z">
+        <seg>削除...</seg>
       </tuv>
     </tu>
     <tu>
@@ -11109,6 +11181,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Edit Code Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055349Z" creationid="miurahr" creationdate="20161230T055349Z">
+        <seg>コード編集処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Edit Configu_rations...</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143216Z" creationid="miurahr" creationdate="20160726T143216Z">
@@ -11365,6 +11445,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Editor Create/Delete Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055257Z" creationid="miurahr" creationdate="20161230T055257Z">
+        <seg>エディタ作成/削除処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Editor Font</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124447Z" creationid="miurahr" creationdate="20160724T124447Z">
@@ -11377,6 +11465,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T045904Z" creationid="miurahr" creationdate="20160726T045904Z">
         <seg>エディタ ポップアップ メニュー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Editor Select Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055251Z" creationid="miurahr" creationdate="20161230T055251Z">
+        <seg>エディタ選択処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -12335,6 +12431,14 @@ Exception message: {1}</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exclude From Project...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055127Z" creationid="miurahr" creationdate="20161230T055127Z">
+        <seg>プロジェクトから除外する...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exclude Package</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T121019Z" creationid="miurahr" creationdate="20160813T121019Z">
@@ -12683,6 +12787,14 @@ Exception message: {1}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124014Z" creationid="miurahr" creationdate="20160724T124014Z">
         <seg>エクスポート...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Export/Import Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055209Z" creationid="miurahr" creationdate="20161230T055209Z">
+        <seg>エクスポート/インポート処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -15408,6 +15520,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T153228Z" creationid="miurahr" creationdate="20160726T153228Z">
         <seg>階層</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hierarchy Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055411Z" creationid="miurahr" creationdate="20161230T055411Z">
+        <seg>階層アクション</seg>
       </tuv>
     </tu>
     <tu>
@@ -18596,6 +18716,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mark File as</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055113Z" creationid="miurahr" creationdate="20161230T055113Z">
+        <seg>ファイルを次としてマーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Mark Object...</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T105345Z" creationid="miurahr" creationdate="20160804T105345Z">
@@ -18608,6 +18736,22 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T155616Z" creationid="miurahr" creationdate="20160725T155616Z">
         <seg>ソース ディレクトリのマーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mark as</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055108Z" creationid="miurahr" creationdate="20161230T055108Z">
+        <seg>次としてマーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mark as Plain Text</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055059Z" creationid="miurahr" creationdate="20161230T055059Z">
+        <seg>プレインテキストとしてマーク</seg>
       </tuv>
     </tu>
     <tu>
@@ -21312,6 +21456,14 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open Project Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055330Z" creationid="miurahr" creationdate="20161230T055330Z">
+        <seg>プロジェクトを開く処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open Project Windows</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T105030Z" creationid="miurahr" creationdate="20160804T105030Z">
@@ -21644,6 +21796,14 @@ for this anonymous class.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T121148Z" creationid="miurahr" creationdate="20160813T121148Z">
         <seg>他の言語</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055235Z" creationid="miurahr" creationdate="20161230T055235Z">
+        <seg>その他の設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -23102,6 +23262,14 @@ be marked as source paths.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Print/Export Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055245Z" creationid="miurahr" creationdate="20161230T055245Z">
+        <seg>印刷/エクスポート処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Printing {0}.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T125208Z" creationid="miurahr" creationdate="20160724T125208Z">
@@ -23370,6 +23538,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T142103Z" creationid="miurahr" creationdate="20160726T142103Z">
         <seg>プロジェクト構造...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project View Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055354Z" creationid="miurahr" creationdate="20161230T055354Z">
+        <seg>プロジェクトビュー処理</seg>
       </tuv>
     </tu>
     <tu>
@@ -26791,6 +26967,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select Word Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055320Z" creationid="miurahr" creationdate="20161230T055320Z">
+        <seg>単語選択処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select _All</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T142215Z" creationid="miurahr" creationdate="20160726T142215Z">
@@ -27215,6 +27399,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T101820Z" creationid="miurahr" creationdate="20160724T101820Z">
         <seg>設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Settings Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055142Z" creationid="miurahr" creationdate="20161230T055142Z">
+        <seg>アクション設定</seg>
       </tuv>
     </tu>
     <tu>
