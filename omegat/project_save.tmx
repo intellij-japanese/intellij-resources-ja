@@ -5168,6 +5168,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Build _Project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T054934Z" creationid="miurahr" creationdate="20161230T054934Z">
+        <seg>プロジェクトをビルド(_P)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Build initialization</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T004657Z" creationid="miurahr" creationdate="20160724T004657Z">
@@ -10165,6 +10173,22 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T223418Z" creationid="miurahr" creationdate="20160727T223418Z">
         <seg>パッケージ作成先(&amp;P)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Detach</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T054959Z" creationid="miurahr" creationdate="20161230T054959Z">
+        <seg>デタッチ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Detach {0} Views</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055011Z" creationid="miurahr" creationdate="20161230T055011Z">
+        <seg>{0}ビューをデタッチ</seg>
       </tuv>
     </tu>
     <tu>
@@ -21256,6 +21280,22 @@ for this anonymous class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open Library Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055024Z" creationid="miurahr" creationdate="20161230T055024Z">
+        <seg>ライブラリ設定を開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open Module Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T055042Z" creationid="miurahr" creationdate="20161230T055042Z">
+        <seg>モジュール設定を開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open PDF file with the default keymap reference card.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143541Z" creationid="miurahr" creationdate="20160726T143541Z">
@@ -28315,6 +28355,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Smart Ste_p Into</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T054951Z" creationid="miurahr" creationdate="20161230T054951Z">
+        <seg>スマートステップイン(_P)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Smart Type Completion</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T115417Z" creationid="miurahr" creationdate="20160724T115417Z">
@@ -28815,6 +28863,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143221Z" creationid="miurahr" creationdate="20160726T143221Z">
         <seg>ステップ オーバー(_O)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step into the particular method</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T054941Z" creationid="miurahr" creationdate="20161230T054941Z">
+        <seg>特定メソッドへステップイン</seg>
       </tuv>
     </tu>
     <tu>
