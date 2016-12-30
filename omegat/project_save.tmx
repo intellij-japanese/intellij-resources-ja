@@ -23718,6 +23718,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>R_ebuild</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T051602Z" creationid="miurahr" creationdate="20161230T051602Z">
+        <seg>再ビルド(_E)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>R_ecent Changes</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T142811Z" creationid="miurahr" creationdate="20160726T142811Z">
@@ -23730,6 +23738,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T064853Z" creationid="miurahr" creationdate="20160728T064853Z">
         <seg>最近の使用箇所の検索(_E)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>R_ecompile</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20161230T051612Z" creationid="miurahr" creationdate="20161230T051612Z">
+        <seg>再コンパイル(_E)</seg>
       </tuv>
     </tu>
     <tu>
