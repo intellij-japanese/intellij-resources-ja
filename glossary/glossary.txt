@@ -74,3 +74,17 @@ constraints	制約
 Library	ライブラリ
 Factory Method	ファクトリメソッド
 code	コード	条文の場合もあるので注意
+exception	例外
+TestNG	TestNG	固有名詞
+mnemonic 	ニーモニック
+property	プロパティ
+label	ラベル
+focusable 	フォーカス可能
+component	コンポーネント
+remote branch	リモートブランチ
+branch	ブランチ
+tag	タグ	 Git
+reference	参照	git
+Author	作者
+commit	コミット	git用語
+Checkout	チェックアウト	Git用語
