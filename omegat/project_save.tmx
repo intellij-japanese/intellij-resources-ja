@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.1_0_841c786" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.0_0_9510" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3157,6 +3157,22 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After Make</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014104Z" creationid="miurahr" creationdate="20170225T014104Z">
+        <seg>Make後</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After Rebuild</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014113Z" creationid="miurahr" creationdate="20170225T014113Z">
+        <seg>再構築後</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After anonymous class header:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T095709Z" creationid="miurahr" creationdate="20160728T095709Z">
@@ -3618,6 +3634,14 @@ as well as for the standard SDK classes resolution.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T102230Z" creationid="miurahr" creationdate="20160724T102230Z">
         <seg>不正なフォーマットのプログラムを読み込もうとしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An error message on assertion failure may help clarify the test case's intent.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015355Z" creationid="miurahr" creationdate="20170225T015355Z">
+        <seg>アサーション失敗のエラーメッセージは、テストケースの意図を明確にする助けになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4624,10 +4648,34 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before Make</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014053Z" creationid="miurahr" creationdate="20170225T014053Z">
+        <seg>Make前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before Parentheses</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T121413Z" creationid="miurahr" creationdate="20160724T121413Z">
         <seg>小括弧の前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before Rebuild</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014110Z" creationid="miurahr" creationdate="20170225T014110Z">
+        <seg>再構築前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before Run</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014118Z" creationid="miurahr" creationdate="20170225T014118Z">
+        <seg>実行前</seg>
       </tuv>
     </tu>
     <tu>
@@ -12511,6 +12559,14 @@ Exception message: {1}</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Executing Maven Goal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014151Z" creationid="miurahr" creationdate="20170225T014151Z">
+        <seg>Maven ゴールを実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Executing task: {0}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T232426Z" creationid="miurahr" creationdate="20160723T232426Z">
@@ -18776,6 +18832,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T123209Z" creationid="miurahr" creationdate="20160813T123209Z">
         <seg>マッチルール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven Goal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T013943Z" creationid="miurahr" creationdate="20170225T013943Z">
+        <seg>Maven ゴール</seg>
       </tuv>
     </tu>
     <tu>
@@ -25902,6 +25966,22 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Run Maven Goal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014016Z" creationid="miurahr" creationdate="20170225T014016Z">
+        <seg>Maven ゴールを実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Run Maven Goal ''{0}''</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014045Z" creationid="miurahr" creationdate="20170225T014045Z">
+        <seg>Maven ゴール"{0}"を実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Run Target</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T232644Z" creationid="miurahr" creationdate="20160723T232644Z">
@@ -26827,6 +26907,14 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T112319Z" creationid="miurahr" creationdate="20160813T112319Z">
         <seg>プロジェクトディレクトリの場所を選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select Maven Goal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014135Z" creationid="miurahr" creationdate="20170225T014129Z">
+        <seg>Maven ゴールを選択</seg>
       </tuv>
     </tu>
     <tu>
@@ -31280,6 +31368,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection reports any calls to TestNG's &lt;b0&gt;assertEquals()&lt;/b0&gt; method where the expected result and actual result arguments are of incompatible types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015047Z" creationid="miurahr" creationdate="20170225T015047Z">
+        <seg>この検査では、TestNG  の&lt;b0&gt;assertEquals()&lt;/b0&gt; メソッド呼出しのうち、 期待する結果と実際の結果の型が異なるものを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection reports any instances of hardcoded String literals.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T160628Z" creationid="miurahr" creationdate="20160723T160628Z">
@@ -31292,6 +31388,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160820T141411Z" creationid="miurahr" creationdate="20160820T141411Z">
         <seg>この検査は、@net.jcip.annotations.Immutable の注釈のついたクラスで、finalではないフィールドを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection reports calls to TestNG &lt;b0&gt;assertXXX()&lt;/b0&gt; or &lt;b1&gt;fail()&lt;/b1&gt; methods that do not have an error message string argument.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015237Z" creationid="miurahr" creationdate="20170225T015237Z">
+        <seg>この検査では、TestNG  の&lt;b0&gt; assertXXX()&lt;/b0&gt; メソッド または &lt;b1&gt;fail()&lt;/b1&gt; 呼出しで、 エラーメッセージ文字列の引数が無いものを報告します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31468,6 +31572,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T114929Z" creationid="miurahr" creationdate="20160813T114929Z">
         <seg>この検査は、&lt;b0&gt;&lt;f1&gt;@PropertyKey&lt;/f1&gt;&lt;/b0&gt; で注釈されたパラメータを持つ関数に渡される引数が、それぞれのプロパティファイルにおいて適正なプロパティ キーであるかどうかを、確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection will convert your TestNG tests from JDK annotations to Javadoc annotations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015453Z" creationid="miurahr" creationdate="20170225T015453Z">
+        <seg>この検査では、 TestNG テストにおいて、JDK注釈を Javadoc注釈に変換します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31765,6 +31877,46 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T152935Z" creationid="miurahr" creationdate="20160723T152935Z">
         <seg>これはビルトインテンプレートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a template used to create a TestNG test class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014421Z" creationid="miurahr" creationdate="20170225T014421Z">
+        <seg>TestNGテストクラスを作成するために使われるテンプレートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a template used to create a data method in a TestNG test class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014244Z" creationid="miurahr" creationdate="20170225T014244Z">
+        <seg>TestNGテストクラスでデータメソッドを作成するために使われるテンプレートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a template used to create a setUp method in a TestNG test class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014344Z" creationid="miurahr" creationdate="20170225T014344Z">
+        <seg>TestNGテストクラスで setUp メソッドを作成するために使われるテンプレートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a template used to create a tearDown method in a TestNG test class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014359Z" creationid="miurahr" creationdate="20170225T014359Z">
+        <seg>TestNGテストクラスで tearDown メソッドを作成するために使われるテンプレートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a template used to create a test method in a TestNG test class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014526Z" creationid="miurahr" creationdate="20170225T014526Z">
+        <seg>TestNGテストクラスで testメソッドを作成するために使われるテンプレートです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34360,6 +34512,14 @@ seLookupItemReplace;&lt;/s0&gt; キーを押すと、ポップアップ リス�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While such a call might theoretically be useful, most likely it represents a bug.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015120Z" creationid="miurahr" creationdate="20170225T015120Z">
+        <seg>このような呼出しは、理論的には有用かもしれませんが、通常はバグであることを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whole &amp;project</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T144442Z" creationid="miurahr" creationdate="20160726T144442Z">
@@ -36330,6 +36490,22 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>generated class body.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014508Z" creationid="miurahr" creationdate="20170225T014508Z">
+        <seg>作成したクラス本体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>generated method body.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014324Z" creationid="miurahr" creationdate="20170225T014324Z">
+        <seg>作成したメソッド本体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>idle time: {0}</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T152311Z" creationid="miurahr" creationdate="20160724T152257Z">
@@ -36698,9 +36874,25 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>name of the created class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014435Z" creationid="miurahr" creationdate="20170225T014435Z">
+        <seg>作成したクラスの名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>name of the created method</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T150008Z" creationid="miurahr" creationdate="20160723T145940Z">
+        <seg>作成したメソッドの名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name of the created method.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014300Z" creationid="miurahr" creationdate="20170225T014300Z">
         <seg>作成したメソッドの名前</seg>
       </tuv>
     </tu>
@@ -36758,6 +36950,14 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T151357Z" creationid="miurahr" creationdate="20160729T151357Z">
         <seg>新規package-info.javaファイルを作成する対象パッケージ名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name of the tested class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T014500Z" creationid="miurahr" creationdate="20170225T014500Z">
+        <seg>テストクラスの名前</seg>
       </tuv>
     </tu>
     <tu>
