@@ -30,6 +30,158 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>${CALL_SUPER}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023545Z" creationid="miurahr" creationdate="20170225T023545Z">
+        <seg>${CALL_SUPER}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${CLASS_NAME}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023608Z" creationid="miurahr" creationdate="20170225T023608Z">
+        <seg>${CLASS_NAME}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${DATE}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023230Z" creationid="miurahr" creationdate="20170225T023230Z">
+        <seg>${DATE}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${DAY}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023305Z" creationid="miurahr" creationdate="20170225T023305Z">
+        <seg>${DAY}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${DEFAULT_RETURN_VALUE}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023555Z" creationid="miurahr" creationdate="20170225T023555Z">
+        <seg>${DEFAULT_RETURN_VALUE}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${HOUR}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023312Z" creationid="miurahr" creationdate="20170225T023312Z">
+        <seg>${HOUR}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${METHOD_NAME}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023602Z" creationid="miurahr" creationdate="20170225T023602Z">
+        <seg>${METHOD_NAME}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${MINUTE}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023316Z" creationid="miurahr" creationdate="20170225T023316Z">
+        <seg>${MINUTE}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${MONTH_NAME_FULL}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023300Z" creationid="miurahr" creationdate="20170225T023300Z">
+        <seg>${MONTH_NAME_FULL}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${MONTH_NAME_SHORT}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023254Z" creationid="miurahr" creationdate="20170225T023254Z">
+        <seg>${MONTH_NAME_SHORT}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${MONTH}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023248Z" creationid="miurahr" creationdate="20170225T023248Z">
+        <seg>${MONTH}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${NAME}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023218Z" creationid="miurahr" creationdate="20170225T023218Z">
+        <seg>${NAME}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${PACKAGE_NAME}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023212Z" creationid="miurahr" creationdate="20170225T023212Z">
+        <seg>${PACKAGE_NAME}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${PROJECT_NAME}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023321Z" creationid="miurahr" creationdate="20170225T023321Z">
+        <seg>${PROJECT_NAME}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${RETURN_TYPE}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023550Z" creationid="miurahr" creationdate="20170225T023550Z">
+        <seg>${RETURN_TYPE}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${SIMPLE_CLASS_NAME}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023613Z" creationid="miurahr" creationdate="20170225T023613Z">
+        <seg>${SIMPLE_CLASS_NAME}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${TIME}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023235Z" creationid="miurahr" creationdate="20170225T023235Z">
+        <seg>${TIME}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${USER}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023224Z" creationid="miurahr" creationdate="20170225T023224Z">
+        <seg>${USER}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${YEAR}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023242Z" creationid="miurahr" creationdate="20170225T023242Z">
+        <seg>${YEAR}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Add</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T003131Z" creationid="miurahr" creationdate="20160724T003131Z">
@@ -154,6 +306,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T092310Z" creationid="miurahr" creationdate="20160728T092310Z">
         <seg>今すぐ確認する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&amp;Checkout</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030154Z" creationid="miurahr" creationdate="20170225T030154Z">
+        <seg>チェックアウト(&amp;C)</seg>
       </tuv>
     </tu>
     <tu>
@@ -582,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Include tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030525Z" creationid="miurahr" creationdate="20170225T030519Z">
+        <seg>タグを含める(&amp;i)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Inner class name:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T223929Z" creationid="miurahr" creationdate="20160727T223929Z">
@@ -818,6 +986,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124715Z" creationid="miurahr" creationdate="20160724T124715Z">
         <seg>出力ディレクトリ(&amp;O):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&amp;Override</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030647Z" creationid="miurahr" creationdate="20170225T030647Z">
+        <seg>オーバーライド(&amp;O)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1690,6 +1866,22 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T120951Z" creationid="miurahr" creationdate="20160724T120951Z">
         <seg>&lt;その他すべてのインポート&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b6&gt;#parse("File Header.java")&lt;/b6&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023635Z" creationid="miurahr" creationdate="20170225T023635Z">
+        <seg>&lt;b6&gt;#parse("File Header.java")&lt;/b6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b8&gt;#parse("File Header.java")&lt;/b8&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023331Z" creationid="miurahr" creationdate="20170225T023331Z">
+        <seg>&lt;b8&gt;#parse("File Header.java")&lt;/b8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2765,6 +2957,14 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add Reference(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T025416Z" creationid="miurahr" creationdate="20170225T025416Z">
+        <seg>参照の追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add Runtime Exception to Method Signature</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T053524Z" creationid="miurahr" creationdate="20160726T053524Z">
@@ -3033,6 +3233,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T153913Z" creationid="miurahr" creationdate="20160726T153913Z">
         <seg>追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding files...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T024228Z" creationid="miurahr" creationdate="20170225T024228Z">
+        <seg>ファイルの追加...</seg>
       </tuv>
     </tu>
     <tu>
@@ -3742,6 +3950,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Annotate</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T025440Z" creationid="miurahr" creationdate="20170225T025440Z">
+        <seg>注釈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Annotation parameters</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T121543Z" creationid="miurahr" creationdate="20160724T121543Z">
@@ -4248,6 +4464,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As &amp;new branch</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030638Z" creationid="miurahr" creationdate="20170225T030638Z">
+        <seg>新規ブランチとして(&amp;N)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ask</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T122052Z" creationid="miurahr" creationdate="20160724T122052Z">
@@ -4744,6 +4968,14 @@ as well as for the standard SDK classes resolution.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Besides recent files, you can bring up results of the usage searches you have performed recently.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T022339Z" creationid="miurahr" creationdate="20170225T022339Z">
+        <seg>最近使ったファイルに加え、最近行った検索の結果を呼び出すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Binary files are different</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T140652Z" creationid="miurahr" creationdate="20160724T140652Z">
@@ -4940,6 +5172,22 @@ as well as for the standard SDK classes resolution.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T115338Z" creationid="miurahr" creationdate="20160724T115338Z">
         <seg>大括弧:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Branch with the same name exists.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030217Z" creationid="miurahr" creationdate="20170225T030217Z">
+        <seg>同じ名前を持つブランチが存在します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Branches</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T024303Z" creationid="miurahr" creationdate="20170225T024303Z">
+        <seg>ブランチ</seg>
       </tuv>
     </tu>
     <tu>
@@ -6640,6 +6888,22 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T122631Z" creationid="miurahr" creationdate="20160813T122631Z">
         <seg>確認中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkout</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030142Z" creationid="miurahr" creationdate="20170225T030142Z">
+        <seg>チェックアウト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkout {0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030057Z" creationid="miurahr" creationdate="20170225T030057Z">
+        <seg>{0}をチェックアウト</seg>
       </tuv>
     </tu>
     <tu>
@@ -9382,6 +9646,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create ref &amp;log</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030428Z" creationid="miurahr" creationdate="20170225T030428Z">
+        <seg>参照ログを作成(&amp;L)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create run configuration from context</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T141442Z" creationid="miurahr" creationdate="20160726T141442Z">
@@ -11913,6 +12185,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T160835Z" creationid="miurahr" creationdate="20160724T160835Z">
         <seg>マクロ名を入力してください。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enter name of new branch here.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030601Z" creationid="miurahr" creationdate="20170225T030601Z">
+        <seg>新しいブランチの名前を入力してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15876,6 +16156,30 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If checked a branch will be created even if a branch with the same name already exists.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030713Z" creationid="miurahr" creationdate="20170225T030713Z">
+        <seg>チェックすると、同じ名前のブランチが存在したとしても、強制的にブランチが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If checked the reference log is created for the branch.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030339Z" creationid="miurahr" creationdate="20170225T030339Z">
+        <seg>チェックすると、ブランチに参照ログが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If checked, the combobox will include tags names as well as branches.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030459Z" creationid="miurahr" creationdate="20170225T030459Z">
+        <seg>チェックすると、ブランチ名に加えてタグ名もコンボボックスに表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you close the dialog, you can always get back to it from the &lt;s0&gt;Help | Tip of the Day&lt;/s0&gt; main menu item.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T213835Z" creationid="miurahr" creationdate="20160727T213835Z">
@@ -16880,6 +17184,22 @@ in class ''{1}''</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inspection checks that method which is marked with &lt;b0&gt;@DataProvider&lt;/b0&gt; annotation returns &lt;b1&gt;Object[][]&lt;/b1&gt; or &lt;b2&gt;Iterator&lt;Object&gt;&lt;/b2&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015831Z" creationid="miurahr" creationdate="20170225T015831Z">
+        <seg>この検査は、 &lt;b0&gt;@DataProvider&lt;/b0&gt; 注釈でマークされたメソッドが&lt;b1&gt;Object[][]&lt;/b1&gt; または&lt;b2&gt;Iterator&lt;Object&gt;&lt;/b2&gt;を返すかどうかをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inspection detects TestNG data providers with equal names.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020044Z" creationid="miurahr" creationdate="20170225T020044Z">
+        <seg>この検査ではTestNGのデータプロバイダが同じ名前であるものを検出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inspection disabled</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T002946Z" creationid="miurahr" creationdate="20160726T002946Z">
@@ -17192,6 +17512,14 @@ in class ''{1}''</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Invalid new branch name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030539Z" creationid="miurahr" creationdate="20170225T030539Z">
+        <seg>新規ブランチ名が不正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Invalid regular expression</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T124138Z" creationid="miurahr" creationdate="20160813T124138Z">
@@ -17276,6 +17604,14 @@ in class ''{1}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T125815Z" creationid="miurahr" creationdate="20160724T125815Z">
         <seg>は次によってサブクラス化されました。&lt;br&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It allows time based searches.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030401Z" creationid="miurahr" creationdate="20170225T030401Z">
+        <seg>これは、時間に基く検索を有効にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17967,6 +18303,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T160840Z" creationid="miurahr" creationdate="20160724T160840Z">
         <seg>一時マクロの場合は空白のままにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Leave blank if you do not want to create a new branch.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030629Z" creationid="miurahr" creationdate="20170225T030629Z">
+        <seg>新しいブランチを作成したくない場合は、無指定のままにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24486,6 +24830,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Regular expressions are in standard &lt;b1&gt;java.util.regex&lt;/b1&gt; format.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021253Z" creationid="miurahr" creationdate="20170225T021253Z">
+        <seg>標準の&lt;b1&gt;java.util.regex&lt;/b1&gt;フォーマットで正規表現を記述します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Relational operators (&lt;, &gt;, &lt;=, &gt;=)</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T121627Z" creationid="miurahr" creationdate="20160724T121627Z">
@@ -25470,6 +25822,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reports TestNG test methods whose names are either too short, too long, or do not follow the specified regular expression pattern.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020938Z" creationid="miurahr" creationdate="20170225T020938Z">
+        <seg>名前が短すぎたり、長すぎたり、あるいは、正規表現で指定されたパターンに合致しないTestNG のテストメソッドを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reports spaces used for indentation and tabs used for alignment when the code style is configured to use smart tabs.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160820T142900Z" creationid="miurahr" creationdate="20160820T142900Z">
@@ -25762,6 +26122,22 @@ Code Style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T143241Z" creationid="miurahr" creationdate="20160726T143241Z">
         <seg>プログラム実行を再開します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieving branches and tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030815Z" creationid="miurahr" creationdate="20170225T030815Z">
+        <seg>ブランチやタグを取り出す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Retrieving changes for revision {0}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T025639Z" creationid="miurahr" creationdate="20170225T025639Z">
+        <seg>リビジョン{0}の変更点を取り出し</seg>
       </tuv>
     </tu>
     <tu>
@@ -27131,6 +27507,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select branch, tag, or enter commit reference</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030740Z" creationid="miurahr" creationdate="20170225T030740Z">
+        <seg>ブランチ、タグを選択するか、コミットへの参照を入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select c&amp;ompiler output path:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T070039Z" creationid="miurahr" creationdate="20160728T070039Z">
@@ -27199,6 +27583,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124721Z" creationid="miurahr" creationdate="20160724T124721Z">
         <seg>出力ディレクトリの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select remote branch and tag references</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T025403Z" creationid="miurahr" creationdate="20170225T025403Z">
+        <seg>リモートブランチまたはタグの参照を選択</seg>
       </tuv>
     </tu>
     <tu>
@@ -28819,6 +29211,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specify &lt;b0&gt;0&lt;/b0&gt; to not check the length of names.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021204Z" creationid="miurahr" creationdate="20170225T021204Z">
+        <seg>メソッド名の長さをチェックしないときは、&lt;b0&gt;0&lt;/b0&gt; を指定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specify config folder or installation home of the previous version of {0}:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T115234Z" creationid="miurahr" creationdate="20160724T115234Z">
@@ -29443,6 +29843,22 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such assignments will cause the component setup code generated by UI Designer for such fields to be ignored.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021615Z" creationid="miurahr" creationdate="20170225T021615Z">
+        <seg>このような割り当ては、 UI Desinger  により生成されたコンポーネント設定コードにおいて、そのようなフィールドが無視される原因になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such calls will behave fine for assertions which pass, but may give confusing error reports if their expected and actual arguments differ.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020813Z" creationid="miurahr" creationdate="20170225T020813Z">
+        <seg>このような呼出は、アサーションとしては正しく動作しますが、パスしなかったときに、期待する結果と実際の違いが理解しにくいエラーを生成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Such sequence of targets already exists</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T232848Z" creationid="miurahr" creationdate="20160723T232848Z">
@@ -29879,6 +30295,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T052426Z" creationid="miurahr" creationdate="20160726T052426Z">
         <seg>タグ名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T024259Z" creationid="miurahr" creationdate="20170225T024259Z">
+        <seg>タグ</seg>
       </tuv>
     </tu>
     <tu>
@@ -30812,6 +31236,14 @@ already exists.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The previous branch will be deleted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030722Z" creationid="miurahr" creationdate="20170225T030722Z">
+        <seg>以前のブランチは削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The program issued a command but the command length is incorrect.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T113042Z" creationid="miurahr" creationdate="20160724T113042Z">
@@ -30832,6 +31264,22 @@ already exists.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T052851Z" creationid="miurahr" creationdate="20160726T052851Z">
         <seg>プロジェクト ファイルが読み取り専用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The quickfix allows to assign a unique mnemonic to such a component.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T022106Z" creationid="miurahr" creationdate="20170225T022106Z">
+        <seg>クイックフィックスは、このようなコンポーネントへのユニークなニーモニック文字の割り当てを支援します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The quickfix allows to assign unique mnemonic characters to each of the components.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021825Z" creationid="miurahr" creationdate="20170225T021825Z">
+        <seg>クイックフィックスは、各コンポーネントへのユニークなニーモニック文字割り当てを支援します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31247,10 +31695,50 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection asserts your TestNG tests with Javadoc annotations and allows to convert them to JDK annotations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015611Z" creationid="miurahr" creationdate="20170225T015611Z">
+        <seg>この検査では、 TestNG テストにおいて Javadoc注釈による注釈を行うとともに、JDK注釈に変換できるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection checks for expressions which overflow during computation, i.e.: &lt;br0&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160820T141812Z" creationid="miurahr" creationdate="20160820T141812Z">
         <seg>この検査は、算術計算におけるオーバーフローを導く表現をチェックします。つまり:&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection checks if none of your testng.xml files contains current test class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021415Z" creationid="miurahr" creationdate="20170225T021415Z">
+        <seg>この検査は、すべてのtestng.xmlファイルが現在のテストクラスを含まないことをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection checks that data provider method exists and is accessible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020832Z" creationid="miurahr" creationdate="20170225T020832Z">
+        <seg>この検査は、データプロバイダメソッドが存在し、アクセスできることをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection checks that group name is acceptable according to a list of known groups.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020412Z" creationid="miurahr" creationdate="20170225T020412Z">
+        <seg>この検査では、グループ名が既知のグループの一覧に照らして受け入れられるかをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection checks that the dependsOnMethod attribute points to a valid, accessable @Test annotated method in the current class, or any of its parent classes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020008Z" creationid="miurahr" creationdate="20170225T020008Z">
+        <seg>この検査では、dependsOnMethod 属性が、現在のクラスまたは祖先クラスの正当でアクセス可能な@Test注釈されたメソッドを指していることをチェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31368,6 +31856,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection reports any calls to TestNG &lt;b0&gt;assertEquals()&lt;/b0&gt; which have a non-literal as the expected result argument and a literal as the actual result argument.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020654Z" creationid="miurahr" creationdate="20170225T020654Z">
+        <seg>この検査は、TestNGの&lt;b0&gt;assertEquals()&lt;/b0&gt; のうち、期待される結果が文字列リテラルではないが、実際にはリテラルであるものを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection reports any calls to TestNG's &lt;b0&gt;assertEquals()&lt;/b0&gt; method where the expected result and actual result arguments are of incompatible types.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20170225T015047Z" creationid="miurahr" creationdate="20170225T015047Z">
@@ -31392,10 +31888,26 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection reports assignments to fields which are bound to components in UI Designer forms.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021636Z" creationid="miurahr" creationdate="20170225T021457Z">
+        <seg>この検査は、UI  Designer フォームに紐づいているフィールドへの割り当てを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection reports calls to TestNG &lt;b0&gt;assertXXX()&lt;/b0&gt; or &lt;b1&gt;fail()&lt;/b1&gt; methods that do not have an error message string argument.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20170225T015237Z" creationid="miurahr" creationdate="20170225T015237Z">
         <seg>この検査では、TestNG  の&lt;b0&gt; assertXXX()&lt;/b0&gt; メソッド または &lt;b1&gt;fail()&lt;/b1&gt; 呼出しで、 エラーメッセージ文字列の引数が無いものを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection reports checked exceptions expected by a TestNG test method, which are never thrown inside the method body.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020341Z" creationid="miurahr" creationdate="20170225T020341Z">
+        <seg>この検査では、TestNGのテストメソッドで期待されている例外のうち、メソッド本体で一切投げられないものをチェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31424,10 +31936,26 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection reports components which have the same mnemonic character.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021742Z" creationid="miurahr" creationdate="20170225T021742Z">
+        <seg> この検査では、同じニーモニック文字をもつコンポーネントを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection reports exceptions that are declared in a method's signature but never thrown by the method itself or its implementations/derivatives.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160820T143211Z" creationid="miurahr" creationdate="20160820T143211Z">
         <seg>この検査では、メソッドのシグネチャで宣言されているが、メソッド自身や実装、継承されたクラスでスローされない例外があるようなものを報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection reports focusable components with the &lt;b0&gt;&lt;f1&gt;text&lt;/f1&gt;&lt;/b0&gt; property or labels with assigned &lt;b2&gt;&lt;f3&gt;labelFor&lt;/f3&gt;&lt;/b2&gt; property which do not have a mnemonic character.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T022029Z" creationid="miurahr" creationdate="20170225T022029Z">
+        <seg>この検査は、&lt;b0&gt;&lt;f1&gt;text&lt;/f1&gt;&lt;/b0&gt;プロパティやラベルのうち、&lt;b2&gt;&lt;f3&gt;labelFor&lt;/f3&gt;&lt;/b2&gt;プロパティを伴っていて、ニーモニック文字を有していないフォーカス可能なコンポーネントを報告します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31576,10 +32104,26 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This inspection will assert to convert your older @Configuration TestNG annotions to the new @BeforeXXX/@AfterXXX style annotations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T015659Z" creationid="miurahr" creationdate="20170225T015659Z">
+        <seg>この検査では、 TestNG テストにおいて、古い@Configuraton TestNG注釈を @BeforeXXX/@AfterXXX  スタイルの注釈に変換します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This inspection will convert your TestNG tests from JDK annotations to Javadoc annotations.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20170225T015453Z" creationid="miurahr" creationdate="20170225T015453Z">
         <seg>この検査では、 TestNG テストにおいて、JDK注釈を Javadoc注釈に変換します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This inspection will convert your existing JUnit based unit tests into TestNG based unit tests.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T020444Z" creationid="miurahr" creationdate="20170225T020444Z">
+        <seg>この検査では、既存の JUnit  ベースのユニットテストを TestNG ベースのテストへと変換します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32181,6 +32725,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T161348Z" creationid="miurahr" creationdate="20160724T161348Z">
         <seg>お気に入りリストへのアイテム追加 : [メイン メニュー] - [表示] - [お気に入りに追加]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do that, use the same &lt;s0&gt;&amp;shortcut:RecentFiles;&lt;/s0&gt; shortcut with the &lt;s1&gt;Find&lt;/s1&gt; tool window having the focus, and select the desired find usages result from the &lt;s2&gt;Recent Find Usages&lt;/s2&gt; popup.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T022647Z" creationid="miurahr" creationdate="20170225T022647Z">
+        <seg>&lt;s1&gt;Find&lt;/s1&gt;ツールウインドウにフォーカスして、同じショートカット&lt;s0&gt;&amp;shortcut:RecentFiles;&lt;/s0&gt;を使って、求められる検索結果を&lt;s2&gt;Recent Find Usages&lt;/s2&gt; ポップアップから選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33817,6 +34369,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use override option to force branch creation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T030244Z" creationid="miurahr" creationdate="20170225T030244Z">
+        <seg>ブランチ作成に対し、オーバーライドオプションを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use per-project code style scheme</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T124028Z" creationid="miurahr" creationdate="20160724T124028Z">
@@ -33889,6 +34449,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use the fields below to specify minimum length, maximum length and regular expression expected for TestNG test method names.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021132Z" creationid="miurahr" creationdate="20170225T021132Z">
+        <seg>以下は、最小文字列長、最大文字列長およびTestNGテストメソッド名の正規表現を指定するフィールドです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use transparent mode for floating windows</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T145744Z" creationid="miurahr" creationdate="20160725T145744Z">
@@ -33925,6 +34493,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T152926Z" creationid="miurahr" creationdate="20160724T152926Z">
         <seg>ナビゲーション ポップアップで キャメル ケース を使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the &lt;b3&gt;#parse&lt;/b3&gt; directive, you can include templates from the &lt;i4&gt;Includes&lt;/i4&gt; tab, by specifying the full name of the desired template as a parameter in quotation marks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023937Z" creationid="miurahr" creationdate="20170225T023937Z">
+        <seg> &lt;b3&gt;#parse&lt;/b3&gt; ディレクティブを用いて、クオートマーク中のパラメータとして意図するテンプレートの名前を指定することでテンプレートを&lt;i4&gt;Includes&lt;/i4&gt; タブから読み込むことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34461,6 +35037,22 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T132836Z" creationid="miurahr" creationdate="20160724T132836Z">
         <seg>ノードをレンダリングするとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When searching for a text string in a file, use recent history: with the search pane already open, click the down arrow to show the list of recent entries.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023111Z" creationid="miurahr" creationdate="20170225T023111Z">
+        <seg>テキスト文字列の検索を行うときに、最近入力した文字列を再利用できます：開いた検索ペーンで下矢印をクリックすることで最近入力した文字列の一覧が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When this inspection is enabled, the &lt;i0&gt;Instance method naming convention&lt;/i0&gt; inspection will ignore TestNG test methods automatically.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T021033Z" creationid="miurahr" creationdate="20170225T021033Z">
+        <seg>この検査が有効にされると&lt;i0&gt;Instance method naming convention&lt;/i0&gt; 検査は、TestNGテストメソッドを自動的に無視します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36210,6 +36802,18 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>commit {0}
+Author: {1}
+Date: {2}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T025550Z" creationid="miurahr" creationdate="20170225T025443Z">
+        <seg>コミット {0}
+作者: {1}
+日付: {2}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile {0,choice, 1#module|2#modules} {1}; test classes</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T004648Z" creationid="miurahr" creationdate="20160724T004648Z">
@@ -36914,6 +37518,22 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>name of the new enum specified by you in the &lt;i0&gt;Create New Class&lt;/i0&gt; dialog</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023435Z" creationid="miurahr" creationdate="20170225T023435Z">
+        <seg>&lt;i0&gt;Create New Class&lt;/i0&gt; ダイアログで指定された新しい enum  の名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name of the new file specified by you in the &lt;i0&gt;New &lt;TEMPLATE_NAME&gt;&lt;/i0&gt; dialog</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023710Z" creationid="miurahr" creationdate="20170225T023710Z">
+        <seg>&lt;i0&gt;New &lt;TEMPLATE_NAME&gt;&lt;/i0&gt; ダイアログで指定された新しいファイル名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>name of the new interface specified by you in the &lt;i0&gt;Create New Class&lt;/i0&gt; dialog</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T151310Z" creationid="miurahr" creationdate="20160729T151310Z">
@@ -36926,6 +37546,14 @@ ion;&lt;/s0&gt; を押してみてください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160807T115947Z" creationid="miurahr" creationdate="20160807T115947Z">
         <seg>新規に注釈を作成するパッケージ名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name of the package in which the new enum is created</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T023353Z" creationid="miurahr" creationdate="20170225T023353Z">
+        <seg>新しい enum を作成するパッケージ名</seg>
       </tuv>
     </tu>
     <tu>
@@ -37904,6 +38532,14 @@ does not exist.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T155755Z" creationid="miurahr" creationdate="20160724T155755Z">
         <seg>続行すると、{1} は応答しないかメモリ不足エラーになる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{3}</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170225T025554Z" creationid="miurahr" creationdate="20170225T025554Z">
+        <seg>{3}</seg>
       </tuv>
     </tu>
     <tu>
