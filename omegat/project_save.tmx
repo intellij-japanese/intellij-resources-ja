@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Branch:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032410Z" creationid="miurahr" creationdate="20170620T032410Z">
+        <seg>ブランチ(&amp;B):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Cancel</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T231104Z" creationid="miurahr" creationdate="20160724T231104Z">
@@ -6732,6 +6740,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Change Tracked Branch</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032344Z" creationid="miurahr" creationdate="20170620T032344Z">
+        <seg>追跡されるブランチ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Change View...</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T142721Z" creationid="miurahr" creationdate="20160726T142721Z">
@@ -8558,6 +8574,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configure Tracked Branch</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032354Z" creationid="miurahr" creationdate="20170620T032354Z">
+        <seg>追跡ブランチの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configure aliases for arrangement matching rules</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T123201Z" creationid="miurahr" creationdate="20160813T123201Z">
@@ -9878,6 +9902,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CurrentBranch</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032333Z" creationid="miurahr" creationdate="20170620T032333Z">
+        <seg>現在のブランチ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Custom folding regions</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T122449Z" creationid="miurahr" creationdate="20160724T122449Z">
@@ -10877,6 +10909,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T131102Z" creationid="miurahr" creationdate="20160725T131102Z">
         <seg>文字入力ダイアログの表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do &amp;not convert files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032309Z" creationid="miurahr" creationdate="20170620T032309Z">
+        <seg>ファイルを変換しない(&amp;n)</seg>
       </tuv>
     </tu>
     <tu>
@@ -13611,6 +13651,14 @@ Reason: {1}</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fetch</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032448Z" creationid="miurahr" creationdate="20170620T032443Z">
+        <seg>フェッチ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Field</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T005624Z" creationid="miurahr" creationdate="20160726T005624Z">
@@ -16276,6 +16324,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this option is selected, the file are not attempted to be converted before commit.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032302Z" creationid="miurahr" creationdate="20170620T032302Z">
+        <seg>このオプションを選ぶと、ファイルはコミット前に変換されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you close the dialog, you can always get back to it from the &lt;s0&gt;Help | Tip of the Day&lt;/s0&gt; main menu item.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T213835Z" creationid="miurahr" creationdate="20160727T213835Z">
@@ -17532,6 +17588,14 @@ in class ''{1}''</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T231611Z" creationid="miurahr" creationdate="20160724T231611Z">
         <seg>無効なライセンス情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Invalid Line Separators</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032326Z" creationid="miurahr" creationdate="20170620T032326Z">
+        <seg>無効な改行文字</seg>
       </tuv>
     </tu>
     <tu>
@@ -24550,10 +24614,26 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Re&amp;mote:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032455Z" creationid="miurahr" creationdate="20170620T032455Z">
+        <seg>リモート(&amp;m):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Re&amp;move</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T145553Z" creationid="miurahr" creationdate="20160725T145553Z">
         <seg>削除(&amp;M)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Re&amp;pository:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032429Z" creationid="miurahr" creationdate="20170620T032429Z">
+        <seg>リポジトリ(&amp;p):</seg>
       </tuv>
     </tu>
     <tu>
@@ -27731,6 +27811,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select repository to track</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032422Z" creationid="miurahr" creationdate="20170620T032422Z">
+        <seg>追跡するリポジトリを選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select root directory</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160812T132436Z" creationid="miurahr" creationdate="20160812T132431Z">
@@ -27743,6 +27831,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T111612Z" creationid="miurahr" creationdate="20160804T111612Z">
         <seg>ターゲット ディレクトリの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select the branch to track</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032405Z" creationid="miurahr" creationdate="20170620T032405Z">
+        <seg>追跡するブランチを選択する</seg>
       </tuv>
     </tu>
     <tu>
@@ -33397,6 +33493,14 @@ TypeHierarchy;&lt;/s0&gt;      (&lt;s1&gt;[表示] - [タイプ階層]&lt;/s1&gt
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T142943Z" creationid="miurahr" creationdate="20160724T142943Z">
         <seg>実行しているテストのトラック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tracked Branch</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032435Z" creationid="miurahr" creationdate="20170620T032435Z">
+        <seg>追跡ブランチ</seg>
       </tuv>
     </tu>
     <tu>
