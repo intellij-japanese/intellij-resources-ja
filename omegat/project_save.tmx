@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.0_0_9510" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.1_0_9688" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Author:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031718Z" creationid="miurahr" creationdate="20170620T031715Z">
+        <seg>作者(&amp;A):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Background</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160723T171123Z" creationid="miurahr" creationdate="20160723T171123Z">
@@ -498,6 +506,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T151426Z" creationid="miurahr" creationdate="20160725T151426Z">
         <seg>ソース ディレクトリを作成しない(&amp;D)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&amp;Do not show this dialog again</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032136Z" creationid="miurahr" creationdate="20170620T032136Z">
+        <seg>このダイアログを再表示しない(&amp;D)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1094,6 +1110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&amp;Push Changes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031928Z" creationid="miurahr" creationdate="20170620T031928Z">
+        <seg>変更のプッシュ(&amp;P)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&amp;Reformat according to style</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160813T060730Z" creationid="miurahr" creationdate="20160813T060730Z">
@@ -1362,6 +1386,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T145559Z" creationid="miurahr" creationdate="20160724T145559Z">
         <seg>アプレット ビューアの VM オプション(&amp;V):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&amp;Validate</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031519Z" creationid="miurahr" creationdate="20170620T031519Z">
+        <seg>検証(&amp;V)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2162,6 +2194,14 @@ Escape the "!" character with a backslash ("\").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;html&gt;Merge this commit with the previous one&lt;/html&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031735Z" creationid="miurahr" creationdate="20170620T031735Z">
+        <seg>&lt;html&gt;このコミットをひとつ前のものとマージします&lt;/html&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;html&gt;Report @NotNull &amp;parameters overriding @Nullable and &lt;br&gt;@Nullable methods overriding @NotNull&lt;/html&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T004112Z" creationid="miurahr" creationdate="20160726T004112Z">
@@ -2174,6 +2214,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T122401Z" creationid="miurahr" creationdate="20160724T122401Z">
         <seg>&lt;html&gt;単一プロパティ アクセッサ&lt;html&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;html&gt;Specify a commit author here if it is different from committer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031620Z" creationid="miurahr" creationdate="20170620T031620Z">
+        <seg>&lt;html&gt;コミッターでは無い場合、コミット作者をここに指定してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2238,6 +2286,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T133336Z" creationid="miurahr" creationdate="20160725T133336Z">
         <seg>&lt;無効&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;no active branch&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032212Z" creationid="miurahr" creationdate="20170620T032212Z">
+        <seg>&lt;アクティブなブランチがない&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3825,6 +3881,14 @@ Escape the "!" character with a backslash ("\").</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T120813Z" creationid="miurahr" creationdate="20160724T120813Z">
         <seg>常に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Amend commit</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031752Z" creationid="miurahr" creationdate="20170620T031752Z">
+        <seg>コミットを変更</seg>
       </tuv>
     </tu>
     <tu>
@@ -8070,6 +8134,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Comm&amp;it</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031548Z" creationid="miurahr" creationdate="20170620T031548Z">
+        <seg>コミット(&amp;i)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Comm_it Changes</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160804T105817Z" creationid="miurahr" creationdate="20160804T105817Z">
@@ -9770,6 +9842,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T142149Z" creationid="miurahr" creationdate="20160726T142149Z">
         <seg>切り取り(_T)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Current Branch:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031953Z" creationid="miurahr" creationdate="20170620T031953Z">
+        <seg>現在のブランチ:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16180,6 +16260,22 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If checked, the newly created branch will track original branch during pull.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031411Z" creationid="miurahr" creationdate="20170620T031411Z">
+        <seg>チェックされた場合、新規に作成されたブランチは、Pullするときに元ブランチを追跡します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this option is selected, the choice will be remembered, and the dialog will not be shown again.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032126Z" creationid="miurahr" creationdate="20170620T032126Z">
+        <seg>このオプションを選ぶと今回の選択を記憶し、ダイアログを再度表示することはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you close the dialog, you can always get back to it from the &lt;s0&gt;Help | Tip of the Day&lt;/s0&gt; main menu item.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T213835Z" creationid="miurahr" creationdate="20160727T213835Z">
@@ -18295,6 +18391,14 @@ ntroduceVariable;&lt;/s1&gt;を押してください。</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160726T051415Z" creationid="miurahr" creationdate="20160726T051415Z">
         <seg>そのままにする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Leave Unchanged</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032242Z" creationid="miurahr" creationdate="20170620T032242Z">
+        <seg>変更しない</seg>
       </tuv>
     </tu>
     <tu>
@@ -22714,6 +22818,22 @@ Do you want to create it?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Partial Merge Commit</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031847Z" creationid="miurahr" creationdate="20170620T031847Z">
+        <seg>部分的マージコミット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Partial commit during a {0} is not allowed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031813Z" creationid="miurahr" creationdate="20170620T031813Z">
+        <seg>{0}中の部分的なコミットはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pass &amp;outer class' instance as a parameter</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T223606Z" creationid="miurahr" creationdate="20160727T223606Z">
@@ -22902,6 +23022,14 @@ Do you want to create it?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T004707Z" creationid="miurahr" creationdate="20160724T004707Z">
         <seg>このターゲットでビルドの初期化を実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Perform commit with all files included?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031841Z" creationid="miurahr" creationdate="20170620T031841Z">
+        <seg>含まれる全てのファイルをコミットしますか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -27255,6 +27383,14 @@ Code Style</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select Git VCS root</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T032155Z" creationid="miurahr" creationdate="20170620T032155Z">
+        <seg>Git VCSのルートを選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select In popup</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T152933Z" creationid="miurahr" creationdate="20160724T152933Z">
@@ -29187,6 +29323,14 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Source revision validation failed</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031531Z" creationid="miurahr" creationdate="20170620T031531Z">
+        <seg>ソースりビジョンの検証に失敗</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sources do not correspond to code being executed</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T130023Z" creationid="miurahr" creationdate="20160724T130023Z">
@@ -30830,6 +30974,14 @@ is not an {1} module file (.iml)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The author should be in the format: Author Name &amp;lt;author@ema.il&amp;gt;&lt;/html&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031705Z" creationid="miurahr" creationdate="20170620T031654Z">
+        <seg>作者は、次のフォーマットの必要があります： 作者名&amp;lt;author@ema.il&amp;gt;&lt;/html&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The catch blocks for all the exceptions thrown inside the block will be generated automatically.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160727T212946Z" creationid="miurahr" creationdate="20160727T212851Z">
@@ -30848,10 +31000,26 @@ is not an {1} module file (.iml)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command was cancelled.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031543Z" creationid="miurahr" creationdate="20170620T031543Z">
+        <seg>コマンドはキャンセルされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The constraints denote the following:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160729T164225Z" creationid="miurahr" creationdate="20160729T164225Z">
         <seg>制約は次のように表記されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The currently checked out branch.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031943Z" creationid="miurahr" creationdate="20170620T031943Z">
+        <seg>現在チェックアウトされているブランチ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31048,6 +31216,14 @@ already exists.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T155500Z" creationid="miurahr" creationdate="20160725T155500Z">
         <seg>次のディレクトリをソース ディレクトリとしてマークします :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following files are not included in commit.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031820Z" creationid="miurahr" creationdate="20170620T031820Z">
+        <seg>次のファイルは、コミットに含まれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34457,6 +34633,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use this button to validate reference expression if entered manually.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031510Z" creationid="miurahr" creationdate="20170620T031510Z">
+        <seg>参照の表現が手入力の時に、このボタンを使って検証できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use transparent mode for floating windows</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160725T145744Z" creationid="miurahr" creationdate="20160725T145744Z">
@@ -35053,6 +35237,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20170225T021033Z" creationid="miurahr" creationdate="20170225T021033Z">
         <seg>この検査が有効にされると&lt;i0&gt;Instance method naming convention&lt;/i0&gt; 検査は、TestNGテストメソッドを自動的に無視します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When this option is enabled, changes are pushed to the server after commit.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170620T031918Z" creationid="miurahr" creationdate="20170620T031918Z">
+        <seg>このオプションが有効の時は、変更はコミット後にすぐにプッシュされます。</seg>
       </tuv>
     </tu>
     <tu>
