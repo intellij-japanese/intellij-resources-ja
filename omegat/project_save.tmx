@@ -35273,6 +35273,14 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When choosing a live template from a suggestion list, press &lt;s0&gt;&amp;shortcut:QuickJavaDoc;&lt;/s0&gt; to view quick documentation - to be sure you make a right choice:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170621T033238Z" creationid="miurahr" creationdate="20170621T033238Z">
+        <seg> ライブテンプレートを提案リストからえらぶときに、 クイックドキュメントを見るには &lt;s0&gt;&amp;shortcut: QuickJavaDoc&lt;/s0&gt;を押しますが、適切な選択肢を選ぶようにしてください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When closing active editor:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T122626Z" creationid="miurahr" creationdate="20160724T122626Z">
