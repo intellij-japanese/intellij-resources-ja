@@ -33026,6 +33026,14 @@ You can {@action Gradle.LinkToProject} one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To enable this feature, select the check box &lt;s0&gt;Show quick doc on mouse move&lt;/s0&gt; in the editor settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170621T033508Z" creationid="miurahr" creationdate="20170621T033508Z">
+        <seg>この機能を有効にするには、編集設定でチェックボックスの&lt;s0&gt;マウスホーバーでクイックドキュメントを表示する&lt;/s0&gt;を選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get JPDA libraries please visit</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T133708Z" creationid="miurahr" creationdate="20160724T133708Z">
@@ -35953,6 +35961,14 @@ as a source directory?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160728T095611Z" creationid="miurahr" creationdate="20160728T095611Z">
         <seg>{0} の使用許諾書を読んでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You don't need to invoke quick documentation explicitly (&lt;s0&gt;&amp;shortcut:QuickJavaDoc;&lt;/s0&gt;) - if you just move your mouse pointer over the desired symbol, the quick documentation pop-up window will show automatically.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20170621T033426Z" creationid="miurahr" creationdate="20170621T033426Z">
+        <seg>（&lt;s0&gt;&amp;shortcut:QuickJavaDoc;&lt;/s0&gt;)明示的にクイックドキュメントを呼び出す必要がありません。マウスポインターを対応するシンボルの上に持って行くことで、自動的にクイックドキュメントがポップアップウインドウに表示されます。</seg>
       </tuv>
     </tu>
     <tu>
