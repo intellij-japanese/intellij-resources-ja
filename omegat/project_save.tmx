@@ -27869,8 +27869,8 @@ rtcut:EditSource;&lt;/s1&gt; キーを押します。
       <tuv lang="EN-US">
         <seg>Select the settings file to import or directory where the file is located</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160724T233050Z" creationid="miurahr" creationdate="20160724T233050Z">
-        <seg>インポートするファイルまたはファイルの存在するディレクトリを選択してください</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T030639Z" creationid="miurahr" creationdate="20160724T233050Z">
+        <seg>インポートする設定ファイル、または設定ファイルの保存されているディレクトリを選択してください</seg>
       </tuv>
     </tu>
     <tu>
@@ -35280,8 +35280,8 @@ ut:MethodUp;&lt;/s0&gt; および &lt;s1&gt;&amp;shortcut:MethodDown;&lt;/s1&gt;
       <tuv lang="EN-US">
         <seg>Welcome to &lt;s0&gt;IntelliJ IDEA&lt;/s0&gt; Productivity Guide</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160726T224336Z" creationid="miurahr" creationdate="20160726T224336Z">
-        <seg>&lt;s0&gt;IntelliJ IDEA&lt;/0&gt; 製品ガイドへようこそ</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T030452Z" creationid="miurahr" creationdate="20160726T224336Z">
+        <seg>&lt;s0&gt;IntelliJ IDEA&lt;/s0&gt;製品ガイドへようこそ</seg>
       </tuv>
     </tu>
     <tu>
