@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.1_0_9688" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.0_0_9510" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3831,8 +3831,8 @@ Escape the "!" character with a backslash ("\").</seg>
       <tuv lang="EN-US">
         <seg>Along with Java expressions and comments, you can also use predefined variables (listed below) that will then be expanded like macros into the corresponding values.&lt;br2&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160723T153433Z" creationid="miurahr" creationdate="20160723T153433Z">
-        <seg>Java 式とコメント以外に、マクロのように対応する値に展開されるあらかじめ定義されている変数 (下記を参照) を使用することもできます。</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T024756Z" creationid="miurahr" creationdate="20160723T153433Z">
+        <seg>Java 式とコメント以外に、マクロのように対応する値に展開されるあらかじめ定義されている変数 (下記を参照) を使用することもできます。&lt;br2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11049,6 +11049,14 @@ Method {0} is not static</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do you want to delete the external tool(s)?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T023857Z" creationid="miurahr" creationdate="20180324T023857Z">
+        <seg>外部ツールを削除しますか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do you want to disconnect from the process ''{0}''?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T142445Z" creationid="miurahr" creationdate="20160724T142445Z">
@@ -11479,6 +11487,14 @@ Method {0} is not static</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20160724T141244Z" creationid="miurahr" creationdate="20160724T141244Z">
         <seg>重複</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>E&amp;dit...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T023638Z" creationid="miurahr" creationdate="20180324T023638Z">
+        <seg>編集(&amp;D)...</seg>
       </tuv>
     </tu>
     <tu>
@@ -16687,8 +16703,8 @@ Code Style</seg>
       <tuv lang="EN-US">
         <seg>In this case, before the new file is created, you will be prompted with a dialog where you can define particular values for all custom variables.&lt;br2&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160729T150823Z" creationid="miurahr" creationdate="20160729T150823Z">
-        <seg>この場合、新規ファイルを作成する前にダイアログが表示されて、カスタム変数に設定する特定の値を定義できるようになります。</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T024744Z" creationid="miurahr" creationdate="20160729T150823Z">
+        <seg>この場合、新規ファイルを作成する前にダイアログが表示されて、カスタム変数に設定する特定の値を定義できるようになります。&lt;br2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -36952,8 +36968,8 @@ as a source directory?</seg>
       <tuv lang="EN-US">
         <seg>a super method call, for &lt;b0&gt;void&lt;/b0&gt; methods - &lt;c1&gt;&lt;b2&gt;super&lt;/b2&gt;.&lt;i3&gt;method_name&lt;/i3&gt;();&lt;/c1&gt; with or without parameters; for other methods - &lt;c4&gt;&lt;b5&gt;return&lt;/b5&gt; &lt;b6&gt;super&lt;/b6&gt;.&lt;i7&gt;method_name&lt;/i7&gt;();&lt;/c4&gt; with or without parameters</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160723T151440Z" creationid="miurahr" creationdate="20160723T151440Z">
-        <seg>スーパー メソッド呼び出し、&lt;b0&gt;void&lt;/b0&gt; メソッドの場合 - &lt;c1&gt;&lt;b2&gt;super&lt;/b2&gt;.&lt;i3&gt;メソッド名&lt;/i3&gt;();&lt;/c1&gt; (パラメータあり/なし) 。他のメソッドの場合 - &lt;c4&gt;&lt;b5&gt;return&lt;/b5&gt;&lt;b6&gt; super&lt;/b6&gt;.&lt;i7&gt;メソッド名&lt;/i7&gt;(); (パラメータあり/なし) </seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T024655Z" creationid="miurahr" creationdate="20160723T151440Z">
+        <seg>スーパー メソッド呼び出し、&lt;b0&gt;void&lt;/b0&gt; メソッドの場合 - &lt;c1&gt;&lt;b2&gt;super&lt;/b2&gt;.&lt;i3&gt;メソッド名&lt;/i3&gt;();&lt;/c1&gt; (パラメータあり/なし) 。他のメソッドの場合 - &lt;c4&gt;&lt;b5&gt;return&lt;/b5&gt;&lt;b6&gt; super&lt;/b6&gt;.&lt;i7&gt;メソッド名&lt;/i7&gt;(); (パラメータあり/なし)&lt;/c4&gt; </seg>
       </tuv>
     </tu>
     <tu>
@@ -37344,8 +37360,8 @@ Date: {2}</seg>
       <tuv lang="EN-US">
         <seg>exception constructor calls, like in &lt;b0&gt;&lt;f1&gt;new Exception(&lt;f2&gt;"message"&lt;/f2&gt;)&lt;/f1&gt;&lt;/b0&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160723T160929Z" creationid="miurahr" creationdate="20160723T160929Z">
-        <seg>&lt;b0&gt;&lt;f1&gt;new Exception(&lt;f2&gt;"メッセージ"&lt;/f2&gt;)のような例外コンストラクタ呼び出し</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T024734Z" creationid="miurahr" creationdate="20160723T160929Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;new Exception(&lt;f2&gt;"メッセージ"&lt;/f2&gt;)&lt;/f1&gt;&lt;/b0&gt;のような例外コンストラクタ呼び出し</seg>
       </tuv>
     </tu>
     <tu>
@@ -38866,8 +38882,8 @@ does not exist.</seg>
       <tuv lang="EN-US">
         <seg> - all implementations of interface method are empty OR &lt;br3&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20160723T155758Z" creationid="miurahr" creationdate="20160723T155758Z">
-        <seg> - インターフェイス メソッドの実装がすべて空、または</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20180324T024808Z" creationid="miurahr" creationdate="20160723T155758Z">
+        <seg> - インターフェイス メソッドの実装がすべて空、または&lt;br3&gt;</seg>
       </tuv>
     </tu>
     <tu>
